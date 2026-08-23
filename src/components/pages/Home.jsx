@@ -6,7 +6,7 @@ import ProCardGrid from "../Home/ProCardGrid"
 
 const Home = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 p-8 md:p-20">
       <Header />
       <CategoryNav />
       <Hero />

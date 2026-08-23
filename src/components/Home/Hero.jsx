@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="p-10 flex flex-col">
+    <div className="mt-16 flex flex-col">
 
-      <div className="bg-white justify-between gap-10 p-10">
+      <div className="bg-white justify-between gap-10 px-8 py-4">
       <div className="w-fit px-4 py-1 rounded-lg flex items-center gap-2 bg-[#ff8200]">
         <i className="text-yellow-300 fa-solid fa-fire text-xl"></i>
         <h2 className="text-lg font-semibold ">Limited Fire</h2>
