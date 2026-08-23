@@ -1,4 +1,5 @@
 
+import CategoryCardGrid from "../Home/CategoryCardGrid"
 import CategoryNav from "../Home/CategoryNav" 
 import Header from "../Home/Header"
 import Hero from "../Home/Hero"
@@ -11,6 +12,7 @@ const Home = () => {
       <CategoryNav />
       <Hero />
       <ProCardGrid />
+      <CategoryCardGrid />
     </div>
   )
 }
