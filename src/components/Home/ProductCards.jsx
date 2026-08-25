@@ -2,7 +2,8 @@ import React from 'react'
 
 const ProductCards = () => {
   return (
-    <div className="bg-[#FFD1A3] rounded-2xl pb-4 w-[300px]">
+    <div className="">
+      <div className="bg-orange-100 rounded-2xl w-75">
      <div className="bg-white rounded-xl h-50 flex items-center justify-center">
        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" className="w-full h-full object-contain rounded-t-2xl"/>
      </div>
@@ -27,6 +28,7 @@ const ProductCards = () => {
      </div>
      </div>
      
+    </div>
     </div>
   )
 }

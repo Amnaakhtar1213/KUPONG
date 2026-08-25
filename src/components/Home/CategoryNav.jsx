@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 
 const CategoryNav = () => {
   return (
@@ -9,14 +9,15 @@ const CategoryNav = () => {
         <h1>All Categories</h1>
       </button>
       <div className="hide-scrollbar flex min-w-0 flex-1 gap-5 overflow-x-auto whitespace-nowrap text-[#1F1F1F] md:justify-between md:gap-6 lg:gap-10">
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Today's Deal</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Best Sellers</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">new Arrivals</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Electronics</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Fashion</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Beauty</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Home & Living</a>
-        <a className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">More</a>
+        <Link to="/" className="hover:text-blue-700 transition-all duration-300 hover:underline font-semibold">Home</Link>
+        <Link className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Today's Deal</Link>
+        <Link className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Best Sellers</Link>
+        <Link className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">new Arrivals</Link>
+        <Link to="/electronics" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Electronics</Link>
+        <Link to="/fashion" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Fashion</Link>
+        <Link to="/beauty" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Beauty</Link>
+        <Link to="living" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Home & Living</Link>
+        <Link className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">More</Link>
       </div>
       </div>
     </div>

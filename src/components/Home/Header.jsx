@@ -16,9 +16,14 @@ const Header = () => {
           </button>
 
           {/* Logo */}
-          <h1 className="text-2xl font-bold text-[#FF6A00] md:text-3xl">
-            KUPONG
-          </h1>
+        <div className="flex flex-row font-bold text-3xl">
+          <h1 className="text-orange-950">k</h1>
+           <h1 className="text-orange-950">u</h1>
+            <h1 className="text-green-600">p</h1>
+             <h1 className="text-blue-500">O</h1>
+              <h1 className="text-orange-500">n</h1>
+               <h1 className="text-red-500">g</h1>
+        </div>
 
           {/* Location - Desktop */}
           <div className="hidden items-center gap-2 lg:flex">
@@ -39,7 +44,7 @@ const Header = () => {
 
 
         {/* Search */}
-        <div className="relative order-3 w-full md:order-none md:flex-1 md:max-w-2xl lg:mx-6">
+        <div className="relative order-3 w-full md:order-0 md:flex-1 md:max-w-2xl lg:mx-6">
 
           <i className="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
 
