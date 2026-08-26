@@ -1,5 +1,6 @@
 import React from 'react'
 import CategoryCard from './CategoryCard'
+import categories from '../../Data/CategoryData'
 
 const CategoryCardGrid = () => {
   return (
@@ -15,10 +16,11 @@ const CategoryCardGrid = () => {
         <p className="text-gray-600 mt-2 text-lg">Explore Products for every part of your life</p>
 
        <div  className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-8 mt-10 justify-items-center">
-        <CategoryCard/>
-         <CategoryCard/>
-          <CategoryCard/>
-           <CategoryCard/>
+      {
+        categories.map((product) => {
+          return <CategoryCard key={product.id} product={product} />
+        })
+      }
        </div>
 
        <div className="flex items-center justify-center gap-8 mt-10">

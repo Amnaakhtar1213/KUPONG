@@ -1,17 +1,5 @@
 const products = [
-  {
-    id: 1,
-    name: "Wireless Noise Cancelling Headphones",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    category: "Electronics",
-    price: 49.99,
-    oldPrice: 79.99,
-    discount: 38,
-    rating: 4.8,
-    reviews: 245,
-    badge: "Limited Deal",
-    stock: 12,
-  },
+
   {
     id: 2,
     name: "Smart Watch Series 8",
@@ -25,19 +13,7 @@ const products = [
     badge: "Best Seller",
     stock: 8,
   },
-  {
-    id: 3,
-    name: "Premium Running Shoes",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
-    category: "Fashion",
-    price: 39.99,
-    oldPrice: 64.99,
-    discount: 38,
-    rating: 4.6,
-    reviews: 312,
-    badge: "Limited Deal",
-    stock: 15,
-  },
+ 
   {
     id: 4,
     name: "Portable Personal Blender",

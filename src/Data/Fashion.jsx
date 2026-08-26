@@ -297,7 +297,304 @@ const fashionProducts = [
     description: "Luxurious long faux fur coat with a premium appearance and cozy winter warmth.",
     colors: ["Cream", "Brown", "Black"],
     sizes: ["S", "M", "L", "XL"]
-  }
+  },
+  {
+    id: 21,
+    title: "Elegant Casual Cotton Blouse for Women",
+    category: "Women's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/cd64/fba55736d789b2bc89004872943810e6020f8fe7a57597ef7aa3a18ca747.jpg",
+    rating: 4.8,
+    reviews: 312,
+    price: 18900,
+    oldPrice: 25900,
+    discount: 27,
+    description:
+      "A lightweight cotton blouse with an elegant silhouette, perfect for everyday wear, office outfits, and casual occasions.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["White", "Beige", "Blue", "Pink"],
+    material: "100% Cotton",
+    fit: "Regular Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 22,
+    title: "High-Waisted Straight Leg Casual Jeans",
+    category: "Women's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/02eb/38c4a800722bff20aca50c20995e17fe9675a4c1d3fa0c885564f2533f67.png",
+    rating: 4.7,
+    reviews: 387,
+    price: 24900,
+    oldPrice: 32900,
+    discount: 24,
+    description:
+      "Comfortable high-waisted jeans featuring a classic straight-leg silhouette and versatile design for everyday styling.",
+    sizes: ["26", "28", "30", "32", "34", "36"],
+    colors: ["Blue", "Light Blue", "Black"],
+    material: "Stretch Denim",
+    fit: "Straight Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 23,
+    title: "Floral Midi Dress with Elegant Relaxed Silhouette",
+    category: "Women's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/66ac105e6822fd12fa5b0814b21a1468ecde36abe6c893ee0aeceb513688_1760664029921.JPG",
+    rating: 4.9,
+    reviews: 428,
+    price: 29900,
+    oldPrice: 39900,
+    discount: 25,
+    description:
+      "A feminine floral midi dress featuring a comfortable silhouette, making it suitable for casual outings, gatherings, and special occasions.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Floral Pink", "Floral Blue", "Cream"],
+    material: "Polyester Blend",
+    fit: "Relaxed Fit",
+    season: "Spring / Summer",
+  },
+  {
+    id: 24,
+    title: "Minimal Leather Crossbody Shoulder Bag",
+    category: "Women's Accessories",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/ec73/ada5464a49ea26e81d0b9d269f842ab46f3730a43ccee7d78717eb7faf75.jpg",
+    rating: 4.8,
+    reviews: 265,
+    price: 27900,
+    oldPrice: 36900,
+    discount: 24,
+    description:
+      "A compact and stylish crossbody bag with a clean minimalist design and enough space for everyday essentials.",
+    colors: ["Black", "Brown", "Beige"],
+    material: "Faux Leather",
+    style: "Crossbody",
+    compartments: "Multiple Compartments",
+  },
+
+  {
+    id: 25,
+    title: "Classic Lightweight Women's Sneakers",
+    category: "Women's Footwear",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d131/ebe062010030183e4e2d033b0053b4f04d36165d5659585978509585f42e.jpg",
+    rating: 4.7,
+    reviews: 341,
+    price: 32900,
+    oldPrice: 42900,
+    discount: 23,
+    description:
+      "Lightweight everyday sneakers designed for comfort with a versatile style that works with casual and sporty outfits.",
+    sizes: ["36", "37", "38", "39", "40", "41"],
+    colors: ["White", "Black", "Beige"],
+    material: "Mesh & Rubber",
+    fit: "Standard Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 26,
+    title: "Soft Knit Oversized Cardigan for Women",
+    category: "Women's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e98f/b062cb240671f5fd8f6a075960499f222f46d445db6a0bd9fd083b29f047.png",
+    rating: 4.6,
+    reviews: 194,
+    price: 26900,
+    oldPrice: 35900,
+    discount: 25,
+    description:
+      "A soft knitted cardigan with an oversized silhouette that adds warmth and effortless style to everyday outfits.",
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Cream", "Gray", "Brown", "Black"],
+    material: "Acrylic Knit",
+    fit: "Oversized Fit",
+    season: "Fall / Winter",
+  },
+   {
+    id: 27,
+    title: "Classic Regular Fit Cotton Casual Shirt",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/ad96/4ea6645a9adfd46ea49d5af4be83bdd468f6b5460925c2adb5f08c5b254f.jpg",
+    rating: 4.8,
+    reviews: 284,
+    price: 18900,
+    oldPrice: 25900,
+    discount: 27,
+    description:
+      "A versatile cotton casual shirt with a clean design and comfortable regular fit, perfect for everyday wear and casual outings.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["White", "Blue", "Black"],
+    material: "100% Cotton",
+    fit: "Regular Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 28,
+    title: "Slim Fit Stretch Denim Jeans",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e448/0f0d8efb2054806baa560c88e7c9ad6e9cc8b69db77ac1acbb5c194f0e8d.png",
+    rating: 4.7,
+    reviews: 346,
+    price: 24900,
+    oldPrice: 32900,
+    discount: 24,
+    description:
+      "Modern slim-fit denim jeans made with stretch fabric for comfortable movement and an everyday stylish look.",
+    sizes: ["30", "32", "34", "36", "38", "40"],
+    colors: ["Dark Blue", "Black", "Light Blue"],
+    material: "Stretch Denim",
+    fit: "Slim Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 29,
+    title: "Lightweight Hooded Casual Sweatshirt",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/8a24/2ad7018eff69dd55c0c9bf541d511da815f4981fd252141c02504403aed9.png",
+    rating: 4.6,
+    reviews: 198,
+    price: 22900,
+    oldPrice: 29900,
+    discount: 23,
+    description:
+      "A comfortable hooded sweatshirt with a soft interior and relaxed design, ideal for casual days and cool weather.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Gray", "Black", "Navy"],
+    material: "Cotton Blend",
+    fit: "Relaxed Fit",
+    season: "Fall / Winter",
+  },
+
+  {
+    id: 30,
+    title: "Premium Minimalist Leather Casual Sneakers",
+    category: "Men's Footwear",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d12c/99c998283605eb41fc1b7f402df141d3d471f8e3f1392ffe4ebdb961015c.png",
+    rating: 4.9,
+    reviews: 421,
+    price: 34900,
+    oldPrice: 45900,
+    discount: 24,
+    description:
+      "Minimalist casual sneakers featuring a clean silhouette, comfortable sole, and versatile design for everyday outfits.",
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    colors: ["White", "Black", "Brown"],
+    material: "Leather",
+    fit: "Standard Fit",
+    season: "All Season",
+  },
+
+  {
+    id: 31,
+    title: "Classic Water-Resistant Everyday Wrist Watch",
+    category: "Men's Accessories",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/a878/41c26dc3cc425d739f0683d32081e3239025f90cda42e5ea2be173d891b9.png",
+    rating: 4.7,
+    reviews: 173,
+    price: 29900,
+    oldPrice: 39900,
+    discount: 25,
+    description:
+      "A timeless everyday wrist watch featuring a clean dial, durable strap, and versatile design suitable for casual and formal occasions.",
+    colors: ["Black", "Brown", "Silver"],
+    material: "Stainless Steel & Leather",
+    movement: "Quartz",
+    waterResistance: "Water Resistant",
+  },
+  {
+    id: 32,
+    title: "Best Summer t-shirt with black strips",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/6e8f/fd225f2bc792b64b89702bc7fc2ea8515df9b5a46964e0989f1cfe892795.jpeg",
+    rating: 4.8,
+    reviews: 239,
+    price: 38900,
+    oldPrice: 52900,
+    discount: 26,
+    description:
+      "A modern bomber jacket with a lightweight construction and clean silhouette, designed for casual everyday styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Olive", "Navy"],
+    material: "Polyester Blend",
+    fit: "Regular Fit",
+    season: "Fall / Winter",
+  },
+    {
+    id: 33,
+    title: "Casual shirt for summer",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/advertiser/1782820908390/4f682ebc-c17e-4f2d-9e29-324b9dec825e.jpeg",
+    rating: 4.8,
+    reviews: 239,
+    price: 38900,
+    oldPrice: 52900,
+    discount: 26,
+    description:
+      "A modern bomber jacket with a lightweight construction and clean silhouette, designed for casual everyday styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Olive", "Navy"],
+    material: "Polyester Blend",
+    fit: "Regular Fit",
+    season: "Fall / Winter",
+  },
+  {
+    id: 34,
+    title: "Premium Casual Bomber Jacket with Zip Closure",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/bc88/e925d80540a8cc2a4e72fa938dd3c7ca96ae31fb208265c8bf7478680d05.jpg",
+    rating: 4.8,
+    reviews: 239,
+    price: 38900,
+    oldPrice: 52900,
+    discount: 26,
+    description:
+      "A modern bomber jacket with a lightweight construction and clean silhouette, designed for casual everyday styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Olive", "Navy"],
+    material: "Polyester Blend",
+    fit: "Regular Fit",
+    season: "Fall / Winter",
+  },
+  
+    {
+    id: 35,
+    title: "Premium Casual Black shrit",
+    category: "Men's Clothing",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/3186/a31436b094e0fd1a4d1776cbfd185f6e6e8c00edbd602c5086f783e93ccc.jpg",
+    rating: 4.8,
+    reviews: 239,
+    price: 38900,
+    oldPrice: 52900,
+    discount: 26,
+    description:
+      "A modern bomber jacket with a lightweight construction and clean silhouette, designed for casual everyday styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Olive", "Navy"],
+    material: "Polyester Blend",
+    fit: "Regular Fit",
+    season: "Fall / Winter",
+  },
+  
+  
+
+  
+   
 ];
 
 export default fashionProducts;

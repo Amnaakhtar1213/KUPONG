@@ -1,6 +1,8 @@
+import { useState } from "react"
 
 
 const Header = () => {
+  const [search, setSearch] = useState("")
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg shadow-gray-200">
 
@@ -48,7 +50,7 @@ const Header = () => {
 
           <i className="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
 
-          <input
+          <input value={search} onChange={(e) => setSearch(e.target.value)}
             className="w-full rounded-xl border border-[#FF6A00] px-10 py-2 text-sm outline-none placeholder:text-gray-300 focus:ring-2 focus:ring-orange-100"
             type="text"
             placeholder="Search products, brands, categories..."

@@ -14,20 +14,7 @@ const beautyProducts = [
     skinType: "All Skin Types"
   },
 
-  {
-    id: 2,
-    title: "Anua Heartleaf 77% Toner Pads",
-    brand: "Anua",
-    category: "Toner Pads",
-    price: 3799,
-    oldPrice: 4499,
-    discount: "16%",
-    rating: 4.8,
-    reviews: 218,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/7b9e/c9cd4e4697b9f5749cf064c614d9a6fe75087e96c01f491e9a7cf41cf08d.jpg",
-    description: "Pre-soaked heartleaf toner pads that gently refresh, hydrate, and calm the skin.",
-    skinType: "Sensitive Skin"
-  },
+ 
 
   {
     id: 3,
@@ -88,37 +75,22 @@ const beautyProducts = [
     description: "Lightweight daily sunscreen designed to provide high sun protection with a comfortable finish.",
     skinType: "All Skin Types"
   },
-
-  {
-    id: 7,
-    title: "SKIN1004 Madagascar Centella Toning Toner",
-    brand: "SKIN1004",
-    category: "Toner",
-    price: 3399,
-    oldPrice: 3999,
-    discount: "15%",
+   {
+    id: 2,
+    title: "Anua Heartleaf 77% Toner Pads",
+    brand: "Anua",
+    category: "Toner Pads",
+    price: 3799,
+    oldPrice: 4499,
+    discount: "16%",
     rating: 4.8,
-    reviews: 231,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d9b7/484ed8a715ef5f01466283d7def97e6a4f879900ac613f0c0f4048ed97cc.jpg",
-    description: "Gentle centella-based toner designed to hydrate and refresh sensitive-looking skin.",
+    reviews: 218,
+    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/7b9e/c9cd4e4697b9f5749cf064c614d9a6fe75087e96c01f491e9a7cf41cf08d.jpg",
+    description: "Pre-soaked heartleaf toner pads that gently refresh, hydrate, and calm the skin.",
     skinType: "Sensitive Skin"
   },
 
-  {
-    id: 8,
-    title: "SKIN1004 Madagascar Centella Probio-Cica Enrich Cream",
-    brand: "SKIN1004",
-    category: "Moisturizer",
-    price: 4499,
-    oldPrice: 5299,
-    discount: "15%",
-    rating: 4.9,
-    reviews: 174,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/fb4e/3531f9fff451e68b90ad2ce8b2682084eacea3c9fd795fe56935b049a4f4.png",
-    description: "Rich moisturizing cream designed to support a comfortable and hydrated skin barrier.",
-    skinType: "Dry to Sensitive"
-  },
-
+ 
   {
     id: 9,
     title: "SKIN1004 Madagascar Centella Ampoule",
@@ -297,7 +269,37 @@ const beautyProducts = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d74f/8e63c393fd2a08d1b30c84bcec812e6256f912df2666ab5fa74945e674b2.jpg",
     description: "Soft hand cream designed to moisturize dry hands and leave them feeling smooth and comfortable.",
     skinType: "All Skin Types"
-  }
+  },
+   {
+    id: 7,
+    title: "SKIN1004 Madagascar Centella Toning Toner",
+    brand: "SKIN1004",
+    category: "Toner",
+    price: 3399,
+    oldPrice: 3999,
+    discount: "15%",
+    rating: 4.8,
+    reviews: 231,
+    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d9b7/484ed8a715ef5f01466283d7def97e6a4f879900ac613f0c0f4048ed97cc.jpg",
+    description: "Gentle centella-based toner designed to hydrate and refresh sensitive-looking skin.",
+    skinType: "Sensitive Skin"
+  },
+
+  {
+    id: 8,
+    title: "SKIN1004 Madagascar Centella Probio-Cica Enrich Cream",
+    brand: "SKIN1004",
+    category: "Moisturizer",
+    price: 4499,
+    oldPrice: 5299,
+    discount: "15%",
+    rating: 4.9,
+    reviews: 174,
+    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/fb4e/3531f9fff451e68b90ad2ce8b2682084eacea3c9fd795fe56935b049a4f4.png",
+    description: "Rich moisturizing cream designed to support a comfortable and hydrated skin barrier.",
+    skinType: "Dry to Sensitive"
+  },
+
 ];
 
 export default beautyProducts;

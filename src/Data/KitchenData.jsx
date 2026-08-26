@@ -4,7 +4,7 @@ const homeAppliancesData = [
     title: "Air Fryer with large capacity low noice",
     category: "Home Appliances",
     image:
-      "https://media.istockphoto.com/id/2204596600/photo/close-up-view-of-a-woman-putting-a-basket-into-an-air-fryer-for-cooking.jpg?s=2048x2048&w=is&k=20&c=otHtX3rflDMeZeM0UFjIFVXSlMWWdi-3RwpHZJNX5VQ=",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/83e83bf5-7a1a-4f44-98a1-6cc928e98535_fixing_v2.png",
     rating: 4.8,
     price: 18900,
     oldPrice: 24900,
@@ -16,7 +16,7 @@ const homeAppliancesData = [
     title: "OYEAH Low Noice Air Fryer",
     category: "Home Appliances",
     image:
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/5914/4a5f3b90fc5f16bea6e28414faf7d09fe330d73217f5fabe833a20a6564e.png",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/397575187492117-f4537fea-f1e0-435e-ac4f-efc598b9f364.png",
     rating: 4.7,
     price: 21900,
     oldPrice: 29900,
@@ -28,7 +28,7 @@ const homeAppliancesData = [
     title: "Priom Low Noice Air Fryer Large Capacity",
     category: "Home Appliances",
     image:
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/b79f/92d5e1ffcb6aa74a13fc6dc5d0e8e70fbcfe2b028701c2b9c5a65bb39327.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/5aad/6a48c8913e39c43f46859e7e4f1b47e960224810db541e539ccbcef824bc.jpg",
     rating: 4.6,
     price: 8900,
     oldPrice: 11900,

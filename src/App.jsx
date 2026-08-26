@@ -6,6 +6,7 @@ import Header from "./components/Home/Header";
 import CategoryNav from "./components/Home/CategoryNav";
 import Fashion from "./components/pages/Fashion";
 import Beauty from "./components/pages/Beauty";
+import Living from "./components/pages/Living";
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
       <Route path="/electronics" element={<Electronics />}/>
        <Route path="/fashion" element={<Fashion />}/>
        <Route path="/beauty" element={<Beauty />}/>
-       <Route path="/living" element={<Fashion />}/>
+       <Route path="/living" element={<Living />}/>
      </Routes>
    </BrowserRouter>
   )

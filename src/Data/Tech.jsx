@@ -137,51 +137,7 @@ const techProductsData = [
     connectivity: "USB",
   },
 
-  {
-    id: 7,
-    title: "Fast Charging Power Bank with Digital Display",
-    category: "Mobile Accessories",
-    image:
-      "https://images.unsplash.com/photo-1609592424800-7c6f0c9c0c6c?q=80&w=800&auto=format&fit=crop",
-    rating: 4.6,
-    reviews: 287,
-    price: 19900,
-    oldPrice: 27900,
-    discount: 29,
-    description:
-      "High-capacity portable power bank with fast charging support and a digital battery indicator.",
-    features: [
-      "Fast Charging",
-      "High Capacity",
-      "Digital Display",
-      "Multiple USB Ports",
-    ],
-    color: "Black",
-    connectivity: "USB-C / USB-A",
-  },
 
-  {
-    id: 8,
-    title: "Compact Tablet with High Resolution Touch Display",
-    category: "Tablets",
-    image:
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=800&auto=format&fit=crop",
-    rating: 4.8,
-    reviews: 221,
-    price: 89900,
-    oldPrice: 109900,
-    discount: 18,
-    description:
-      "Slim and lightweight tablet featuring a high-resolution touchscreen, smooth performance, and long battery life.",
-    features: [
-      "High Resolution Display",
-      "Long Battery Life",
-      "Slim Design",
-      "Wi-Fi Connectivity",
-    ],
-    color: "Silver",
-    connectivity: "Wi-Fi",
-  },
 ];
 
 export default techProductsData;

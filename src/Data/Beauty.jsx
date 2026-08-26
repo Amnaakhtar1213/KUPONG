@@ -131,50 +131,6 @@ const beautyProductsData = [
       "Daily Use",
     ],
   },
-
-  {
-    id: 7,
-    title: "Professional Makeup Brush Set with Storage Pouch",
-    category: "Beauty Tools",
-    image:
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=800&auto=format&fit=crop",
-    rating: 4.8,
-    reviews: 276,
-    price: 16900,
-    oldPrice: 22900,
-    discount: 26,
-    description:
-      "A versatile makeup brush set containing essential brushes for face and eye makeup, packed in a convenient storage pouch.",
-    pieces: 12,
-    material: "Synthetic Fiber",
-    features: [
-      "12-Piece Set",
-      "Soft Bristles",
-      "Portable Storage Pouch",
-    ],
-  },
-
-  {
-    id: 8,
-    title: "Refreshing Body Lotion with Lightweight Moisture",
-    category: "Body Care",
-    image:
-      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=80&w=800&auto=format&fit=crop",
-    rating: 4.7,
-    reviews: 241,
-    price: 11900,
-    oldPrice: 15900,
-    discount: 25,
-    description:
-      "A lightweight body lotion designed for everyday moisturizing, leaving skin feeling soft, smooth, and refreshed.",
-    size: "300ml",
-    skinType: ["Normal", "Dry"],
-    features: [
-      "Daily Moisturizing",
-      "Lightweight Texture",
-      "Fast Absorbing",
-    ],
-  },
 ];
 
 export default beautyProductsData; 

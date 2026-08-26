@@ -35,18 +35,7 @@ const featuredDealsData = [
     oldPrice: 49900,
     discount: 35,
   },
-  {
-    id: 4,
-    title: "Leather Backpack",
-    category: "Fashion",
-    image:
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
-    rating: 4.7,
-    reviews: 156,
-    price: 12900,
-    oldPrice: 17200,
-    discount: 25,
-  },
+
   {
     id: 5,
     title: "Modern Coffee Maker",
