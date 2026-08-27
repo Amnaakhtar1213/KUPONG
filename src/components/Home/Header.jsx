@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -63,9 +64,11 @@ const Header = () => {
         <div className="flex items-center gap-10">
 
           {/* Wishlist - Desktop */}
+          <Link to="/save">
           <button className="hidden text-lg text-[#1F1F1F] hover:text-[#FF6A00] md:block">
             <i className="fa-solid fa-heart"></i>
           </button>
+          </Link>
 
           {/* Account - Desktop */}
           <button className="hidden items-center gap-2 text-[#1F1F1F] hover:text-[#FF6A00] md:flex">
@@ -76,9 +79,11 @@ const Header = () => {
           </button>
 
           {/* Cart */}
-          <button className="text-lg text-[#FF6A00]">
+         <Link to="/cart">
+            <button className="text-lg text-[#FF6A00]">
             <i className="fa-solid fa-cart-shopping"></i>
-          </button>
+          </button>         
+         </Link>
 
         </div>
 

@@ -6,7 +6,12 @@ import Header from "./components/Home/Header";
 import CategoryNav from "./components/Home/CategoryNav";
 import Fashion from "./components/pages/Fashion";
 import Beauty from "./components/pages/Beauty";
-import Living from "./components/pages/Living";
+import Food from "./components/pages/Food";
+import NewArrival from "./components/pages/NewArrival";
+import Best from "./components/pages/Best";
+import TodayDeals from "./components/pages/TodayDeals";
+import Cart from "./components/pages/Cart";
+import Save from "./components/pages/Save";
 
 function App() {
   
@@ -20,7 +25,13 @@ function App() {
       <Route path="/electronics" element={<Electronics />}/>
        <Route path="/fashion" element={<Fashion />}/>
        <Route path="/beauty" element={<Beauty />}/>
-       <Route path="/living" element={<Living />}/>
+        <Route path="/food" element={<Food />}/>
+        <Route path="/arrivals" element={<NewArrival />}/>
+         <Route path="/best" element={<Best />}/>
+          <Route path="/todays" element={<TodayDeals />}/>
+           <Route path="/cart" element={<Cart />}/>
+            <Route path="/save" element={<Save />}/>
+      
      </Routes>
    </BrowserRouter>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LivingBanner = () => {
+const Banner = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const LivingBanner = () => {
   )
 }
 
-export default LivingBanner
+export default Banner
