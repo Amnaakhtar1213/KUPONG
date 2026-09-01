@@ -1,6 +1,13 @@
 import React from 'react'
 
-const CartSummery = () => {
+const CartSummery = ({cart}) => {
+  const subTotal = cart.reduce((total, product) => {
+    return total + (product.price * product.quantity);
+  }, 0);
+
+  const shipping = 5;
+  const total = subTotal + shipping;
+
   return (
     
     <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
@@ -16,7 +23,7 @@ const CartSummery = () => {
         </p>
 
         <p className="font-medium text-gray-900">
-          $51.98
+          ${subTotal.toFixed(2)}
         </p>
       </div>
 
@@ -41,7 +48,7 @@ const CartSummery = () => {
         </p>
 
         <p className="text-xl font-bold text-[#ff6a00]">
-          $56.98
+          ${total.toFixed(2)}
         </p>
       </div>
 

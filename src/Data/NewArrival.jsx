@@ -5,6 +5,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/07/27/15/3/44e82972-e054-4ebe-b3b8-3396f31336e3.jpg",
     delivery: "Delivery Tomorrow",
     price: 232000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -13,6 +14,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 380000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -21,6 +23,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 395000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -29,6 +32,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 485000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -37,6 +41,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1593642634367-d91a135587b5?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 299000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -45,6 +50,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 259990,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -53,6 +59,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/07/10/18/0/ac235496-abe2-4679-8957-e5f85c215eaf.jpg",
     delivery: "Delivery Tomorrow",
     price: 225000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -61,6 +68,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/08/05/15/6/9ec6412a-3063-498d-bff3-1212a4e33b56.jpg",
     delivery: "Delivery in 2 Days",
     price: 145000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -69,6 +77,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 89000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -77,6 +86,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 115000,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -85,6 +95,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 18900,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -93,6 +104,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 12900,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -101,6 +113,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1599669454699-248893623440?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 24900,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -109,6 +122,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/07/13/10/2/24bad4ee-db46-43aa-bf01-adae49538224.jpg",
     delivery: "Delivery Tomorrow",
     price: 7900,
+     quantity:1,
     category: "New Arrivals",
   },
   {
@@ -117,6 +131,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 3 Days",
     price: 69900,
+      quantity:1,
     category: "New Arrivals",
   },
   {
@@ -125,6 +140,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 3 Days",
     price: 54900,
+    quantity:1,
     category: "New Arrivals",
   },
   {
@@ -133,6 +149,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1625842268584-8f3296236761?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 15900,
+    quantity:1,
     category: "New Arrivals",
   },
   {
@@ -141,6 +158,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/08/03/18/6/ed6c9b81-9507-409c-a258-e05763031a8c.jpg",
     delivery: "Delivery Tomorrow",
     price: 73000,
+    quantity:1,
     category: "New Arrivals",
   },
   {
@@ -149,6 +167,7 @@ const newArrivalData = [
     image: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 29900,
+    quantity:1,
     category: "New Arrivals",
   },
   {
@@ -157,6 +176,7 @@ const newArrivalData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/07/31/11/4/ce34dae0-3155-47f6-947c-f7e9a2137c8f.png",
     delivery: "Delivery Tomorrow",
     price: 15900,
+    quantity:1,
     category: "New Arrivals",
   },
 ];

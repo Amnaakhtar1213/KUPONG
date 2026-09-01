@@ -2,7 +2,7 @@ import React from 'react'
 
 const BeautyCard = ({product}) => {
   return (
-      <div className="hover:shadow-lg hover:shadow-gray-300 h-120">
+      <div className="hover:shadow-lg hover:shadow-gray-300 h-130">
           <div className="p-4 flex flex-row md:flex-col w-120 md:w-60 ">
       <div className="w-50 h-60">
         <img src={product.image} className="w-full h-full object-contain"/>

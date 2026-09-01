@@ -1,10 +1,10 @@
 import React from 'react'
 import CartGrid from '../Cart/CartGrid'
 
-const Cart = () => {
+const Cart = ({cart, setCart}) => {
   return (
     <div>
-      <CartGrid />
+      <CartGrid cart={cart} setCart={setCart} />
     </div>
   )
 }

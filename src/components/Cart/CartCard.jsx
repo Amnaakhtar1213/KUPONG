@@ -1,6 +1,22 @@
 import React from 'react'
 
-const CartCard = () => {
+const CartCard = ({product, setCart, cart}) => {
+
+  function increase(productId){
+  setCart(cart.map((product) => {
+    return product.id === productId ? {...product, quantity: product.quantity +1} : product
+  }))
+  }
+
+  function decrease(productId){
+    setCart(cart.map((product) => {
+      return product.id === productId ? {...product, quantity : product.quantity - 1} : product
+    }))
+  }
+
+  function remove(productId){
+    setCart(cart.filter((product) => product.id !== productId))
+  }
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
       <div className="flex gap-4">
@@ -8,8 +24,8 @@ const CartCard = () => {
         {/* Product Image */}
         <div className="h-28 w-28 shrink-0 overflow-hidden rounded-md bg-gray-100">
           <img
-            src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6"
-            alt="Product"
+            src={product.image}
+            alt={product.name}
             className="h-full w-full object-cover"
           />
         </div>
@@ -19,11 +35,11 @@ const CartCard = () => {
 
           <div>
             <h2 className="text-base font-semibold text-gray-900">
-              Fresh Red Apples
+              {product.title}
             </h2>
 
             <p className="mt-1 text-sm text-gray-500">
-              Fresh and juicy premium quality apples
+              {product.description}
             </p>
           </div>
 
@@ -32,21 +48,21 @@ const CartCard = () => {
 
             {/* Quantity */}
             <div className="flex items-center rounded-md border border-gray-300">
-              <button className="px-3 py-1 text-gray-600 hover:bg-gray-100">
+              <button onClick={() => decrease(product.id)} className="px-3 py-1 text-gray-600 hover:bg-gray-100">
                 −
               </button>
 
               <span className="px-3 py-1 text-sm">
-                1
+                {product.quantity}
               </span>
 
-              <button className="px-3 py-1 text-gray-600 hover:bg-gray-100">
+              <button onClick={() => increase(product.id)} className="px-3 py-1 text-gray-600 hover:bg-gray-200">
                 +
               </button>
             </div>
 
             {/* Remove */}
-            <button className="text-sm text-red-500 hover:text-red-600">
+            <button onClick={() => remove(product.id)} className="text-sm text-red-500 hover:text-red-600">
               Remove
             </button>
 
@@ -55,12 +71,12 @@ const CartCard = () => {
 
         {/* Price */}
         <div className="text-right">
-          <p className="text-lg font-bold text-gray-900">
-            $25.99
+          <p className="text-lg font-bold text-red-500">
+            {product.price} won
           </p>
 
           <p className="mt-1 text-sm text-gray-400">
-            $25.99 each
+            {product.originalPrice} each
           </p>
         </div>
 

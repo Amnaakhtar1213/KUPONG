@@ -7,7 +7,7 @@ const FashionGrid = () => {
   return (
     <div>
       <FashionBaner />
-       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-5  mt-10 justify-items-center px-30">
+       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-5  mt-6 justify-items-center px-30">
     {
       fashionProducts.map((product) => {
         return <FashionCard key={product.id} product={product} />

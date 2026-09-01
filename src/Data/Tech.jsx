@@ -3,6 +3,7 @@ const techProductsData = [
     id: 1,
     title: "Wireless Noise Cancelling Bluetooth Headphones",
     category: "Electronics",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/bdad/0c99fdb3d1816e03572a9dfea637963a73419c5ac7e26b120bc57a32f3c8.png",
     rating: 4.8,
@@ -26,6 +27,7 @@ const techProductsData = [
     id: 2,
     title: "Smart Fitness Watch with Heart Rate and Activity Tracking",
     category: "Electronics",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/b09a/ce3ffe9f5e2873b48d207828952fc95301dd13c489c9e19b9e7fd961c13b.jpeg",
     rating: 4.7,
@@ -49,6 +51,7 @@ const techProductsData = [
     id: 3,
     title: "Ultra Slim Wireless Mechanical Keyboard",
     category: "Computer Accessories",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/9f46/97d25b8557ce8b794486b5e85e1d23c99e80b6e28560c53a4a18c20a02b2.jpg",
     rating: 4.6,
@@ -72,6 +75,7 @@ const techProductsData = [
     id: 4,
     title: "Ergonomic Wireless Mouse with Precision Sensor",
     category: "Computer Accessories",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
     rating: 4.7,
@@ -95,6 +99,7 @@ const techProductsData = [
     id: 5,
     title: "Portable Bluetooth Speaker with Deep Bass",
     category: "Audio",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/prod/66a2a7e7-d1a5-418f-87d1-1b3a74906508_fixing_v2.png",
     rating: 4.9,
@@ -118,6 +123,7 @@ const techProductsData = [
     id: 6,
     title: "Full HD Portable Webcam with Built-in Microphone",
     category: "Computer Accessories",
+    quantity:1,
     image:
       "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=800&auto=format&fit=crop",
     rating: 4.5,

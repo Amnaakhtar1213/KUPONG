@@ -3,6 +3,7 @@ const foodData = [
     id: 1,
     title: "Premium Korean Instant Noodles Spicy Flavor",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=800&auto=format&fit=crop",
     rating: 4.8,
@@ -21,6 +22,7 @@ const foodData = [
     id: 2,
     title: "Premium Roasted Coffee Beans Rich Smooth Blend",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=800&auto=format&fit=crop",
     rating: 4.9,
@@ -40,6 +42,7 @@ const foodData = [
     id: 3,
     title: "Organic Premium White Rice Long Grain",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/25774596768350-7fa2a8ab-1756-444f-9dea-b18f8ebdd167.jpg",
     rating: 4.7,
@@ -58,6 +61,7 @@ const foodData = [
     id: 4,
     title: "Assorted Premium Chocolate Snack Gift Box",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/324669093307843-1df0206a-12df-475f-a74d-a96a05548093.jpg",
     rating: 4.8,
@@ -76,6 +80,7 @@ const foodData = [
     id: 5,
     title: "Fresh Natural Honey Pure Golden Sweetener",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=800&auto=format&fit=crop",
     rating: 4.9,
@@ -94,6 +99,7 @@ const foodData = [
     id: 6,
     title: "Premium Assorted Healthy Dried Fruit Snack Mix",
     category: "Food & Grocery",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/201045901805014-870799a8-f719-47a9-be1a-02a65b70f934.jpg",
     rating: 4.7,
@@ -115,6 +121,7 @@ const foodData = [
   {
     id: 7,
     title: "Chocolate Cream Biscuits",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 5900,
@@ -123,6 +130,7 @@ const foodData = [
   {
     id: 8,
     title: "Classic Salted Crackers",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 4500,
@@ -131,6 +139,7 @@ const foodData = [
   {
     id: 9,
     title: "Instant Chicken Ramen Noodles",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 3900,
@@ -139,6 +148,7 @@ const foodData = [
   {
     id: 10,
     title: "Spicy Korean Ramen",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 4900,
@@ -147,6 +157,7 @@ const foodData = [
   {
     id: 11,
     title: "Instant Vegetable Noodles",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/11/21/14/9/50e8e23d-65cc-4118-951c-036886ff5ca4.jpg",
     price: 3500,
     category: "Food & Grocery",
@@ -154,6 +165,7 @@ const foodData = [
   {
     id: 12,
     title: "Fresh Farm Eggs - 12 Pack",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?q=80&w=800&auto=format&fit=crop",
     delivery: "Fresh Delivery Tomorrow",
     price: 7800,
@@ -162,6 +174,7 @@ const foodData = [
   {
     id: 13,
     title: "Premium Basmati Rice 5kg",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 24900,
@@ -170,6 +183,7 @@ const foodData = [
   {
     id: 14,
     title: "All Purpose Wheat Flour 2kg",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 10900,
@@ -178,6 +192,7 @@ const foodData = [
   {
     id: 15,
     title: "White Granulated Sugar 2kg",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 8900,
@@ -186,6 +201,7 @@ const foodData = [
   {
     id: 16,
     title: "Pure Cooking Oil 1 Liter",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 12900,
@@ -194,6 +210,7 @@ const foodData = [
   {
     id: 17,
     title: "Creamy Peanut Butter",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1590080874088-eec64895b423?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 15900,
@@ -202,6 +219,7 @@ const foodData = [
   {
     id: 18,
     title: "Strawberry Fruit Jam",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1576186726115-4d51596775d1?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 9900,
@@ -210,6 +228,7 @@ const foodData = [
   {
     id: 19,
     title: "Tomato Ketchup Bottle",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 7500,
@@ -218,6 +237,7 @@ const foodData = [
   {
     id: 20,
     title: "Cream Cheese Spread",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=800&auto=format&fit=crop",
     delivery: "Fresh Delivery Tomorrow",
     price: 11900,
@@ -226,6 +246,7 @@ const foodData = [
   {
     id: 21,
     title: "Milk Chocolate Bar",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/7893/1f07ae68800516a8b9f3cc10193ee2653f40b6d99709bc8fac739ae158af.jpg",
     delivery: "Delivery Tomorrow",
     price: 5500,
@@ -234,6 +255,7 @@ const foodData = [
   {
     id: 22,
     title: "Potato Crisps Original",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 4900,
@@ -242,6 +264,7 @@ const foodData = [
   {
     id: 23,
     title: "Green Tea Bags - 25 Pack",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
     price: 8900,
@@ -250,6 +273,7 @@ const foodData = [
   {
     id: 24,
     title: "Instant Coffee Powder",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 13900,
@@ -258,6 +282,7 @@ const foodData = [
   {
     id: 25,
     title: "Canned Sweet Corn",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/62150213983388-cf820538-8383-4e92-a644-ceedd8e8a2ab.jpg",
     delivery: "Delivery Tomorrow",
     price: 6900,
@@ -266,6 +291,7 @@ const foodData = [
   {
     id: 26,
     title: "Spaghetti Pasta 500g",
+     quantity:1,
     image: "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 6500,
@@ -274,6 +300,7 @@ const foodData = [
    {
     id: 27,
     title: "Samyung ramyan",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/eb02/27355df5626ce0d2d4fd747dec615477fd908782497ea8affc5eb60a31e3.jpg",
     delivery: "Delivery Tomorrow",
     price: 6500,
@@ -282,6 +309,7 @@ const foodData = [
    {
     id: 28,
     title: "Delicious seaweed rice ",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/46a4/8715a59f1f4217c5fb6a6e06261cfb7338ca220aae0b88635d7b10637fc4.jpg",
     delivery: "Delivery Tomorrow",
     price: 6500,
@@ -290,6 +318,7 @@ const foodData = [
    {
     id: 29,
     title: "chapghatti",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/825592908312-ac4fe7f0-9052-4f0c-9801-bc7369a5a778.png",
     delivery: "Delivery Tomorrow",
     price: 6500,
@@ -298,6 +327,7 @@ const foodData = [
    {
     id: 30,
     title: "Anseongtangman",
+     quantity:1,
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/66263343501995-05c20a04-6773-4225-b5a3-9871bbeaeec1.jpg",
     delivery: "Delivery Tomorrow",
     price: 6500,

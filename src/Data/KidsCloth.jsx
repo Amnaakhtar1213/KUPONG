@@ -3,6 +3,7 @@ const kidsClothingData = [
     id: 1,
     title: "Soft Cotton Cartoon Print T-Shirt for Kids",
     category: "Kids Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/3ef1/4694bb753b8de885cdfc10aeae1bbadb75061c7a7c0d81f13e3c42e99223.jpg",
     rating: 4.8,
@@ -23,6 +24,7 @@ const kidsClothingData = [
     id: 2,
     title: "Comfortable Casual Two-Piece Outfit for Kids",
     category: "Kids Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/3a93/6431725882a204ad1afb5354623499cecda93ea83248fc0a4067d2934911.jpg",
     rating: 4.7,
@@ -43,6 +45,7 @@ const kidsClothingData = [
     id: 3,
     title: "Classic Denim Jacket with Button Closure for Kids",
     category: "Kids Clothing",
+     quantity:1,
     image:
       "https://thumbnail7.coupangcdn.com/thumbnails/remote/292x292q65ex/image/vendor_inventory/dc41/c02c23599415b080e8a7c827285b053cab31dd3b574c9b544b7f58adf729.jpg",
     rating: 4.6,
@@ -63,6 +66,7 @@ const kidsClothingData = [
     id: 4,
     title: "Floral Summer Dress with Soft Lightweight Fabric",
     category: "Kids Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/0771/17a24c5ce91cc6b9943538ca79cdf0863d7368148df0d176f1a714bd6dff.jpg",
     rating: 4.9,
@@ -83,6 +87,7 @@ const kidsClothingData = [
     id: 5,
     title: "Warm Fleece Pullover Hoodie for Kids",
     category: "Kids Clothing",
+     quantity:1,
     image:
       "https://thumbnail2.coupangcdn.com/thumbnails/remote/292x292q65ex/image/vendor_inventory/7b30/f16edd1a69d2ce2e3e1571b4f7704ada66486d4d506770af053d6415ec8e.png",
     rating: 4.7,

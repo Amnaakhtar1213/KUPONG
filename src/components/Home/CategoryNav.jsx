@@ -77,7 +77,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 <Link>
  <div className="hover:text-[#ff8200] px-4 py-1">
-        Hanbok
+        Hanbok  
       </div>
       </Link>
      

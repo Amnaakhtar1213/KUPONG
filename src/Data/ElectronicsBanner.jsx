@@ -9,6 +9,7 @@ const electronicsBanners = [
       "https://static.coupangcdn.com/la/cmg_paperboy/image/1787294557423/0825_16_jusikhoesajielseutoeo_P-Top_PC.jpg",
     position: "center",
     badge: "Latest Tech",
+     quantity:1,
     theme: "dark"
   },
 
@@ -22,6 +23,7 @@ const electronicsBanners = [
       "https://static.coupangcdn.com/va/cmg_paperboy/image/1787105344877/P-Top-R1-PC.jpg",
     position: "center",
     badge: "Work & Study",
+     quantity:1,
     theme: "dark"
   },
 
@@ -35,6 +37,7 @@ const electronicsBanners = [
       "https://static.coupangcdn.com/za/cmg_paperboy/image/1787125128177/P-TopR1PC.jpg",
     position: "center",
     badge: "Gaming Zone",
+     quantity:1,
     theme: "dark"
   },
 
@@ -48,6 +51,7 @@ const electronicsBanners = [
       "https://static.coupangcdn.com/ga/cmg_paperboy/image/1787209288858/0824_19_hanseong_P-Top_PC.jpg",
     position: "center",
     badge: "Premium Audio",
+     quantity:1,
     theme: "dark"
   },
 
@@ -61,6 +65,7 @@ const electronicsBanners = [
       "https://static.coupangcdn.com/qa/cmg_paperboy/image/1787295001300/pc.jpg",
     position: "center",
     badge: "Smart Living",
+     quantity:1,
     theme: "dark"
   }
 ];

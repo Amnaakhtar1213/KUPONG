@@ -7,6 +7,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 4500,
     category: "Food",
+     quantity:1,
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 5900,
     category: "Food",
+     quantity:1,
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 5500,
     category: "Food",
+     quantity:1,
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 7500,
     category: "Food",
+     quantity:1,
   },
 
   {
@@ -40,6 +44,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 12900,
     category: "Fashion",
+     quantity:1,
   },
   {
     id: 6,
@@ -48,6 +53,7 @@ const bestSellerData = [
     delivery: "Delivery in 2 Days",
     price: 18900,
     category: "Fashion",
+     quantity:1,
   },
   {
     id: 7,
@@ -55,6 +61,7 @@ const bestSellerData = [
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/r8vljdhw/f9d994536c2b4199bfb9c66220228157.jpg",
     delivery: "Delivery Tomorrow",
     price: 24900,
+     quantity:1,
     category: "Fashion",
   },
   {
@@ -63,6 +70,7 @@ const bestSellerData = [
     image: "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 21900,
+     quantity:1,
     category: "Fashion",
   },
 
@@ -72,6 +80,7 @@ const bestSellerData = [
     image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 18900,
+     quantity:1,
     category: "Gaming",
   },
   {
@@ -81,6 +90,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 12900,
     category: "Gaming",
+     quantity:1,
   },
   {
     id: 11,
@@ -89,6 +99,7 @@ const bestSellerData = [
     delivery: "Delivery in 2 Days",
     price: 24900,
     category: "Gaming",
+     quantity:1,
   },
   {
     id: 12,
@@ -97,6 +108,7 @@ const bestSellerData = [
     delivery: "Delivery in 3 Days",
     price: 69900,
     category: "Gaming",
+     quantity:1,
   },
 
   {
@@ -106,6 +118,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 15900,
     category: "Jewelry",
+     quantity:1,
   },
   {
     id: 14,
@@ -114,6 +127,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 9900,
     category: "Jewelry",
+     quantity:1,
   },
   {
     id: 15,
@@ -122,6 +136,7 @@ const bestSellerData = [
     delivery: "Delivery in 2 Days",
     price: 11900,
     category: "Jewelry",
+     quantity:1,
   },
   {
     id: 16,
@@ -130,6 +145,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 7900,
     category: "Jewelry",
+     quantity:1,
   },
 
   {
@@ -139,6 +155,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 22900,
     category: "Accessories",
+     quantity:1,
   },
   {
     id: 18,
@@ -147,6 +164,7 @@ const bestSellerData = [
     delivery: "Delivery Tomorrow",
     price: 9900,
     category: "Accessories",
+     quantity:1,
   },
   {
     id: 19,
@@ -155,6 +173,7 @@ const bestSellerData = [
     delivery: "Delivery in 2 Days",
     price: 19900,
     category: "Accessories",
+     quantity:1,
   },
   {
     id: 20,
@@ -162,6 +181,7 @@ const bestSellerData = [
     image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
     price: 29900,
+     quantity:1,
     category: "Accessories",
   },
 ];

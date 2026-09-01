@@ -12,6 +12,7 @@ const products = [
     reviews: 189,
     badge: "Best Seller",
     stock: 8,
+    quantity:1,
   },
  
   {
@@ -26,6 +27,7 @@ const products = [
     reviews: 156,
     badge: "Hot Deal",
     stock: 10,
+    quantity:1,
   },
   {
     id: 5,
@@ -39,6 +41,7 @@ const products = [
     reviews: 98,
     badge: "Limited Deal",
     stock: 20,
+    quantity:1,
   },
   {
     id: 6,
@@ -52,6 +55,7 @@ const products = [
     reviews: 421,
     badge: "Best Seller",
     stock: 7,
+    quantity:1,
   },
 ];
 

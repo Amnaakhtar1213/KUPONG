@@ -3,6 +3,7 @@ const womensCollectionData = [
     id: 1,
     title: "Elegant Casual Cotton Blouse for Women",
     category: "Women's Clothing",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/cd64/fba55736d789b2bc89004872943810e6020f8fe7a57597ef7aa3a18ca747.jpg",
     rating: 4.8,
@@ -23,6 +24,7 @@ const womensCollectionData = [
     id: 2,
     title: "High-Waisted Straight Leg Casual Jeans",
     category: "Women's Clothing",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/02eb/38c4a800722bff20aca50c20995e17fe9675a4c1d3fa0c885564f2533f67.png",
     rating: 4.7,
@@ -43,6 +45,7 @@ const womensCollectionData = [
     id: 3,
     title: "Floral Midi Dress with Elegant Relaxed Silhouette",
     category: "Women's Clothing",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/66ac105e6822fd12fa5b0814b21a1468ecde36abe6c893ee0aeceb513688_1760664029921.JPG",
     rating: 4.9,
@@ -63,6 +66,7 @@ const womensCollectionData = [
     id: 4,
     title: "Minimal Leather Crossbody Shoulder Bag",
     category: "Women's Accessories",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/ec73/ada5464a49ea26e81d0b9d269f842ab46f3730a43ccee7d78717eb7faf75.jpg",
     rating: 4.8,
@@ -82,6 +86,7 @@ const womensCollectionData = [
     id: 5,
     title: "Classic Lightweight Women's Sneakers",
     category: "Women's Footwear",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d131/ebe062010030183e4e2d033b0053b4f04d36165d5659585978509585f42e.jpg",
     rating: 4.7,
@@ -102,6 +107,7 @@ const womensCollectionData = [
     id: 6,
     title: "Soft Knit Oversized Cardigan for Women",
     category: "Women's Clothing",
+    quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e98f/b062cb240671f5fd8f6a075960499f222f46d445db6a0bd9fd083b29f047.png",
     rating: 4.6,

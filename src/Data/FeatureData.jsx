@@ -3,6 +3,7 @@ const featuredDealsData = [
     id: 1,
     title: "Wireless Headphones",
     category: "Electronics",
+     quantity:1,
     image:
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
     rating: 4.8,
@@ -15,6 +16,7 @@ const featuredDealsData = [
     id: 2,
     title: "Smart Watch",
     category: "Electronics",
+     quantity:1,
     image:
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop",
     rating: 4.6,
@@ -26,6 +28,7 @@ const featuredDealsData = [
   {
     id: 3,
     title: "Running Shoes",
+     quantity:1,
     category: "Fashion",
     image:
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
@@ -39,6 +42,7 @@ const featuredDealsData = [
   {
     id: 5,
     title: "Modern Coffee Maker",
+     quantity:1,
     category: "Home & Kitchen",
     image:
       "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?q=80&w=800&auto=format&fit=crop",
@@ -51,6 +55,7 @@ const featuredDealsData = [
   {
     id: 6,
     title: "Minimal Desk Lamp",
+     quantity:1,
     category: "Home & Kitchen",
     image:
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop",

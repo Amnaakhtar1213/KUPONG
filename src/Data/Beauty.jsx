@@ -9,6 +9,7 @@ const beautyProductsData = [
     reviews: 428,
     price: 18900,
     oldPrice: 24900,
+     quantity:1,
     discount: 24,
     description:
       "A lightweight hydrating moisturizer formulated to help keep skin feeling soft, smooth, and refreshed throughout the day.",
@@ -29,6 +30,7 @@ const beautyProductsData = [
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/retail/images/432775067372324-865789fe-313c-443b-be11-4d0580e08920.jpg",
     rating: 4.7,
     reviews: 351,
+     quantity:1,
     price: 12900,
     oldPrice: 16900,
     discount: 24,
@@ -53,6 +55,7 @@ const beautyProductsData = [
     reviews: 517,
     price: 22900,
     oldPrice: 29900,
+     quantity:1,
     discount: 23,
     description:
       "A lightweight facial serum designed to support a brighter and more even-looking complexion as part of a daily skincare routine.",
@@ -73,6 +76,7 @@ const beautyProductsData = [
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/retail/images/151629147196613-57ff584b-59ea-49fb-85a7-1f79f18bf8ae.jpg",
     rating: 4.6,
     reviews: 263,
+     quantity:1,
     price: 19900,
     oldPrice: 26900,
     discount: 26,
@@ -98,6 +102,7 @@ const beautyProductsData = [
     reviews: 389,
     price: 7900,
     oldPrice: 10900,
+     quantity:1,
     discount: 28,
     description:
       "A moisturizing lip balm that helps keep lips soft and comfortable while adding a subtle natural tint.",
@@ -120,6 +125,7 @@ const beautyProductsData = [
     reviews: 312,
     price: 14900,
     oldPrice: 19900,
+     quantity:1,
     discount: 25,
     description:
       "A nourishing everyday shampoo designed to gently cleanse hair while helping it feel soft, smooth, and manageable.",

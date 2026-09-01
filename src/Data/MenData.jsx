@@ -3,6 +3,7 @@ const mensCollectionData = [
     id: 1,
     title: "Classic Regular Fit Cotton Casual Shirt",
     category: "Men's Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/ad96/4ea6645a9adfd46ea49d5af4be83bdd468f6b5460925c2adb5f08c5b254f.jpg",
     rating: 4.8,
@@ -23,6 +24,7 @@ const mensCollectionData = [
     id: 2,
     title: "Slim Fit Stretch Denim Jeans",
     category: "Men's Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e448/0f0d8efb2054806baa560c88e7c9ad6e9cc8b69db77ac1acbb5c194f0e8d.png",
     rating: 4.7,
@@ -43,6 +45,7 @@ const mensCollectionData = [
     id: 3,
     title: "Lightweight Hooded Casual Sweatshirt",
     category: "Men's Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/8a24/2ad7018eff69dd55c0c9bf541d511da815f4981fd252141c02504403aed9.png",
     rating: 4.6,
@@ -63,6 +66,7 @@ const mensCollectionData = [
     id: 4,
     title: "Premium Minimalist Leather Casual Sneakers",
     category: "Men's Footwear",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/d12c/99c998283605eb41fc1b7f402df141d3d471f8e3f1392ffe4ebdb961015c.png",
     rating: 4.9,
@@ -83,6 +87,7 @@ const mensCollectionData = [
     id: 5,
     title: "Classic Water-Resistant Everyday Wrist Watch",
     category: "Men's Accessories",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/a878/41c26dc3cc425d739f0683d32081e3239025f90cda42e5ea2be173d891b9.png",
     rating: 4.7,
@@ -102,6 +107,7 @@ const mensCollectionData = [
     id: 6,
     title: "Premium Casual Bomber Jacket with Zip Closure",
     category: "Men's Clothing",
+     quantity:1,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/6e8f/fd225f2bc792b64b89702bc7fc2ea8515df9b5a46964e0989f1cfe892795.jpeg",
     rating: 4.8,
