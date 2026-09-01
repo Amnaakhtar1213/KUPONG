@@ -16,6 +16,7 @@ import Save from "./components/pages/Save";
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
 import Footer from "./components/pages/Footer";
+import Profile from "./components/pages/Profile";
 
 function App() {
   
@@ -69,6 +70,7 @@ const [cart, setCart] = useState([ {
             <Route path="/save" element={<Save />}/>
             <Route path="/login" element={<Login />}/>
             <Route path="/signup" element={<Signup />}/>
+            <Route path="/profile" element={<Profile />}/>
              
       
      </Routes>
