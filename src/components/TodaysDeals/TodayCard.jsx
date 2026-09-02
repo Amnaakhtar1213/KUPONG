@@ -3,8 +3,9 @@ import React from 'react'
 const TodayCard = ({product}) => {
   return (
     <div className=" rounded-xl h-90">
-    <div className="w-67 md:w-60 md:h-60">
+    <div className="relative w-67 md:w-60 md:h-60">
       <img src={product.image} className="w-full h-full object-contain"/>
+      <i className="absolute bottom-2 right-2 text-gray-300 fa-solid fa-heart"></i>
     </div>
     <div className="">
       <h1 className="text-xl font-semibold text-center">{product.title}</h1>

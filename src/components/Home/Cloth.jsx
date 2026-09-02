@@ -5,8 +5,9 @@ const Cloth = ({product}) => {
        <div>
        
        <div className=" rounded-2xl hover:shadow-lg hover:shadow-gray-400">
-     <div className="bg-white rounded-xl flex items-center justify-center w-68 md:w-59">
+     <div className="relative bg-white rounded-xl flex items-center justify-center w-68 md:w-59">
        <img src={product.image} className="w-full h-full object-contain rounded-t-2xl"/>
+       <i className="absolute bottom-2 right-2 text-gray-300 fa-solid fa-heart"></i>
      </div>
      <div className="p-4">
         

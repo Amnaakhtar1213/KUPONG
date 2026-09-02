@@ -3,8 +3,9 @@ import React from 'react'
 const ElectronicsSec = ({product}) => {
   return (
     <div className="p-4 flex flex-row md:flex-col w-120 md:w-70 hover:shadow-xl hover:shadow-gray-300">
-      <div className="w-60">
+      <div className="relative w-60">
         <img src={product.image} className="w-full h-full object-cover"/>
+        <i className="absolute bottom-2 right-2 text-gray-300 fa-solid fa-heart"></i>
       </div>
       <div className="pl-2 mt-4">
         <h1 className="">{product.title}</h1>

@@ -3,8 +3,9 @@
 const KitchenSec = ({product}) => {
   return (
     <div className="hover:shadow hover:shadow-gray-400 rounded-xl">
-    <div className="w-97 md:w-69">
+    <div className="relative w-97 md:w-69">
       <img src={product.image} className="w-full h-full rounded-t-xl"/>
+      <i className="absolute bottom-2 right-2 text-gray-300 fa-solid fa-heart"></i>
     </div>
     <div className="p-2">
       <h1 className="text-xl font-semibold text-center">{product.title}</h1>

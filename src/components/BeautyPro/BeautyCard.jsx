@@ -4,8 +4,9 @@ const BeautyCard = ({product}) => {
   return (
       <div className="hover:shadow-lg hover:shadow-gray-300 h-130">
           <div className="p-4 flex flex-row md:flex-col w-120 md:w-60 ">
-      <div className="w-50 h-60">
+      <div className="relative w-50 h-60">
         <img src={product.image} className="w-full h-full object-contain"/>
+        <i className="absolute bottom-2 right-2 text-gray-300 fa-solid fa-heart"></i>
       </div>
       <div className="pl-2">
         <h1 className="">{product.title}</h1>
