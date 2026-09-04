@@ -1,34 +1,28 @@
-import React from 'react'
 import SaveCard from './SaveCard'
+import { useState } from 'react'
 
 const SaveGrid = () => {
+  const [savedItems, setSavedItems] = useState(() => {
+    const saved = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
+
+    console.log("SAVED ITEMS:", saved);
+
+    return saved;
+  });
+
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="mt-40 px-10">
+      <h1 className="text-2xl font-bold mb-6">
+        Saved Items: {savedItems.length}
+      </h1>
 
-      {/* Save Header */}
-      <div className="border-b border-gray-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 md:px-8 lg:px-10">
-
-          <h1 className="text-2xl font-bold text-gray-900 md:text-3xl">
-            Saved Items
-          </h1>
-
-          <p className="text-sm text-gray-500 md:text-base">
-            6 items
-          </p>
-
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        {savedItems.map((savedItem) => (
+          <SaveCard product={savedItem} key={savedItem.id} />
+        ))}
       </div>
-
-      {/* Main Save Section */}
-      <div className="mx-auto max-w-7xl px-4 py-8 md:px-8 lg:px-10">
-
-        {/* Saved Product Grid will come here */}
-<SaveCard />
-      </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default SaveGrid
