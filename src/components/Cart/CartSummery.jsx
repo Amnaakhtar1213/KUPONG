@@ -5,7 +5,7 @@ const CartSummery = ({cart}) => {
     return total + (product.price * product.quantity);
   }, 0);
 
-  const shipping = 5;
+  const shipping = 500;
   const total = subTotal + shipping;
 
   return (
@@ -23,7 +23,7 @@ const CartSummery = ({cart}) => {
         </p>
 
         <p className="font-medium text-gray-900">
-          ${subTotal.toFixed(2)}
+          {subTotal.toFixed(2)}won
         </p>
       </div>
 
@@ -34,7 +34,7 @@ const CartSummery = ({cart}) => {
         </p>
 
         <p className="font-medium text-gray-900">
-          $5.00
+          {shipping.toFixed(2)} won
         </p>
       </div>
 
@@ -48,7 +48,7 @@ const CartSummery = ({cart}) => {
         </p>
 
         <p className="text-xl font-bold text-[#ff6a00]">
-          ${total.toFixed(2)}
+          {total.toFixed(2)} won
         </p>
       </div>
 

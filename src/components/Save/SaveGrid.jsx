@@ -1,7 +1,7 @@
 import SaveCard from './SaveCard'
 import { useState } from 'react'
 
-const SaveGrid = () => {
+const SaveGrid = ({setCart}) => {
   const [savedItems, setSavedItems] = useState(() => {
     const saved = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
     return saved;
@@ -21,7 +21,7 @@ const SaveGrid = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
         {savedItems.map((savedItem) => (
-          <SaveCard product={savedItem} key={savedItem.id} removeFromSave={removeFromSave}/>
+          <SaveCard product={savedItem} key={savedItem.id} removeFromSave={removeFromSave} setCart={setCart}/>
         ))}
       </div>
     </div>

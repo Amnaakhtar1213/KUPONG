@@ -1,10 +1,10 @@
 import React from 'react'
 import SaveGrid from '../Save/SaveGrid'
 
-const Save = () => {
+const Save = ({setCart}) => {
   return (
     <div>
-      <SaveGrid />
+      <SaveGrid setCart={setCart}/>
     </div>
   )
 }

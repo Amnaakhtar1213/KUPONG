@@ -10,7 +10,7 @@ const CartCard = ({product, setCart, cart}) => {
 
   function decrease(productId){
     setCart(cart.map((product) => {
-      return product.id === productId ? {...product, quantity : product.quantity - 1} : product
+      return product.id === productId && product.quantity > 1 ? {...product, quantity : product.quantity - 1} : product
     }))
   }
 

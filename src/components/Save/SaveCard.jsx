@@ -1,6 +1,21 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
-const SaveCard = ({product, removeFromSave}) => {
+const SaveCard = ({product, removeFromSave, setCart}) => {
+
+  const handleAddToCart = () => {
+    const kupongCart = JSON.parse(localStorage.getItem("kupongCart")) || []
+
+    const isAlreadyCart = kupongCart.some((cartItem) => cartItem.id === product.id)
+
+    if(isAlreadyCart){
+      
+    } else {
+   kupongCart.push({...product, quantity: 1})
+     localStorage.setItem("kupongCart", JSON.stringify(kupongCart))
+      setCart(kupongCart)
+    }
+  }
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
       <div className="relative overflow-hidden rounded-md bg-gray-100">
@@ -24,6 +39,12 @@ const SaveCard = ({product, removeFromSave}) => {
         <p className="mt-2 text-lg font-bold text-[#ff6a00]">
           ₩{product.price.toLocaleString()}
         </p>
+<div className="mt-2 text-center">
+       <Link to="/cart">
+        <button onClick={handleAddToCart} className="bg-orange-600 hover:bg-orange-500 px-4 py-1 rounded-xl text-white text-center">Add to Cart</button>
+       </Link>
+       
+</div>
       </div>
     </div>
   )

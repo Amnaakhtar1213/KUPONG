@@ -3,10 +3,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({cart}) => {
   const [search, setSearch] = useState("");
   const [accountOpen, setAccountOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+
+  const cartCount = cart.reduce((total, product) => {
+  return total + product.quantity
+}, 0)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg shadow-gray-200">
@@ -151,8 +155,11 @@ const Header = () => {
             className="relative text-lg text-[#FF6A00]"
           >
             <i className="fa-solid fa-cart-shopping"></i>
+            <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-white text-xs">
+  {cartCount}
+</span>
           </Link>
-
+           
         </div>
 
       </nav>
