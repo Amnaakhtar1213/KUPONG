@@ -4,11 +4,14 @@ import { useState } from 'react'
 const SaveGrid = () => {
   const [savedItems, setSavedItems] = useState(() => {
     const saved = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
-
-    console.log("SAVED ITEMS:", saved);
-
     return saved;
   });
+
+   const removeFromSave = (productId) => {
+    const updatedItems = savedItems.filter((item) => item.id !== productId)
+    setSavedItems(updatedItems)
+    localStorage.setItem("kupongSavedProducts", JSON.stringify(updatedItems))
+    }
 
   return (
     <div className="mt-40 px-10">
@@ -18,7 +21,7 @@ const SaveGrid = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
         {savedItems.map((savedItem) => (
-          <SaveCard product={savedItem} key={savedItem.id} />
+          <SaveCard product={savedItem} key={savedItem.id} removeFromSave={removeFromSave}/>
         ))}
       </div>
     </div>

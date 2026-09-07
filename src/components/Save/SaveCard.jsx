@@ -1,14 +1,15 @@
 import React from 'react'
 
-const SaveCard = ({product}) => {
+const SaveCard = ({product, removeFromSave}) => {
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
-      <div className="h-48 overflow-hidden rounded-md bg-gray-100">
+      <div className="relative overflow-hidden rounded-md bg-gray-100">
         <img
           src={product.image}
           alt={product.title}
-          className="h-full w-full object-cover"
+          className="h-48 w-full object-contain"
         />
+        <i onClick={() => removeFromSave(product.id)} className="absolute bottom-2 right-2 fa-solid fa-heart text-red-700"></i>
       </div>
 
       <div className="mt-3">
