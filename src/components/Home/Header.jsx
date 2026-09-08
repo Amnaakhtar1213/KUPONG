@@ -11,6 +11,7 @@ const Header = ({cart}) => {
   const cartCount = cart.reduce((total, product) => {
   return total + product.quantity
 }, 0)
+console.log("cart:", cart);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg shadow-gray-200">

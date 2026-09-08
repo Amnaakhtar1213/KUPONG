@@ -17,6 +17,7 @@ import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
 import Footer from "./components/pages/Footer";
 import Profile from "./components/pages/Profile";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   
@@ -31,6 +32,7 @@ localStorage.setItem("kupongCart", JSON.stringify(cart))
 
   return (
    <BrowserRouter>
+   <ScrollToTop />
     <Header cart={cart}/>
       <CategoryNav />
      <Routes>

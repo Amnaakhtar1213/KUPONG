@@ -17,8 +17,7 @@ import WomenGrid from "../Home/WomenGrid"
 const Home = () => {
   return (
     <div className="bg-gray-100">
-      <Header />
-      <CategoryNav />
+     
       <Hero />
       <ProCardGrid />
       <CategoryCardGrid />

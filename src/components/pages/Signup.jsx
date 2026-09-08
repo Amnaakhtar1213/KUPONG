@@ -1,6 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+useNavigate
 
 const Signup = () => {
+  const navigate = useNavigate()
+
+  const [email, setEmail] = useState("")
+  const [password, setPassword] =  useState("")
+  const[confirmPassword, setConfirmPassword] = useState("")
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if(email === "" || password === "" || confirmPassword === ""){
+          alert("Fill all the details here")
+          return
+    }  if(password !== confirmPassword){
+      alert("password must be match with confirm password")
+      return
+    }
+
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const isAlreadyRegistered = users.some((user) => user.email === email )
+    if(isAlreadyRegistered){
+      alert("This email is already registered")
+      return
+    }
+    const newUser = {
+      email: email,
+      password: password
+    }
+  users.push(newUser)
+  localStorage.setItem("users", JSON.stringify(users))
+  navigate("/login")
+  }
   return (
     <div>
       
@@ -19,28 +52,36 @@ const Signup = () => {
       <div className="flex flex-col items-center justify-between gap-6 mt-8 border border-gray-300 bg-white rounded-2xl shadow-3xl p-8  shadow-orange-200 hover:shadow-xl hover:shadow-orange-200">
         <div className="flex flex-col gap-2">
            <label className="text-xl text-[#ff8200]">Email</label>
-          <input type="email" 
+          <input type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)} 
           placeholder="Write your email here"
           className="outline-none rounded-2xl border border-gray-300 cursor-pointer shadow shadow-[#ff8200] shadow-[placeholder:text-sm placeholder:text-gray-300 px-2 py-1 "/>   
         </div>
 
  <div className="flex flex-col gap-2">
            <label className="text-xl text-[#ff8200]">Password</label>
-          <input type="password" placeholder="Enter password"
+          <input type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)} 
+          placeholder="Enter password"
           className="outline-none rounded-2xl  border border-[#ff8200] shadow shadow-[#ff8200] cursor-pointer placeholder:text-sm placeholder:text-gray-300 px-2 py-1"/>
          
         </div>
 
          <div className="flex flex-col gap-2">
            <label className="text-xl text-[#ff8200]">Confirm Password</label>
-          <input type="password" placeholder="Enter your confirm password"
+          <input type="password" 
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)} 
+          placeholder="Enter your confirm password"
           className="outline-none rounded-2xl  border border-[#ff8200] shadow shadow-[#ff8200] cursor-pointer placeholder:text-sm placeholder:text-gray-300 px-2 py-1"/>
          
         </div>
 
         <div className="flex flex-col gap-2">
 
-          <button className="bg-white text-[#ff8200] border border-[#ff8200] font-bold px-4 py-1 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 hover:shadow-orange-300 text-center">Sign Up</button>
+          <button onClick={handleSubmit} className="bg-white text-[#ff8200] border border-[#ff8200] font-bold px-4 py-1 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 hover:shadow-orange-300 text-center">Sign Up</button>
         </div>
          <p className="text-gray-400">
               Already have an account? 

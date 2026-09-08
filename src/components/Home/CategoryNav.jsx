@@ -5,7 +5,7 @@ const CategoryNav = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className="fixed top-0  left-0 right-0 mt-36 w-full border-b-2 border-gray-300 bg-white px-4 py-2 md:mt-16 md:px-8 lg:mt-16 lg:px-18">
+    <div className="fixed top-0 z-50  left-0 right-0 mt-36 w-full border-b-2 border-gray-300 bg-white px-4 py-2 md:mt-16 md:px-8 lg:mt-15 lg:px-18">
       <div className="relative flex flex-row justify-between py-1 gap-10">
       <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="flex shrink-0 items-center gap-2 rounded-lg bg-[#ff6a00] px-3 py-1 text-white md:gap-4 md:px-4">
         <i className="fa-solid fa-bars"></i>
