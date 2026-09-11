@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const Header = ({cart}) => {
-  const [search, setSearch] = useState("");
+const Header = ({cart,search, setSearch}) => {
+  const navigate = useNavigate()
+ 
   const [accountOpen, setAccountOpen] = useState(false);
   const [menu, setMenu] = useState(false);
 
@@ -14,7 +16,7 @@ const Header = ({cart}) => {
 console.log("cart:", cart);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg shadow-gray-200">
+    <header className="fixed top-0 left-0 right-0 z-[9999] bg-white shadow-lg shadow-gray-200">
 
       {/* Main Navbar */}
       <nav className="flex flex-wrap items-center justify-between gap-3 px-4 py-3 md:flex-nowrap md:px-8 lg:px-14">
@@ -63,6 +65,11 @@ console.log("cart:", cart);
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => {
+              if(e.key ===  "Enter"){
+                navigate("/search")
+              }
+            }}
             className="w-full rounded-xl border border-[#FF6A00] px-10 py-2 text-sm outline-none placeholder:text-gray-300 focus:ring-2 focus:ring-orange-100"
             type="text"
             placeholder="Search products, brands, categories..."
@@ -106,7 +113,7 @@ console.log("cart:", cart);
 
             {/* Dropdown */}
             {accountOpen && (
-              <div className="absolute right-0 top-10 w-48 rounded-xl border border-gray-200 bg-white p-2 shadow-xl">
+              <div className="absolute -right-10 top-10  w-48 rounded-xl border border-gray-200 bg-white p-2 shadow-xl">
 
                 <Link
                   to="/profile"
