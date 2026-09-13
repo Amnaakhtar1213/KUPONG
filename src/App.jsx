@@ -33,7 +33,7 @@ import Signup from "./components/pages/Signup";
 import Footer from "./components/pages/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Profile from "./components/pages/profile";
-import SearchResult from "./components/SearchResult";
+import SearchResult from "./components/SearchPage/SearchResult";
 
 function App() {
    const [search, setSearch] = useState("");
