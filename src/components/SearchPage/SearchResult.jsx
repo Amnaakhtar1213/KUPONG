@@ -1,10 +1,10 @@
 import React from 'react'
 import SearchGrid from './MainContent/SearchGrid'
 
-const SearchResult = ({filteredProducts}) => {
+const SearchResult = ({search,setCart, filteredProducts}) => {
   return (
     <div className="mt-34">
-         <SearchGrid filteredProducts={filteredProducts}/>
+         <SearchGrid filteredProducts={filteredProducts} search={search} setCart={setCart}/>
     </div>
   )
 }

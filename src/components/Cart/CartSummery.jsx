@@ -1,12 +1,26 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
-const CartSummery = ({cart}) => {
+const CartSummery = ({cart, onPaymentSuccess}) => {
+
+  const navigate = useNavigate()
+
   const subTotal = cart.reduce((total, product) => {
     return total + (product.price * product.quantity);
   }, 0);
 
   const shipping = 500;
   const total = subTotal + shipping;
+
+  const handleCheckout = () => {
+    const logginUser = localStorage.getItem("logginUser")
+
+    if(!logginUser){
+      navigate("/login")
+    } else {
+      onPaymentSuccess()
+    }
+  }
 
   return (
     
@@ -38,6 +52,22 @@ const CartSummery = ({cart}) => {
         </p>
       </div>
 
+      <div>
+        <h1 className="text-lg font-bold text-gray-900 mt-4">Payement Method</h1>
+        <div className="flex gap-4 mt-5 border border-gray-300 px-2 py-2 rounded-full">
+           <input type="radio" name="paymentMethod"/>
+           <label className="text-gray-600 text-sm">Cash on Delivery</label>
+        </div>
+         <div className="flex gap-4 mt-3 border border-gray-300 px-2 py-2 rounded-full">
+           <input type="radio" name="paymentMethod"/>
+           <label className="text-gray-600 text-sm">Credit / Debit Card</label>
+        </div>
+         <div className="flex gap-4 mt-3 border border-gray-300 px-2 py-2 rounded-full">
+           <input type="radio" name="paymentMethod"/>
+           <label className="text-gray-600 text-sm">PayPal</label>
+        </div>
+      </div>
+
       {/* Divider */}
       <div className="my-5 border-t border-gray-200"></div>
 
@@ -53,7 +83,7 @@ const CartSummery = ({cart}) => {
       </div>
 
       {/* Checkout Button */}
-      <button className="mt-6 w-full rounded-md bg-[#ff6a00] py-3 font-semibold text-white transition hover:bg-[#e85f00]">
+      <button onClick={handleCheckout} className="mt-6 w-full rounded-md bg-[#ff6a00] py-3 font-semibold text-white transition hover:bg-[#e85f00]">
         Proceed to Checkout
       </button>
     </div>

@@ -1,5 +1,42 @@
 import React from 'react'
-const MainCard = ({product}) => {
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
+const MainCard = ({product, setCart}) => {
+const [isFavorite, setIsFavorite] = useState(() => { 
+  const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
+  return kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id);
+})
+
+const handleSaved = () => {
+  const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+  const isAlreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
+
+  if(isAlreadySaved){
+    const updatedProducts = kupongSavedProducts.filter((savedProduct) => savedProduct.id !== product.id)
+    localStorage.setItem("kupongSavedProducts", JSON.stringify(updatedProducts))
+    setIsFavorite(false)
+  } else {
+    kupongSavedProducts.push(product)
+    localStorage.setItem("kupongSavedProducts", JSON.stringify(kupongSavedProducts))
+    setIsFavorite(true)
+  }
+}
+
+const handleAddToCart = () => {
+    const kupongCart = JSON.parse(localStorage.getItem("kupongCart")) || []
+
+    const isAlreadyCart = kupongCart.some((cartItem) => cartItem.id === product.id)
+
+    if(isAlreadyCart){
+      
+    } else {
+   kupongCart.push({...product, quantity: 1})
+     localStorage.setItem("kupongCart", JSON.stringify(kupongCart))
+      setCart(kupongCart)
+    }
+  }
+
   return (
     <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm hover:shadow-md transition">
       
@@ -11,7 +48,7 @@ const MainCard = ({product}) => {
           className="w-full h-full object-contain"
         />
 
-        <i className="absolute bottom-3 right-3 fa-solid fa-heart text-gray-400 text-xl cursor-pointer hover:text-red-500"></i>
+        <i onClick={handleSaved} className={`absolute bottom-3 right-3 fa-solid fa-heart ${isFavorite ? "text-red-700" : "text-gray-300"}  text-xl cursor-pointer`}></i>
       </div>
 
       {/* Product Information */}
@@ -42,9 +79,9 @@ const MainCard = ({product}) => {
             Earn upto 560 points
           </span>
         </div>
-        <div className="flex items-center justify-center mt-6">
-          <button className="bg-orange-500 text-white px-4 py-1 rounded-xl hover:bg-orange-400">Add to Cart</button>
-        </div>
+        <Link to="/cart" className="flex items-center justify-center mt-6">
+          <button onClick={handleAddToCart} className="bg-orange-500 text-white px-4 py-1 rounded-xl hover:bg-orange-400">Add to Cart</button>
+        </Link>
       </div>
 
     </div>

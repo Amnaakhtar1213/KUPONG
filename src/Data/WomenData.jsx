@@ -1,7 +1,7 @@
 const womensCollectionData = [
   {
     id: 1,
-    title: "Elegant Casual Cotton Blouse for Women",
+    title: "Elegant Casual Cotton Blouse shirt for Women",
     category: "Women's Clothing",
     quantity:1,
     image:
@@ -22,7 +22,7 @@ const womensCollectionData = [
 
   {
     id: 2,
-    title: "High-Waisted Straight Leg Casual Jeans",
+    title: "Casual summer shirt for women",
     category: "Women's Clothing",
     quantity:1,
     image:
@@ -43,7 +43,7 @@ const womensCollectionData = [
 
   {
     id: 3,
-    title: "Floral Midi Dress with Elegant Relaxed Silhouette",
+    title: "Best womens shirt for summer",
     category: "Women's Clothing",
     quantity:1,
     image:
@@ -64,7 +64,7 @@ const womensCollectionData = [
 
   {
     id: 4,
-    title: "Minimal Leather Crossbody Shoulder Bag",
+    title: "black strap halfsleeve shirt",
     category: "Women's Accessories",
     quantity:1,
     image:
@@ -84,7 +84,7 @@ const womensCollectionData = [
 
   {
     id: 5,
-    title: "Classic Lightweight Women's Sneakers",
+    title: "Classic Plan white shirt ",
     category: "Women's Footwear",
     quantity:1,
     image:
@@ -105,7 +105,7 @@ const womensCollectionData = [
 
   {
     id: 6,
-    title: "Soft Knit Oversized Cardigan for Women",
+    title: "Soft Knit slim black shirt",
     category: "Women's Clothing",
     quantity:1,
     image:

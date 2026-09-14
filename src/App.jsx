@@ -35,6 +35,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Profile from "./components/pages/profile";
 import SearchResult from "./components/SearchPage/SearchResult";
 
+
 function App() {
    const [search, setSearch] = useState("");
 
@@ -85,7 +86,8 @@ localStorage.setItem("kupongCart", JSON.stringify(cart))
             <Route path="/login" element={<Login />}/>
             <Route path="/signup" element={<Signup />}/>
             <Route path="/profile" element={<Profile />}/>
-            <Route path="/search" element={<SearchResult filteredProducts={filteredProducts} />}/>
+            <Route path="/search" element={<SearchResult search={search} filteredProducts={filteredProducts} setCart={setCart}/>}/>
+             
              
       
      </Routes>

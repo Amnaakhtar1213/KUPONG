@@ -1,7 +1,7 @@
 const fashionProducts = [
   {
     id: 1,
-    title: "Women's Oversized Cotton T-Shirt",
+    title: "Women's Oversized Cotton Shirt",
     category: "Women Clothing",
      quantity:1,
     price: 1899,
@@ -33,7 +33,7 @@ const fashionProducts = [
 
   {
     id: 3,
-    title: "Women's High-Waist Wide Leg Jeans",
+    title: "Women's High-Waist Wide Leg pant",
     category: "Women Pants",
      quantity:1,
     price: 3299,
@@ -49,7 +49,7 @@ const fashionProducts = [
 
   {
     id: 4,
-    title: "Women's Classic Wool Coat",
+    title: "Women's Classic Wool sweater",
     category: "Women Coats",
      quantity:1,
     price: 6999,
@@ -65,7 +65,7 @@ const fashionProducts = [
 
   {
     id: 5,
-    title: "Women's Faux Fur Winter Coat",
+    title: "Women's wide pants",
     category: "Women Coats",
      quantity:1,
     price: 7999,
@@ -97,7 +97,7 @@ const fashionProducts = [
 
   {
     id: 7,
-    title: "Men's Regular Fit Cotton T-Shirt",
+    title: "Men's Regular Fit Cotton Shirt",
     category: "Men Clothing",
      quantity:1,
     price: 1799,
@@ -113,7 +113,7 @@ const fashionProducts = [
 
   {
     id: 8,
-    title: "Men's Casual Denim Jacket",
+    title: "Men's Casual Jacket",
     category: "Men Jackets",
      quantity:1,
     price: 4299,
@@ -129,7 +129,7 @@ const fashionProducts = [
 
   {
     id: 9,
-    title: "Men's Slim Fit Chino Pants",
+    title: "women's Slim Fit Chino Pants",
     category: "Men Pants",
      quantity:1,
     price: 2999,
@@ -145,7 +145,7 @@ const fashionProducts = [
 
   {
     id: 10,
-    title: "Men's Formal Dress Shirt",
+    title: "women's casual white Shirt",
     category: "Men Shirts",
      quantity:1,
     price: 2499,
@@ -161,7 +161,7 @@ const fashionProducts = [
 
   {
     id: 11,
-    title: "Men's Premium Wool Overcoat",
+    title: "Classic summer shirt",
     category: "Men Coats",
      quantity:1,
     price: 7499,
@@ -177,7 +177,7 @@ const fashionProducts = [
 
   {
     id: 12,
-    title: "Men's Faux Fur Collar Winter Jacket",
+    title: "Women best shirt for summer",
     category: "Men Jackets",
      quantity:1,
     price: 5999,
@@ -193,7 +193,7 @@ const fashionProducts = [
 
   {
     id: 13,
-    title: "Unisex Oversized Hoodie",
+    title: "Women skirt with tight pant",
     category: "Hoodies",
      quantity:1,
     price: 2999,
@@ -225,7 +225,7 @@ const fashionProducts = [
 
   {
     id: 15,
-    title: "Women's Casual Denim Skirt",
+    title: "Women's Casual summer pant",
     category: "Women Skirts",
      quantity:1,
     price: 2699,
@@ -273,7 +273,7 @@ const fashionProducts = [
 
   {
     id: 18,
-    title: "Women's Trench Coat",
+    title: "Women's summer pant",
     category: "Women Coats",
      quantity:1,
     price: 6499,
@@ -289,7 +289,7 @@ const fashionProducts = [
 
   {
     id: 19,
-    title: "Men's Knitted Crewneck Sweater",
+    title: "Womens regular white vest for summer",
     category: "Men Clothing",
      quantity:1,
     price: 3299,
@@ -305,7 +305,7 @@ const fashionProducts = [
 
   {
     id: 20,
-    title: "Premium Faux Fur Long Coat",
+    title: "Premium jeans shorts for summer",
     category: "Fur Coats",
      quantity:1,
     price: 8999,
@@ -320,7 +320,7 @@ const fashionProducts = [
   },
   {
     id: 21,
-    title: "Elegant Casual Cotton Blouse for Women",
+    title: "Elegant Casual Cotton shirt for Women",
     category: "Women's Clothing",
      quantity:1,
     image:
@@ -341,7 +341,7 @@ const fashionProducts = [
 
   {
     id: 22,
-    title: "High-Waisted Straight Leg Casual Jeans",
+    title: "over-sizes shirt for women",
     category: "Women's Clothing",
      quantity:1,
     image:
@@ -362,7 +362,7 @@ const fashionProducts = [
 
   {
     id: 23,
-    title: "Floral Midi Dress with Elegant Relaxed Silhouette",
+    title: "halfsleeves elegent womens brown shirt",
     category: "Women's Clothing",
      quantity:1,
     image:
@@ -382,7 +382,7 @@ const fashionProducts = [
   },
   {
     id: 24,
-    title: "Minimal Leather Crossbody Shoulder Bag",
+    title: "Black and white straps shirt",
     category: "Women's Accessories",
      quantity:1,
     image:
@@ -402,7 +402,7 @@ const fashionProducts = [
 
   {
     id: 25,
-    title: "Classic Lightweight Women's Sneakers",
+    title: "Classic white shirt",
     category: "Women's Footwear",
      quantity:1,
     image:
@@ -423,7 +423,7 @@ const fashionProducts = [
 
   {
     id: 26,
-    title: "Soft Knit Oversized Cardigan for Women",
+    title: "classic black half sleeve slim shirt",
     category: "Women's Clothing",
      quantity:1,
     image:
@@ -464,7 +464,7 @@ const fashionProducts = [
 
   {
     id: 28,
-    title: "Slim Fit Stretch Denim Jeans",
+    title: "Casual Mens white shirt",
     category: "Men's Clothing",
      quantity:1,
     image:
@@ -485,7 +485,7 @@ const fashionProducts = [
 
   {
     id: 29,
-    title: "Lightweight Hooded Casual Sweatshirt",
+    title: "Lightweight Casual Mens shirt",
     category: "Men's Clothing",
      quantity:1,
     image:
@@ -506,7 +506,7 @@ const fashionProducts = [
 
   {
     id: 30,
-    title: "Premium Minimalist Leather Casual Sneakers",
+    title: "Premium Minimalist shirt for mens",
     category: "Men's Footwear",
      quantity:1,
     image:
@@ -527,7 +527,7 @@ const fashionProducts = [
 
   {
     id: 31,
-    title: "Classic Water-Resistant Everyday Wrist Watch",
+    title: "Classic plan shirt for mens",
     category: "Men's Accessories",
      quantity:1,
     image:
@@ -607,7 +607,7 @@ const fashionProducts = [
   
     {
     id: 35,
-    title: "Premium Casual Black shrit",
+    title: "Premium Casual Black cotton shrit",
     category: "Men's Clothing",
      quantity:1,
     image:

@@ -1,13 +1,13 @@
 import MainCardGrid from "./MainCardGrid"
 
-const RightProduct = ({ filteredProducts }) => {
+const RightProduct = ({search,setCart, filteredProducts }) => {
   return (
     <div className="w-full">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-gray-200 pb-4 px-6">
         
         <div>
           <p className="text-gray-700 font-medium">
-            Search results for "cloth"
+            Search results for "{search}"
           </p>
           <p className="text-sm text-gray-500 mt-1">
             {filteredProducts.length} products found.
@@ -29,7 +29,7 @@ const RightProduct = ({ filteredProducts }) => {
         </div>
 
       </div>
-      <MainCardGrid filteredProducts={filteredProducts}/>
+      <MainCardGrid filteredProducts={filteredProducts} setCart={setCart}/>
     </div>
   )
 }
