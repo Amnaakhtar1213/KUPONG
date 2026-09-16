@@ -34,6 +34,7 @@ import Footer from "./components/pages/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Profile from "./components/pages/profile";
 import SearchResult from "./components/SearchPage/SearchResult";
+import Coats from "./components/pages/Coats";
 
 
 function App() {
@@ -87,6 +88,7 @@ localStorage.setItem("kupongCart", JSON.stringify(cart))
             <Route path="/signup" element={<Signup />}/>
             <Route path="/profile" element={<Profile />}/>
             <Route path="/search" element={<SearchResult search={search} filteredProducts={filteredProducts} setCart={setCart}/>}/>
+             <Route path="/coat" element={<Coats />}/>
              
              
       

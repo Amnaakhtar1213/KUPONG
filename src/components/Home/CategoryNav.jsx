@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 
 const CategoryNav = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false)
+const [moreMenu, setMoreMenu] = useState(false)
 
   return (
     <div className="fixed top-0 z-50  left-0 right-0 mt-36 w-full border-b-2 border-gray-300 bg-white px-4 py-2 md:mt-16 md:px-8 lg:mt-15 lg:px-18">
@@ -40,7 +41,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
       </div>
       </Link>
 
-<Link to="/food">
+<Link to="/">
 <div className="hover:text-[#ff8200] px-4 py-1 ">
         Shoes/Boots/sneakers
       </div>
@@ -75,7 +76,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
       </Link>
      
 
-<Link>
+<Link to="/">
  <div className="hover:text-[#ff8200] px-4 py-1">
         Hanbok  
       </div>
@@ -89,7 +90,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
       </Link>
       
 
-<Link>
+<Link to="/">
 <div className="px-4 py-1 hover:text-[#ff8200]">
         Toys
       </div>
@@ -103,14 +104,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 </Link>
       
-<Link>
+<Link to="/">
  <div className="px-4 py-1 hover:text-[#ff8200]">
         Music/Books
       </div>
       </Link>
       
 
-<Link>
+<Link to="/">
 <div className="px-4 py-1 hover:text-[#ff8200]">
         Home Interior
       </div>
@@ -124,7 +125,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 </Link>
      
-<Link>
+<Link to="/">
 <div className="px-4 py-1 hover:text-[#ff8200]">
         Stationary
       </div>
@@ -149,7 +150,66 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
         <Link to="/fashion" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Fashion</Link>
         <Link to="/beauty" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Beauty</Link>
         <Link to="/food" className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">Food</Link>
-        <Link className="hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">More</Link>
+        <Link onClick={() => setMoreMenu(!moreMenu)} className="relative hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">More</Link>
+        {moreMenu && (
+          <div className="absolute -right-18 top-full z-50 mt-2 w-40 rounded-lg bg-white shadow-lg text-gray-400">
+            <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                All
+            </div>
+        </Link>
+          <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                womens cloths
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Mens cloths
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Tablets
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Phones / computers
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Hoodies
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Skin Care
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Sweaters
+            </div>
+        </Link>
+        <Link to="/coat">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Coats
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+               Fur shoes / Boots
+            </div>
+        </Link>
+        <Link to="/">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                kids cloth
+            </div>
+        </Link>
+        </div>
+        )}
       </div>
       </div>
     </div>

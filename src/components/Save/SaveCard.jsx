@@ -22,7 +22,7 @@ const SaveCard = ({product, removeFromSave, setCart}) => {
         <img
           src={product.image}
           alt={product.title}
-          className="h-48 w-full object-contain"
+          className="h-48 w-full object-cover"
         />
         <i onClick={() => removeFromSave(product.id)} className="absolute bottom-2 right-2 fa-solid fa-heart text-red-700"></i>
       </div>
