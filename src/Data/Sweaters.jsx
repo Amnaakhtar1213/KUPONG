@@ -142,15 +142,6 @@ const SweaterData = [
     description:
       "Warm cream wool sweater featuring traditional Aran cable, honeycomb and fisherman knit patterns."
   },
-
-
-  
-   
-
-
-
-
-
  
   // NEW
   {
@@ -166,9 +157,6 @@ const SweaterData = [
     delivery: "Free delivery tomorrow",
     description: "Soft oatmeal pure-wool chunky sweater with a relaxed winter fit."
   },
-
- 
-
 
   {
     id: 310,
@@ -211,9 +199,6 @@ const SweaterData = [
     delivery: "Free delivery tomorrow",
     description: "Oversized chunky wool cardigan with large cozy sleeves."
   },
-
-
-
   {
     id: 313,
     title: "Grey Chunky Wool Turtleneck",

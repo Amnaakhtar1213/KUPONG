@@ -198,7 +198,7 @@ const [moreMenu, setMoreMenu] = useState(false)
                 Coats
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/shoes">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                Fur shoes / Boots
             </div>

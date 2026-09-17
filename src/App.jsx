@@ -36,6 +36,7 @@ import Profile from "./components/pages/profile";
 import SearchResult from "./components/SearchPage/SearchResult";
 import Coats from "./components/pages/Coats";
 import Sweater from "./components/pages/Sweater";
+import ShoesPage from "./components/pages/ShoesPage";
 
 
 function App() {
@@ -91,6 +92,7 @@ localStorage.setItem("kupongCart", JSON.stringify(cart))
             <Route path="/search" element={<SearchResult search={search} filteredProducts={filteredProducts} setCart={setCart}/>}/>
              <Route path="/coat" element={<Coats />}/>
               <Route path="/sweater" element={<Sweater />}/>
+               <Route path="/shoes" element={<ShoesPage />}/>
              
              
       
