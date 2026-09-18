@@ -9,15 +9,15 @@ import foodData from "./Data/Food";
 import kidsClothingData from "./Data/KidsCloth";
 import homeAppliancesData from "./Data/KitchenData";
 import mensCollectionData from "./Data/MenData";
-import  newArrivalData from "./Data/NewArrival";
-import  products from "./Data/ProductsData";
+import newArrivalData from "./Data/NewArrival";
+import products from "./Data/ProductsData";
 import techProductsData from "./Data/Tech";
 import fruitData from "./Data/Todays";
 import womensCollectionData from "./Data/WomenData";
 import electronicsData from "./Data/ElectronicsData";
 
-import Electronics from "./components/pages/Electronics"
-import Home from "./components/pages/Home"
+import Electronics from "./components/pages/Electronics";
+import Home from "./components/pages/Home";
 import Header from "./components/Home/Header";
 import CategoryNav from "./components/Home/CategoryNav";
 import Fashion from "./components/pages/Fashion";
@@ -38,70 +38,89 @@ import Coats from "./components/pages/Coats";
 import Sweater from "./components/pages/Sweater";
 import ShoesPage from "./components/pages/ShoesPage";
 import KidsPage from "./components/pages/KidsPage";
-
+import Skincare from "./components/pages/Skincare";
+import Hoodies from "./components/pages/Hoodies";
+import TechPage from "./components/pages/TechPage";
+import MensShirt from "./components/pages/MensShirt";
+import WomenPage from "./components/pages/WomenPage";
 
 function App() {
-   const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("");
 
-   const allProducts = [
-  ...beautyProductsData,
-  ...beautyProducts,
-  ...bestSellerData,
-  ...fashionProducts,
-  ...foodData,
-  ...kidsClothingData,
-  ...homeAppliancesData,
-  ...mensCollectionData,
-  ...newArrivalData,
-  ...products,
-  ...techProductsData,
-  ...fruitData,
-  ...womensCollectionData,
-  ...electronicsData,
-];
-const filteredProducts = allProducts.filter((allProduct) => allProduct.name?.toLowerCase().includes(search.toLowerCase()) || allProduct.title?.toLowerCase().includes(search.toLowerCase()))
-console.log(filteredProducts)
-  
-const [cart, setCart] = useState(() => {
-  const savedCart = JSON.parse(localStorage.getItem("kupongCart")) || [];
-  return savedCart;
-});
+  const allProducts = [
+    ...beautyProductsData,
+    ...beautyProducts,
+    ...bestSellerData,
+    ...fashionProducts,
+    ...foodData,
+    ...kidsClothingData,
+    ...homeAppliancesData,
+    ...mensCollectionData,
+    ...newArrivalData,
+    ...products,
+    ...techProductsData,
+    ...fruitData,
+    ...womensCollectionData,
+    ...electronicsData,
+  ];
+  const filteredProducts = allProducts.filter(
+    (allProduct) =>
+      allProduct.name?.toLowerCase().includes(search.toLowerCase()) ||
+      allProduct.title?.toLowerCase().includes(search.toLowerCase()),
+  );
+  console.log(filteredProducts);
 
-useEffect(() => {
-localStorage.setItem("kupongCart", JSON.stringify(cart))
-}, [cart])
+  const [cart, setCart] = useState(() => {
+    const savedCart = JSON.parse(localStorage.getItem("kupongCart")) || [];
+    return savedCart;
+  });
+
+  useEffect(() => {
+    localStorage.setItem("kupongCart", JSON.stringify(cart));
+  }, [cart]);
 
   return (
-   <BrowserRouter>
-   <ScrollToTop />
-    <Header cart={cart} setSearch={setSearch} search={search}/>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Header cart={cart} setSearch={setSearch} search={search} />
       <CategoryNav />
-     <Routes>
-     <Route path="/" element={<Home />}/>
-      <Route path="/electronics" element={<Electronics />}/>
-       <Route path="/fashion" element={<Fashion />}/>
-       <Route path="/beauty" element={<Beauty />}/>
-        <Route path="/food" element={<Food />}/>
-        <Route path="/arrivals" element={<NewArrival />}/>
-         <Route path="/best" element={<Best />}/>
-          <Route path="/todays" element={<TodayDeals />}/>
-           <Route path="/cart" element={<Cart cart={cart} setCart={setCart}/>}/>
-            <Route path="/save" element={<Save setCart={setCart}/>}/>
-            <Route path="/login" element={<Login />}/>
-            <Route path="/signup" element={<Signup />}/>
-            <Route path="/profile" element={<Profile />}/>
-            <Route path="/search" element={<SearchResult search={search} filteredProducts={filteredProducts} setCart={setCart}/>}/>
-             <Route path="/coat" element={<Coats />}/>
-              <Route path="/sweater" element={<Sweater />}/>
-               <Route path="/shoes" element={<ShoesPage />}/>
-                <Route path="/kids" element={<KidsPage />}/>
-             
-             
-      
-     </Routes>
-     <Footer />
-   </BrowserRouter>
-  )
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/electronics" element={<Electronics />} />
+        <Route path="/fashion" element={<Fashion />} />
+        <Route path="/beauty" element={<Beauty />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/arrivals" element={<NewArrival />} />
+        <Route path="/best" element={<Best />} />
+        <Route path="/todays" element={<TodayDeals />} />
+        <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
+        <Route path="/save" element={<Save setCart={setCart} />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route
+          path="/search"
+          element={
+            <SearchResult
+              search={search}
+              filteredProducts={filteredProducts}
+              setCart={setCart}
+            />
+          }
+        />
+        <Route path="/coat" element={<Coats />} />
+        <Route path="/sweater" element={<Sweater />} />
+        <Route path="/shoes" element={<ShoesPage />} />
+        <Route path="/kids" element={<KidsPage />} />
+        <Route path="/care" element={<Skincare />} />
+         <Route path="/hoodies" element={<Hoodies />} />
+          <Route path="/tech" element={<TechPage />} />
+          <Route path="/mens" element={<MensShirt />} />
+          <Route path="/womens" element={<WomenPage />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
