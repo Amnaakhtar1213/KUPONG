@@ -31,12 +31,13 @@ console.log("cart:", cart);
 
           {/* Logo */}
           <Link to="/" className="flex flex-row text-3xl font-bold">
-            <h1 className="text-orange-950">k</h1>
-            <h1 className="text-orange-950">u</h1>
+          <h1 className="text-orange-950">k</h1>
+             <h1 className="text-orange-950">u</h1>
             <h1 className="text-green-600">p</h1>
             <h1 className="text-blue-500">O</h1>
             <h1 className="text-orange-500">n</h1>
             <h1 className="text-red-500">g</h1>
+          
           </Link>
 
           {/* Location - Desktop */}
@@ -86,7 +87,7 @@ console.log("cart:", cart);
             to="/save"
             className="text-lg text-[#1F1F1F] transition hover:text-[#FF6A00]"
           >
-            <i className="fa-solid fa-heart"></i>
+           <i className="fa-solid fa-heart fa-bounce"></i>
           </Link>
 
 

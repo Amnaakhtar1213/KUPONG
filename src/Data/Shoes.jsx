@@ -183,7 +183,7 @@ const ShoesData = [
 
   {
     id: 8,
-    name: "Kids' Snow Winter Boots",
+    name: "Women trending white sneaker",
     title: "Warm waterproof boots for snowy and cold weather",
     category: "Kids' Winter Shoes",
     price: 41900,
@@ -209,7 +209,7 @@ const ShoesData = [
 
   {
     id: 9,
-    name: "Women's Cozy Fur Slip-On Shoes",
+    name: "Women's Cozy Fur high-ankle Shoes",
     title: "Soft indoor and outdoor winter slip-on shoes",
     category: "Women's Winter Shoes",
     price: 28900,
@@ -235,7 +235,7 @@ const ShoesData = [
 
   {
     id: 10,
-    name: "Men's Warm Suede Boots",
+    name: "Women's Warm white chelsa Boots",
     title: "Fleece-lined suede boots for cold winter weather",
     category: "Men's Winter Shoes",
     price: 62900,
@@ -261,8 +261,8 @@ const ShoesData = [
 
   {
     id: 11,
-    name: "Girls' Long Winter Boots",
-    title: "Cute knee-high boots with soft warm lining",
+    name: "Girls Rainbow colour warm sneakers",
+    title: "Cute boots with soft warm lining",
     category: "Girls' Winter Shoes",
     price: 38900,
     oldPrice: 45900,
@@ -312,7 +312,7 @@ const ShoesData = [
   },
    {
     id: 13,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Boys' Leather Boots",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -337,7 +337,7 @@ const ShoesData = [
   },
    {
     id: 14,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Mens' Leather tranding  Boots",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -362,7 +362,7 @@ const ShoesData = [
   },
    {
     id: 15,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Kids' soft and warm Boots",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -387,7 +387,7 @@ const ShoesData = [
   },
    {
     id: 16,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Girls long zip Boots",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -412,7 +412,7 @@ const ShoesData = [
   },
    {
     id: 17,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Girls high ankle black shoes",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -437,7 +437,7 @@ const ShoesData = [
   },
    {
     id: 18,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Women heels leather Boots",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,
@@ -487,7 +487,7 @@ const ShoesData = [
   },
    {
     id: 20,
-    name: "Boys' Leather Chelsea Boots",
+    name: "Boys' jeans shoes",
     title: "Smart leather Chelsea boots for boys",
     category: "Boys' Winter Shoes",
     price: 36900,

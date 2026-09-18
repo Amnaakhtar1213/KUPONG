@@ -158,32 +158,32 @@ const [moreMenu, setMoreMenu] = useState(false)
                 All
             </div>
         </Link>
-          <Link to="/">
+          <Link to="/womens">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 womens cloths
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/mens">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Mens cloths
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/tech">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Tablets
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/tech">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Phones / computers
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/hoodies">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Hoodies
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/care">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Skin Care
             </div>
@@ -203,7 +203,7 @@ const [moreMenu, setMoreMenu] = useState(false)
                Fur shoes / Boots
             </div>
         </Link>
-        <Link to="/">
+        <Link to="/kids">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 kids cloth
             </div>

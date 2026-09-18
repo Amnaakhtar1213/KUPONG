@@ -1,6 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const ShoesCard = ({product}) => {
+
+  const [saved, setSaved] = useState(false)
+
+  useEffect(() => {
+    const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+
+    const alreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
+    setSaved(alreadySaved)
+  }, [product.id])
+
+  const handleSaved = () => {
+    const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+
+    const alreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
+
+    if(alreadySaved){
+      const updatedSavedProducts = kupongSavedProducts.filter((savedProduct) => savedProduct.id !== product.id)
+      localStorage.setItem("kupongSavedProducts", JSON.stringify(updatedSavedProducts))
+      setSaved(false)
+    } else {
+      kupongSavedProducts.push(product)
+      localStorage.setItem("kupongSavedProducts", JSON.stringify(kupongSavedProducts))
+    setSaved(true)
+    }
+  }
   return (
     <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition duration-300">
 
@@ -28,8 +53,8 @@ const ShoesCard = ({product}) => {
         )}
 
         {/* Save Button */}
-        <button className="absolute bottom-3 right-3 w-9 h-9 bg-white rounded-full shadow flex items-center justify-center text-lg hover:text-red-600">
-          ♡
+        <button onClick={handleSaved} >
+          <i className={`absolute bottom-0 right-2 fa-solid fa-heart fa-beat ${saved ? "text-red-700" : "text-gray-300"}`}></i>
         </button>
 
       </div>
