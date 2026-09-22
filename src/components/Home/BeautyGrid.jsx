@@ -1,6 +1,7 @@
 import React from 'react'
 import Beauty from './Beauty'
 import beautyProductsData from '../../Data/Beauty'
+import { Link } from 'react-router-dom'
 
 const BeautyGrid = () => {
   return (
@@ -11,11 +12,11 @@ const BeautyGrid = () => {
         <h1 className="text-3xl font-bold text-blue-600 mt-4 text-center">BEAUTY</h1>
       </div>
       <div className="hidden md:flex flex-col gap-1 items-center mt-90">
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-sm hover:bg-indigo-400 hover:text-white w-30 text-center"># Serum</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Toner</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># cleanser</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center  text-sm hover:bg-indigo-400 hover:text-white w-30"># Moistrioser</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Sun screen</span>
+        <Link to="/beauty" className="border border-gray-400 text-indigo-400 px-3 py-1 text-sm hover:bg-indigo-400 hover:text-white w-30 text-center"># Serum</Link>
+        <Link to="/beauty"  className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Toner</Link>
+        <Link to="/beauty"  className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># cleanser</Link>
+        <Link to="/beauty"  className="border border-gray-400 text-indigo-400 px-3 py-1 text-center  text-sm hover:bg-indigo-400 hover:text-white w-30"># Moistrioser</Link>
+        <Link to="/beauty"  className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Sun screen</Link>
       </div>
       </div>
 

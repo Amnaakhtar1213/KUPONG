@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
 const SaveCard = ({product, removeFromSave, setCart}) => {
+  const navigate = useNavigate()
 
   const handleAddToCart = () => {
     const kupongCart = JSON.parse(localStorage.getItem("kupongCart")) || []
@@ -17,14 +19,20 @@ const SaveCard = ({product, removeFromSave, setCart}) => {
     }
   }
   return (
-    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
       <div className="relative overflow-hidden rounded-md bg-gray-100">
         <img
           src={product.image}
           alt={product.title}
           className="h-48 w-full object-cover"
         />
-        <i onClick={() => removeFromSave(product.id)} className="absolute bottom-2 right-2 fa-solid fa-heart text-red-700"></i>
+        <i
+  onClick={(e) => {
+    e.stopPropagation()
+    removeFromSave(product.id)
+  }}
+  className="absolute bottom-2 right-2 fa-solid fa-heart text-red-700"
+></i>
       </div>
 
       <div className="mt-3">
@@ -41,7 +49,15 @@ const SaveCard = ({product, removeFromSave, setCart}) => {
         </p>
 <div className="mt-2 text-center">
        <Link to="/cart">
-        <button onClick={handleAddToCart} className="bg-orange-600 hover:bg-orange-500 px-4 py-1 rounded-xl text-white text-center">Add to Cart</button>
+       <button
+  onClick={(e) => {
+    e.stopPropagation()
+    handleAddToCart()
+  }}
+  className="bg-orange-600 hover:bg-orange-500 px-4 py-1 rounded-xl text-white text-center"
+>
+  Add to Cart
+</button>
        </Link>
        
 </div>

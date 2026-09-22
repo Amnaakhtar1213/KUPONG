@@ -10,7 +10,7 @@ const NewGrid = () => {
 
         <div className="mt-50 md:mt-40 px-10 md:px-40">
        <div className=" flex flex-col md:flex-row items-center">
-        <h1 className="text-black text-2xl font-bold">BEST NEW ARRIVALS DEALS</h1>
+        <h1 className="text-red-600 text-2xl font-bold">BEST NEW ARRIVALS DEALS</h1>
         <p className="text-gray-500 ml-4 mt-2 text-lg">Up to 30% off on every product you buy today!</p>
       </div>
 

@@ -1,6 +1,6 @@
 const kidsClothingData = [
   {
-    id: 1,
+    id: 31,
     title: "Soft Cotton Cartoon Print T-Shirt for Kids",
     category: "Kids Clothing",
      quantity:1,
@@ -21,7 +21,7 @@ const kidsClothingData = [
   },
 
   {
-    id: 2,
+    id: 32,
     title: "Comfortable Casual Two-Piece Outfit for Kids",
     category: "Kids Clothing",
      quantity:1,
@@ -42,7 +42,7 @@ const kidsClothingData = [
   },
 
   {
-    id: 3,
+    id: 33,
     title: "Classic Denim Jacket with Button Closure for Kids",
     category: "Kids Clothing",
      quantity:1,
@@ -63,7 +63,7 @@ const kidsClothingData = [
   },
 
   {
-    id: 4,
+    id: 34,
     title: "Floral Summer Dress with Soft Lightweight Fabric",
     category: "Kids Clothing",
      quantity:1,
@@ -84,7 +84,7 @@ const kidsClothingData = [
   },
 
   {
-    id: 5,
+    id: 35,
     title: "Warm Fleece Pullover Hoodie for Kids",
     category: "Kids Clothing",
      quantity:1,

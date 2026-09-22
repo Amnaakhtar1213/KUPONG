@@ -1,6 +1,6 @@
 const categories = [
   {
-    id: 1,
+    id: 81,
     name: "Electronics",
     image: "https://images.unsplash.com/photo-1498049794561-7780e7231661",
     items: 1240,
@@ -9,7 +9,7 @@ const categories = [
     popular: ["Laptops", "Smartphones", "Headphones", "Gaming"],
   },
   {
-    id: 2,
+    id: 82,
     name: "Fashion",
     image: "https://images.unsplash.com/photo-1445205170230-053b83016050",
     items: 980,
@@ -18,7 +18,7 @@ const categories = [
     popular: ["Men's Wear", "Women's Wear", "Shoes", "Accessories"],
   },
   {
-    id: 3,
+    id: 83,
     name: "Beauty",
     image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
     items: 760,
@@ -27,7 +27,7 @@ const categories = [
     popular: ["Skincare", "Makeup", "Hair Care", "Fragrance"],
   },
   {
-    id: 4,
+    id: 84,
     name: "Home & Living",
     image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
     items: 1120,
@@ -36,7 +36,7 @@ const categories = [
     popular: ["Furniture", "Kitchen", "Decor", "Storage"],
   },
   {
-    id: 5,
+    id: 85,
     name: "Grocery",
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e",
     items: 890,
@@ -45,7 +45,7 @@ const categories = [
     popular: ["Fruits", "Snacks", "Beverages", "Staples"],
   },
   {
-  id: 6,
+  id: 86,
   name: "Sports & Fitness",
   image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
   items: 680,
@@ -55,7 +55,7 @@ const categories = [
 },
 
 {
-  id: 7,
+  id: 87,
   name: "Toys & Kids",
   image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1",
   items: 540,
@@ -65,7 +65,7 @@ const categories = [
 },
 
 {
-  id: 8,
+  id: 88,
   name: "Books & Stationery",
   image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
   items: 420,

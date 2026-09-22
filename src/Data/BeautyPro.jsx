@@ -1,6 +1,6 @@
 const beautyProducts = [
   {
-    id: 1,
+    id: 26,
     title: "Anua Heartleaf 77% Soothing Toner",
     brand: "Anua",
     category: "Toner",
@@ -18,7 +18,7 @@ const beautyProducts = [
  
 
   {
-    id: 3,
+    id: 27,
     title: "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam",
     brand: "Anua",
     category: "Double Cleanser",
@@ -34,7 +34,7 @@ const beautyProducts = [
   },
 
   {
-    id: 4,
+    id: 28,
     title: "Anua Niacinamide 10% + TXA 4% Serum",
     brand: "Anua",
     category: "Serum",
@@ -50,7 +50,7 @@ const beautyProducts = [
   },
 
   {
-    id: 5,
+    id: 29,
     title: "Anua Heartleaf 70% Daily Lotion",
     brand: "Anua",
     category: "Moisturizer",
@@ -66,7 +66,7 @@ const beautyProducts = [
   },
 
   {
-    id: 6,
+    id: 30,
     title: "Anua Heartleaf Silky Moisture Sun Cream SPF50+",
     brand: "Anua",
     category: "Sunscreen",
@@ -81,7 +81,7 @@ const beautyProducts = [
     skinType: "All Skin Types"
   },
    {
-    id: 2,
+    id: 31,
     title: "Anua Heartleaf 77% Toner Pads",
     brand: "Anua",
     category: "Toner Pads",
@@ -98,7 +98,7 @@ const beautyProducts = [
 
  
   {
-    id: 9,
+    id: 32,
     title: "SKIN1004 Madagascar Centella Ampoule",
     brand: "SKIN1004",
     category: "Serum",
@@ -114,7 +114,7 @@ const beautyProducts = [
   },
 
   {
-    id: 10,
+    id: 33,
     title: "SKIN1004 Madagascar Centella Light Cleansing Oil",
     brand: "SKIN1004",
     category: "Double Cleanser",
@@ -130,7 +130,7 @@ const beautyProducts = [
   },
 
   {
-    id: 11,
+    id: 34,
     title: "Beauty of Joseon Ginseng Essence Water",
     brand: "Beauty of Joseon",
     category: "Toner",
@@ -146,7 +146,7 @@ const beautyProducts = [
   },
 
   {
-    id: 12,
+    id: 35,
     title: "Beauty of Joseon Green Plum Refreshing Cleanser",
     brand: "Beauty of Joseon",
     category: "Double Cleanser",
@@ -162,7 +162,7 @@ const beautyProducts = [
   },
 
   {
-    id: 13,
+    id: 36,
     title: "Beauty of Joseon Glow Serum Propolis + Niacinamide",
     brand: "Beauty of Joseon",
     category: "Serum",
@@ -178,7 +178,7 @@ const beautyProducts = [
   },
 
   {
-    id: 14,
+    id: 37,
     title: "Beauty of Joseon Relief Sun SPF50+",
     brand: "Beauty of Joseon",
     category: "Sunscreen",
@@ -194,7 +194,7 @@ const beautyProducts = [
   },
 
   {
-    id: 15,
+    id: 38,
     title: "Beauty of Joseon Dynasty Cream",
     brand: "Beauty of Joseon",
     category: "Moisturizer",
@@ -210,7 +210,7 @@ const beautyProducts = [
   },
 
   {
-    id: 16,
+    id: 39,
     title: "MIXSOON Bean Essence",
     brand: "MIXSOON",
     category: "Serum",
@@ -226,7 +226,7 @@ const beautyProducts = [
   },
 
   {
-    id: 17,
+    id: 40,
     title: "MIXSOON Centella Asiatica Toner",
     brand: "MIXSOON",
     category: "Toner",
@@ -242,7 +242,7 @@ const beautyProducts = [
   },
 
   {
-    id: 18,
+    id: 41,
     title: "MIXSOON Centella Cleansing Foam",
     brand: "MIXSOON",
     category: "Double Cleanser",
@@ -258,7 +258,7 @@ const beautyProducts = [
   },
 
   {
-    id: 19,
+    id: 42,
     title: "MIXSOON Bean Cream",
     brand: "MIXSOON",
     category: "Moisturizer",
@@ -274,7 +274,7 @@ const beautyProducts = [
   },
 
   {
-    id: 20,
+    id: 43,
     title: "MIXSOON Centella Hand Cream",
     brand: "MIXSOON",
     category: "Hand Cream",
@@ -289,7 +289,7 @@ const beautyProducts = [
     skinType: "All Skin Types"
   },
    {
-    id: 7,
+    id: 44,
     title: "SKIN1004 Madagascar Centella Toning Toner",
     brand: "SKIN1004",
     category: "Toner",
@@ -305,7 +305,7 @@ const beautyProducts = [
   },
 
   {
-    id: 8,
+    id: 45,
     title: "SKIN1004 Madagascar Centella Probio-Cica Enrich Cream",
     brand: "SKIN1004",
     category: "Moisturizer",

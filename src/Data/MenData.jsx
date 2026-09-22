@@ -1,6 +1,6 @@
 const mensCollectionData = [
   {
-    id: 1,
+    id: 65,
     title: "Classic Regular Fit Cotton Casual Shirt",
     category: "Men's Clothing",
      quantity:1,
@@ -21,7 +21,7 @@ const mensCollectionData = [
   },
 
   {
-    id: 2,
+    id:66,
     title: "Slim Fit Stretch Denim Jeans",
     category: "Men's Clothing",
      quantity:1,
@@ -42,7 +42,7 @@ const mensCollectionData = [
   },
 
   {
-    id: 3,
+    id: 67,
     title: "Lightweight Hooded Casual Sweatshirt",
     category: "Men's Clothing",
      quantity:1,
@@ -63,7 +63,7 @@ const mensCollectionData = [
   },
 
   {
-    id: 4,
+    id: 68,
     title: "Premium Minimalist Leather Casual Sneakers",
     category: "Men's Footwear",
      quantity:1,
@@ -84,7 +84,7 @@ const mensCollectionData = [
   },
 
   {
-    id: 5,
+    id: 69,
     title: "Classic Water-Resistant Everyday Wrist Watch",
     category: "Men's Accessories",
      quantity:1,
@@ -104,7 +104,7 @@ const mensCollectionData = [
   },
 
   {
-    id: 6,
+    id: 70,
     title: "Premium Casual Bomber Jacket with Zip Closure",
     category: "Men's Clothing",
      quantity:1,

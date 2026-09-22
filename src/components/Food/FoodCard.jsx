@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 
 const FoodCard = ({product}) => {
+  const navigate = useNavigate()
   // here we chech that if there is any already favorite product in localStorage or empty array .
   const [isFavorite, setIsFavorite] = useState(() => {
   const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
@@ -30,7 +32,7 @@ const FoodCard = ({product}) => {
   }
   return (
 <div>
-  <div className="w-full">
+  <div onClick={() => navigate(`/products/${product.id}`)} className="w-full">
     <div className="relative w-full">
       <img
         src={product.image}

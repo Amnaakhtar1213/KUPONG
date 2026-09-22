@@ -1,7 +1,7 @@
 
 const bestSellerData = [
   {
-    id: 1,
+    id: 46,
     title: "Spicy Korean Chicken Ramen",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/iiwmfuqm/6d0b78548ad243afb703152eefec459b.jpg",
     delivery: "Delivery Tomorrow",
@@ -10,7 +10,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 2,
+    id: 62,
     title: "Chocolate Cream Biscuits",
     image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -19,7 +19,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 3,
+    id: 47,
     title: "Premium Milk Chocolate Bar",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/eebpn9od/ec3ee9cc5e46441ca51d563df2b1bc83.jpg",
     delivery: "Delivery Tomorrow",
@@ -28,7 +28,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 4,
+    id: 48,
     title: "Classic Instant Noodles 5 Pack",
     image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -38,7 +38,7 @@ const bestSellerData = [
   },
 
   {
-    id: 5,
+    id: 49,
     title: "Women's Oversized Casual T-Shirt",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/4qsemwo0/57dd29067dee474e80afde43ce4f040b.jpg",
     delivery: "Delivery Tomorrow",
@@ -47,7 +47,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 6,
+    id: 50,
     title: "Women's Elegant Casual Blouse",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/z3jdacrr/bd66e732fa0a466aa25bc9057909aa55.jpg",
     delivery: "Delivery in 2 Days",
@@ -56,7 +56,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 7,
+    id: 51,
     title: "Men's Classic Oversized Hoodie",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/r8vljdhw/f9d994536c2b4199bfb9c66220228157.jpg",
     delivery: "Delivery Tomorrow",
@@ -65,7 +65,7 @@ const bestSellerData = [
     category: "Fashion",
   },
   {
-    id: 8,
+    id: 52,
     title: "Classic Straight Fit Denim Jeans",
     image: "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -75,7 +75,7 @@ const bestSellerData = [
   },
 
   {
-    id: 9,
+    id: 53,
     title: "RGB Mechanical Gaming Keyboard",
     image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -84,7 +84,7 @@ const bestSellerData = [
     category: "Gaming",
   },
   {
-    id: 10,
+    id: 54,
     title: "Wireless RGB Gaming Mouse",
     image: "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -93,7 +93,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 11,
+    id: 55,
     title: "Wireless Gaming Headset",
     image: "https://images.unsplash.com/photo-1599669454699-248893623440?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 2 Days",
@@ -102,7 +102,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 12,
+    id: 56,
     title: "Ergonomic Gaming Chair",
     image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery in 3 Days",
@@ -112,7 +112,7 @@ const bestSellerData = [
   },
 
   {
-    id: 13,
+    id: 57,
     title: "Minimal Gold Plated Necklace",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/e0276397-676e-484f-9086-c7d6658cf5db2812023849769915432.png",
     delivery: "Delivery Tomorrow",
@@ -121,7 +121,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 14,
+    id: 58,
     title: "Elegant Pearl Earrings",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3ebe9305-7252-4a51-8978-b0b7b555d4d010836798024802028130.png",
     delivery: "Delivery Tomorrow",
@@ -130,7 +130,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 15,
+    id: 59,
     title: "Classic Women's Bracelet",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/olchikdd/751414c19ed340399d096280cc4b5acb.jpg",
     delivery: "Delivery in 2 Days",
@@ -139,7 +139,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 16,
+    id: 60,
     title: "Minimalist Fashion Ring Set",
     image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -149,7 +149,7 @@ const bestSellerData = [
   },
 
   {
-    id: 17,
+    id: 61,
     title: "Premium Leather Crossbody Bag",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/07/23/18/8/a125e05d-c5f1-4890-a1c3-ed6f2f6390ad.jpg",
     delivery: "Delivery Tomorrow",
@@ -158,7 +158,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 18,
+    id: 62,
     title: "Classic UV Protection Sunglasses",
     image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",
@@ -167,7 +167,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 19,
+    id: 63,
     title: "Minimalist Women's Wrist Watch",
     image: "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/17049225797428-e7da7bd0-f921-40c9-8236-0bfcd935e596.jpg",
     delivery: "Delivery in 2 Days",
@@ -176,7 +176,7 @@ const bestSellerData = [
      quantity:1,
   },
   {
-    id: 20,
+    id: 64,
     title: "Premium Wireless Earbuds",
     image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?q=80&w=800&auto=format&fit=crop",
     delivery: "Delivery Tomorrow",

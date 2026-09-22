@@ -76,14 +76,14 @@ const [moreMenu, setMoreMenu] = useState(false)
       </Link>
      
 
-<Link to="/">
+<Link to="/hanbok">
  <div className="hover:text-[#ff8200] px-4 py-1">
         Hanbok  
       </div>
       </Link>
      
 
-<Link to="/">
+<Link to="/pant">
 <div className="px-4 py-1 hover:bg-[#ff8200]">
         Pants/Jeans
       </div>
@@ -153,7 +153,7 @@ const [moreMenu, setMoreMenu] = useState(false)
         <Link onClick={() => setMoreMenu(!moreMenu)} className="relative hover:text-[#ff6a00] transition-all duration-300 hover:underline font-semibold">More</Link>
         {moreMenu && (
           <div className="absolute -right-18 top-full z-50 mt-2 w-40 rounded-lg bg-white shadow-lg text-gray-400">
-            <Link to="/">
+            <Link to="/all">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 All
             </div>
@@ -166,11 +166,6 @@ const [moreMenu, setMoreMenu] = useState(false)
         <Link to="/mens">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Mens cloths
-            </div>
-        </Link>
-        <Link to="/tech">
-            <div className="hover:text-[#ff8200] px-4 py-1 ">
-                Tablets
             </div>
         </Link>
         <Link to="/tech">
@@ -196,6 +191,11 @@ const [moreMenu, setMoreMenu] = useState(false)
         <Link to="/coat">
             <div className="hover:text-[#ff8200] px-4 py-1 ">
                 Coats
+            </div>
+        </Link>
+        <Link to="/tech">
+            <div className="hover:text-[#ff8200] px-4 py-1 ">
+                Tablets
             </div>
         </Link>
         <Link to="/shoes">

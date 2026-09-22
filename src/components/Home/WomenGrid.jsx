@@ -1,6 +1,7 @@
 import React from 'react'
 import WomenCard from './WomenCard'
 import womensCollectionData from '../../Data/WomenData'
+import { Link } from 'react-router-dom'
 
 const WomenGrid = () => {
   return (
@@ -11,11 +12,11 @@ const WomenGrid = () => {
         <h1 className="text-3xl font-bold text-blue-600 text-center">WOMEN FASHION</h1>
       </div>
       <div className="hidden md:flex flex-col gap-4 items-center mt-70">
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 hover:bg-indigo-400 hover:text-white w-30 text-sm"># Women suit</span>
-        <span className="text-center border border-gray-400 text-indigo-400 px-3 hover:bg-indigo-400 hover:text-white  text-sm w-30"># Track suit</span>
-        <span className="text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Hoodies</span>
-        <span className="text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Jackets</span>
-        <span className=" text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Shirts</span>
+        <Link to="/womens" className="border border-gray-400 text-indigo-400 px-3 py-1 hover:bg-indigo-400 hover:text-white w-30 text-sm"># Women suit</Link>
+        <Link to="/womens" className="text-center border border-gray-400 text-indigo-400 px-3 hover:bg-indigo-400 hover:text-white  text-sm w-30"># Track suit</Link>
+        <Link to="/hoodies" className="text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Hoodies</Link>
+        <Link to="/coat" className="text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Jackets</Link>
+        <Link to="/womens" className=" text-center border border-gray-400 text-indigo-400 px-3 py-1 w-30 hover:bg-indigo-400 hover:text-white  text-sm"># Shirts</Link>
       </div>
       </div>
 

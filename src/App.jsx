@@ -43,6 +43,11 @@ import Hoodies from "./components/pages/Hoodies";
 import TechPage from "./components/pages/TechPage";
 import MensShirt from "./components/pages/MensShirt";
 import WomenPage from "./components/pages/WomenPage";
+import AllProduct from "./components/pages/AllProduct";
+import ProductCards from "./components/Home/ProductCards";
+import ProductDetailPage from "./components/pages/ProductDetailPage";
+import HanbokPage from "./components/pages/HanbokPage";
+import PantsPage from "./components/pages/PantsPage";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -117,6 +122,10 @@ function App() {
           <Route path="/tech" element={<TechPage />} />
           <Route path="/mens" element={<MensShirt />} />
           <Route path="/womens" element={<WomenPage />} />
+           <Route path="/all" element={<AllProduct />} />
+           <Route path="/products/:id" element={<ProductDetailPage setCart={setCart}/>} />
+            <Route path="/hanbok" element={<HanbokPage />} />
+            <Route path="/pant" element={<PantsPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

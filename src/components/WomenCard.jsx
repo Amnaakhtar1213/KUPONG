@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 const WomenCard = ({product}) => {
+  const navigate = useNavigate()
   const [saved, setSaved] = useState(false)
 
   useEffect(() => {
@@ -27,7 +29,7 @@ const WomenCard = ({product}) => {
   }
 
   return (
-<div className="relative w-full h-[420px] bg-gray-100 overflow-hidden">
+<div onClick={() => navigate(`/products/${product.id}`)} className="relative w-full h-[420px] bg-gray-100 overflow-hidden">
 
   <img
     src={product.image}

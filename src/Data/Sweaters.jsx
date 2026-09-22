@@ -2,7 +2,7 @@ const SweaterData = [
 
 
   {
-    id: 301,
+    id: 71,
     title: "Chunky Grey Knit Turtleneck Sweater",
     image: "https://nesha.com.ua/photos/SW_OKWG_.jpg",
     price: 52900,
@@ -16,7 +16,7 @@ const SweaterData = [
   },
 
   {
-    id: 302,
+    id: 72,
     title: "Oversized Beige Chunky Turtleneck",
     image: "https://i.pinimg.com/736x/99/47/8c/99478c650bf0bcacfb83e21488013e50.jpg",
     price: 48900,
@@ -30,7 +30,7 @@ const SweaterData = [
   },
 
   {
-    id: 303,
+    id: 73,
     title: "Mustard Chunky Wool Winter Sweater",
     image: "https://i.etsystatic.com/14654083/r/il/cdfc66/4443682418/il_fullxfull.4443682418_msiz.jpg",
     price: 55900,
@@ -43,7 +43,7 @@ const SweaterData = [
     description: "Extra chunky mustard wool sweater with oversized winter styling."
   },
     {
-    id: 322,
+    id: 74,
     title: "Natural White Shetland Wool Cable Sweater",
     image: "https://cdn.clothbase.com/uploads/41a3691e-4fd7-4c97-a9d1-6db2e7fec006/23-12-2019_jamiesonsofshetland_cablecreknit_naturalwhite_mk998-104_bb_1.jpg",
     price: 94900,
@@ -58,7 +58,7 @@ const SweaterData = [
   },
 
   {
-    id: 304,
+    id: 75,
     title: "Beige Cable-Knit Half-Zip Sweater",
     image: "https://i.pinimg.com/originals/45/25/83/45258374c02f7730a5fd04ed0436f108.png",
     price: 57900,
@@ -72,7 +72,7 @@ const SweaterData = [
   },
 
   {
-    id: 305,
+    id: 76,
     title: "Cream Fair Isle Winter Sweater",
     image: "https://i.ebayimg.com/images/g/fmQAAOSwDYNeK7te/s-l1200.jpg",
     price: 49900,
@@ -86,7 +86,7 @@ const SweaterData = [
   },
 
   {
-    id: 306,
+    id: 77,
     title: "Black Fitted Cable-Knit Cardigan",
     image: "https://cdn.shopify.com/s/files/1/0083/9181/9341/files/VALERIECARDI_1142_BLACK.jpg?v=1770849914",
     price: 42900,
@@ -100,7 +100,7 @@ const SweaterData = [
   },
 
   {
-    id: 307,
+    id: 78,
     title: "Beige Wool Cable Sweater",
     image: "https://cdn.shopify.com/s/files/1/0083/9181/9341/files/rxaKgjJz76DY97z3biojYX_1_-Kaia-LightStudio.jpg?v=1778903889",
     price: 53900,
@@ -114,7 +114,7 @@ const SweaterData = [
   },
 
   {
-    id: 308,
+    id: 79,
     title: "Blue Jacquard Wool Sweater",
     image: "https://cdn.shopify.com/s/files/1/0083/9181/9341/files/3b5b5615fc093a6588cda6db86b92de20dfbe781_xxl-1.jpg?v=1775259157",
     price: 51900,
@@ -129,7 +129,7 @@ const SweaterData = [
 
  
    {
-    id: 321,
+    id: 80,
     title: "Cream Aran Wool Cable-Knit Sweater",
     image: "https://www.careofcarl.com/bilder/artiklar/zoom/25536211r_1.jpg?m=1692867355",
     price: 89900,
@@ -145,7 +145,7 @@ const SweaterData = [
  
   // NEW
   {
-    id: 309,
+    id: 81,
     title: "Oatmeal Pure Wool Chunky Sweater",
     image: "https://d166chel5lrjm5.cloudfront.net/images/detailed/119/bear-main-12425-7rr.jpg",
     price: 56900,
@@ -159,7 +159,7 @@ const SweaterData = [
   },
 
   {
-    id: 310,
+    id: 82,
     title: "Heavy Black Wool Turtleneck",
     image: "https://moon-castle.jp/cdn/shop/files/MC41___1800_d0482088-eb78-44ee-a1dd-350514c99876.jpg?v=1693460933&width=1200",
     price: 54900,
@@ -173,7 +173,7 @@ const SweaterData = [
   },
 
   {
-    id: 311,
+    id: 83,
     title: "Cream Chunky Hand-Knit Cardigan",
     image: "https://rumors.fs-storage.jp/fs2cabinet/g03/g031050/g031050-m-01-pl.jpg",
     price: 63900,
@@ -187,7 +187,7 @@ const SweaterData = [
   },
 
   {
-    id: 312,
+    id: 84,
     title: "Oversized Beige Wool Cardigan",
     image: "https://i.etsystatic.com/41514205/r/il/73be38/5294396632/il_570xN.5294396632_i340.jpg",
     price: 58900,
@@ -200,7 +200,7 @@ const SweaterData = [
     description: "Oversized chunky wool cardigan with large cozy sleeves."
   },
   {
-    id: 313,
+    id: 85,
     title: "Grey Chunky Wool Turtleneck",
     image: "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-IoAAOSwIOFmwHIy/%24_57.JPG?set_id=880000500F",
     price: 53900,
@@ -213,7 +213,7 @@ const SweaterData = [
     description: "Thick grey hand-knit wool turtleneck for extreme winter comfort."
   },
     {
-    id: 323,
+    id: 86,
     title: "Ivory Merino Wool Tweed Cable Crew",
     image: "https://cdn.shopify.com/s/files/1/0123/5065/2473/files/BM16417.1200IVO_Ivory-Seastack-Wool-Tweed-Cable-Crew_1024x.jpg?v=1759538887",
     price: 98900,
@@ -228,7 +228,7 @@ const SweaterData = [
   },
 
   {
-    id: 314,
+    id: 87,
     title: "Oatmeal Cable Crew Wool Sweater",
     image: "https://cdn.clothbase.com/uploads/caa22401-912a-47dc-8c07-fb327123fc82/09-03-2023-BLR_MK998-337_1_1.jpg",
     price: 57900,
@@ -244,7 +244,7 @@ const SweaterData = [
 
 
   {
-    id: 315,
+    id: 88,
     title: "White Merino Aran Cable Sweater",
     image: "https://i5.walmartimages.com/seo/SAOL-Aran-Women-s-Irish-Sweater-100-Merino-Wool-Fisherman-Cable-Knit-Turtleneck-Pullover-Made-in-Ireland_9ea80292-6516-4924-a269-8d1397a8e070.3ee616652f5b063c4cf30554313547ed.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     price: 60900,
@@ -262,7 +262,7 @@ const SweaterData = [
 
 
   {
-    id: 316,
+    id: 89,
     title: "Beige Diagonal Cable Merino Sweater",
     image: "https://merinoandco.com.au/cdn/shop/files/KW2203-CoconutWhite_WH_2048x3072px.jpg?v=1766031392&width=1946",
     price: 58900,
@@ -276,7 +276,7 @@ const SweaterData = [
   },
 
   {
-    id: 317,
+    id: 90,
     title: "Natural Wool Cable Crewneck",
     image: "https://www.zenzasion.com/cdn/shop/files/flat_lay__front_bdd0af13-b9e6-4aa2-8a50-84da2c119166.jpg?v=1771011547&width=2048",
     price: 47900,

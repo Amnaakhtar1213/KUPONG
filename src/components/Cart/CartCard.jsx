@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const CartCard = ({product, setCart, cart}) => {
+  const navigate = useNavigate()
 
   function increase(productId){
   setCart(cart.map((product) => {
@@ -18,7 +20,7 @@ const CartCard = ({product, setCart, cart}) => {
     setCart(cart.filter((product) => product.id !== productId))
   }
   return (
-    <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
       <div className="flex gap-4">
 
         {/* Product Image */}
@@ -48,23 +50,41 @@ const CartCard = ({product, setCart, cart}) => {
 
             {/* Quantity */}
             <div className="flex items-center rounded-md border border-gray-300">
-              <button onClick={() => decrease(product.id)} className="px-3 py-1 text-gray-600 hover:bg-gray-100">
-                −
+             <button
+                onClick={(e) => {
+                  e.stopPropagation()
+                  decrease(product.id)
+                }}
+                className="px-3 py-1 text-gray-600 hover:bg-gray-100"
+              >
+                -
               </button>
 
               <span className="px-3 py-1 text-sm">
                 {product.quantity}
               </span>
 
-              <button onClick={() => increase(product.id)} className="px-3 py-1 text-gray-600 hover:bg-gray-200">
-                +
-              </button>
+              <button
+  onClick={(e) => {
+    e.stopPropagation()
+    increase(product.id)
+  }}
+  className="px-3 py-1 text-gray-600 hover:bg-gray-100"
+>
+  +
+</button>
             </div>
 
             {/* Remove */}
-            <button onClick={() => remove(product.id)} className="text-sm text-red-500 hover:text-red-600">
-              Remove
-            </button>
+          <button
+  onClick={(e) => {
+    e.stopPropagation()
+    remove(product.id)
+  }}
+  className="text-sm text-red-500 hover:text-red-600"
+>
+  Remove
+</button>
 
           </div>
         </div>

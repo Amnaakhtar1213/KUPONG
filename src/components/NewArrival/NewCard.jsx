@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const NewCard = ({product}) => {
+  const navigate  = useNavigate()
   const [isFavorite, setIsFavorite] = useState(() => {
      const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
      return kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
@@ -24,7 +26,7 @@ const NewCard = ({product}) => {
   }
 
   return (
-    <div className=" rounded-xl h-90">
+    <div onClick={() => navigate(`/products/${product.id}`)} className=" rounded-xl h-90">
     <div className="relative w-77 md:w-60">
       <img src={product.image} className=" object-contain"/>
       <i onClick={handleSaved} className={`absolute bottom-2 right-2 ${isFavorite ? "text-red-700" : "text-gray-200"} fa-solid fa-heart`}></i>

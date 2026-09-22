@@ -1,8 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const MainCard = ({product, setCart}) => {
+  const navigate = useNavigate()
 const [isFavorite, setIsFavorite] = useState(() => { 
   const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || [];
   return kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id);
@@ -38,7 +40,7 @@ const handleAddToCart = () => {
   }
 
   return (
-    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm hover:shadow-md transition">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="rounded-lg border border-gray-200 bg-white p-3 shadow-sm hover:shadow-md transition">
       
       {/* Product Image */}
       <div className="relative w-full h-56 overflow-hidden rounded-md bg-gray-100">

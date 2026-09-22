@@ -1,6 +1,6 @@
 const BeautyCare = [
   {
-    id: 301,
+    id: 9097,
     name: "Pure Balance Gentle Cleanser",
     title: "Pure Balance Gentle Facial Cleanser",
     category: "Skincare",
@@ -31,7 +31,7 @@ const BeautyCare = [
   },
 
   {
-    id: 302,
+    id: 9098,
     name: "Green Tea Pore Toner",
     title: "Green Tea Balancing Pore Toner",
     category: "Skincare",
@@ -62,7 +62,7 @@ const BeautyCare = [
   },
 
   {
-    id: 303,
+    id: 909,
     name: "Rice Glow Hydrating Toner",
     title: "Rice Glow Hydrating Facial Toner",
     category: "Skincare",
@@ -93,7 +93,7 @@ const BeautyCare = [
   },
 
   {
-    id: 304,
+    id: 9010,
     name: "Niacinamide 10% + Zinc Serum",
     title: "Niacinamide 10% + Zinc Balancing Serum",
     category: "Skincare",
@@ -124,7 +124,7 @@ const BeautyCare = [
   },
 
   {
-    id: 305,
+    id: 9011,
     name: "Hyaluronic Acid Hydration Serum",
     title: "Hyaluronic Acid 2% + B5 Hydration Serum",
     category: "Skincare",
@@ -155,7 +155,7 @@ const BeautyCare = [
   },
 
   {
-    id: 306,
+    id: 9012,
     name: "Vitamin C Brightening Serum",
     title: "Vitamin C Radiance Brightening Serum",
     category: "Skincare",
@@ -186,7 +186,7 @@ const BeautyCare = [
   },
 
   {
-    id: 307,
+    id: 9013,
     name: "Ceramide Barrier Cream",
     title: "Ceramide Barrier Repair Moisturizer",
     category: "Skincare",
@@ -217,7 +217,7 @@ const BeautyCare = [
   },
 
   {
-    id: 308,
+    id: 9014,
     name: "Daily Hydrating Gel Cream",
     title: "Daily Hydrating Water Gel Moisturizer",
     category: "Skincare",
@@ -248,7 +248,7 @@ const BeautyCare = [
   },
 
   {
-    id: 309,
+    id: 9015,
     name: "Daily UV Defense SPF 50+",
     title: "Daily UV Defense Broad Spectrum SPF 50+",
     category: "Skincare",
@@ -279,7 +279,7 @@ const BeautyCare = [
   },
 
   {
-    id: 310,
+    id: 9016,
     name: "Airy Sun Gel SPF 50+",
     title: "Airy Sun Gel Lightweight SPF 50+",
     category: "Skincare",
@@ -310,7 +310,7 @@ const BeautyCare = [
   },
 
   {
-    id: 311,
+    id: 9017,
     name: "Caffeine Eye Recovery Serum",
     title: "Caffeine + Peptide Eye Recovery Serum",
     category: "Skincare",
@@ -341,7 +341,7 @@ const BeautyCare = [
   },
 
   {
-    id: 312,
+    id: 9018,
     name: "Gentle AHA Exfoliating Toner",
     title: "Gentle AHA 5% Exfoliating Toner",
     category: "Skincare",
@@ -372,7 +372,7 @@ const BeautyCare = [
   },
 
   {
-    id: 313,
+    id: 9019,
     name: "Overnight Calming Mask",
     title: "Overnight Calming Hydration Face Mask",
     category: "Skincare",
@@ -403,7 +403,7 @@ const BeautyCare = [
   },
 
   {
-    id: 314,
+    id: 9020,
     name: "Nourishing Lip Sleeping Mask",
     title: "Nourishing Squalane Lip Sleeping Mask",
     category: "Skincare",
@@ -434,7 +434,7 @@ const BeautyCare = [
   },
 
   {
-    id: 315,
+    id: 9021,
     name: "Centella Calming Serum",
     title: "Centella Soothing Barrier Serum",
     category: "Skincare",
@@ -465,7 +465,7 @@ const BeautyCare = [
   },
 
   {
-    id: 316,
+    id: 9022,
     name: "Salicylic Clarifying Mask",
     title: "Salicylic Acid 2% Clarifying Face Mask",
     category: "Skincare",
@@ -496,7 +496,7 @@ const BeautyCare = [
   },
 
   {
-    id: 317,
+    id: 9023,
     name: "Peptide Firming Serum",
     title: "Multi-Peptide Skin Firming Serum",
     category: "Skincare",
@@ -527,7 +527,7 @@ const BeautyCare = [
   },
 
   {
-    id: 318,
+    id: 90240,
     name: "Daily Barrier Moisturizer",
     title: "Daily Barrier Support Moisturizer",
     category: "Skincare",
@@ -558,7 +558,7 @@ const BeautyCare = [
   },
 
   {
-    id: 319,
+    id: 9024,
     name: "Mild Micellar Cleansing Water",
     title: "Mild Micellar Makeup Cleansing Water",
     category: "Skincare",
@@ -589,7 +589,7 @@ const BeautyCare = [
   },
 
   {
-    id: 320,
+    id: 9025,
     name: "Mineral Clay Pore Mask",
     title: "Green Clay Pore Purifying Face Mask",
     category: "Skincare",

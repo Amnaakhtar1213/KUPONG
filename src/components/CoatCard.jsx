@@ -1,8 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const CoatCard = ({product}) => {
+  const navigate = useNavigate()
     const [saved, setSaved] = useState(false);
 
     useEffect(() => {
@@ -31,7 +33,7 @@ const CoatCard = ({product}) => {
 
 
   return (
-    <div className=" bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition">
+    <div onClick={() => navigate(`/products/${product.id}`)} className=" bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition">
 
       {/* Product Image */}
       <div className="relative w-full h-56 bg-gray-100">
@@ -40,9 +42,13 @@ const CoatCard = ({product}) => {
           alt={product.title}
           className="w-full h-full object-cover"
         />
-      <button  onClick={handleSaved}>
-         <i className={`absolute bottom-0 right-2 fa-solid fa-heart ${saved ? "text-red-700" : "text-gray-300"}`}></i>
-      </button>
+       <button onClick={(e) => {
+          e.stopPropagation()   //heart click should stay on the heart the card cant trigger when we click
+          handleSaved()
+        }} 
+        className="absolute bottom-3 right-3  flex">
+          <i className={`fa-solid fa-heart ${saved ? "text-red-700" : "text-gray-300"}`}></i>
+        </button>
       </div>
 
       {/* Product Information */}

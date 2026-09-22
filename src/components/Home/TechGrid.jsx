@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import TechCard from './TechCard'
 import techProductsData from '../../Data/Tech'
 
@@ -11,11 +12,11 @@ const TechGrid = () => {
         <h1 className="text-3xl font-bold text-blue-600">HOME APPLIANCE DIGITAL</h1>
       </div>
       <div className="hidden md:flex flex-col gap-1 items-center mb-8">
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Tablet</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Phones</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Accessories</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># laptops</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># computers</span>
+        <Link to="/tech" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Tablet</Link>
+        <Link to="/tech" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Phones</Link>
+        <Link to="/tech" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Accessories</Link>
+        <Link to="/tech" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># laptops</Link>
+        <Link to="/tech" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># computers</Link>
       </div>
       </div>
 

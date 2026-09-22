@@ -1,6 +1,6 @@
 const KidsClothData = [
   {
-    id: 1,
+    id: 5050,
     name: "Blush Pink Princess Frock",
     title: "Pretty layered party dress with soft tulle skirt and bow",
     category: "Girls",
@@ -27,7 +27,7 @@ const KidsClothData = [
     ]
   },
 {
-    id: 2,
+    id:  5051,
     name: "Boys Formal Waistcoat Set",
     title: "Smart waistcoat, shirt and trouser set for special occasions",
     category: "Boys",
@@ -54,7 +54,7 @@ const KidsClothData = [
     ]
   },
   {
-    id: 3,
+    id:  5052,
     name: "Floral Lace Party Dress",
     title: "Elegant floral lace dress for birthdays and family occasions",
     category: "Girls",
@@ -81,7 +81,7 @@ const KidsClothData = [
     ]
   },
 { 
-   id: 4,
+   id:  5053,
     name: "Ivory Lace Princess Dress",
     title: "Soft layered Korean-style party dress with delicate lace",
     category: "Girls",
@@ -109,7 +109,7 @@ const KidsClothData = [
     ]
   },
    {
-    id: 5,
+    id: 5065,
     name: "Cream Everyday Flare Dress",
     title: "Simple Korean kids dress with a soft comfortable silhouette",
     category: "Girls",
@@ -139,7 +139,7 @@ const KidsClothData = [
 
 
   {
-    id: 6,
+    id:  5054,
     name: "Pink Velvet Mini Dress",
     title: "Pretty soft velvet dress with a cute Korean-inspired look",
     category: "Girls",
@@ -167,7 +167,7 @@ const KidsClothData = [
     ]
   },
   {
-    id: 7,
+    id:  5055,
     name: "Boys Denim Jacket Outfit",
     title: "Trendy denim jacket with comfortable everyday trousers",
     category: "Boys",
@@ -196,7 +196,7 @@ const KidsClothData = [
 
 
   {
-    id: 8,
+    id:  5056,
     name: "Ivory Long Sleeve Dress",
     title: "Minimal Korean-style dress with delicate ruffle hem",
     category: "Girls",
@@ -224,7 +224,7 @@ const KidsClothData = [
     ]
   },
     {
-    id: 9,
+    id:  5057,
     name: "Boys Korean Style Layered Outfit",
     title: "Modern Korean-inspired jacket and pants outfit",
     category: "Boys",
@@ -252,7 +252,7 @@ const KidsClothData = [
   },
 
   {
-    id: 10,
+    id:  5058,
     name: "Girls Embroidered Festive Dress",
     title: "Elegant embroidered dress for Eid and family celebrations",
     category: "Girls",
@@ -280,7 +280,7 @@ const KidsClothData = [
   },
 
   {
-    id: 11,
+    id:  5059,
     name: "Girls Pastel Party Dress",
     title: "Soft pastel party dress with elegant layered skirt",
     category: "Girls",
@@ -308,7 +308,7 @@ const KidsClothData = [
   },
 
   {
-    id: 12,
+    id:  5060,
     name: "Baby Boy Bear Hoodie Set",
     title: "Cozy hoodie and jogger set with cute winter bear design",
     category: "Boys",
@@ -336,7 +336,7 @@ const KidsClothData = [
   },
 
   {
-    id: 13,
+    id:  5061,
     name: "Baby Boy Denim Layered Set",
     title: "Stylish denim vest outfit with soft knitted top",
     category: "Boys",
@@ -364,7 +364,7 @@ const KidsClothData = [
   },
 
   {
-    id: 14,
+    id:  5062,
     name: "Boys Smart Shirt and Trouser Set",
     title: "Classic shirt and trouser outfit for parties and events",
     category: "Boys",
@@ -392,7 +392,7 @@ const KidsClothData = [
   },
 
   {
-    id: 15,
+    id:  5063,
     name: "Boys Casual Hoodie Set",
     title: "Comfortable hoodie and jogger set for active kids",
     category: "Boys",

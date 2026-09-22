@@ -1,4 +1,5 @@
 
+import AllHome from "../Home/AllHome"
 import BeautyGrid from "../Home/BeautyGrid"
 import CategoryCardGrid from "../Home/CategoryCardGrid"
 import CategoryNav from "../Home/CategoryNav" 
@@ -29,6 +30,7 @@ const Home = () => {
       <MenGrid />
       <WomenGrid />
       <BeautyGrid />
+      <AllHome />
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const ShoesCard = ({product}) => {
-
+const navigate = useNavigate()
   const [saved, setSaved] = useState(false)
 
   useEffect(() => {
@@ -27,7 +28,7 @@ const ShoesCard = ({product}) => {
     }
   }
   return (
-    <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition duration-300">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition duration-300">
 
       {/* Image Section */}
       <div className="relative h-64 bg-gray-100">
@@ -53,8 +54,12 @@ const ShoesCard = ({product}) => {
         )}
 
         {/* Save Button */}
-        <button onClick={handleSaved} >
-          <i className={`absolute bottom-0 right-2 fa-solid fa-heart fa-beat ${saved ? "text-red-700" : "text-gray-300"}`}></i>
+         <button onClick={(e) => {
+          e.stopPropagation()   //heart click should stay on the heart the card cant trigger when we click
+          handleSaved()
+        }} 
+        className="absolute bottom-3 right-3  flex">
+          <i className={`fa-solid fa-heart ${saved ? "text-red-700" : "text-gray-300"}`}></i>
         </button>
 
       </div>

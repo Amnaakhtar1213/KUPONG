@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import MenCard from './MenCard'
 import mensCollectionData from '../../Data/MenData'
 
@@ -11,11 +12,11 @@ const MenGrid = () => {
         <h1 className="text-3xl font-bold text-blue-600 text-center">MENS FASHION</h1>
       </div>
       <div className="hidden md:flex flex-col gap-1 items-center mt-90">
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-sm text-csnter hover:bg-indigo-400 hover:text-white w-30"># Mens Suit</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># pants</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># jackets</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Coats</span>
-        <span className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Tracksuit</span>
+        <Link to="/mens" className="border border-gray-400 text-indigo-400 px-3 py-1 text-sm text-csnter hover:bg-indigo-400 hover:text-white w-30"># Mens Suit</Link>
+        <Link to="/pants" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># pants</Link>
+        <Link to="/coat" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># jackets</Link>
+        <Link to="/coat" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Coats</Link>
+        <Link to="/mens" className="border border-gray-400 text-indigo-400 px-3 py-1 text-center text-sm hover:bg-indigo-400 hover:text-white w-30"># Tracksuit</Link>
       </div>
       </div>
 
