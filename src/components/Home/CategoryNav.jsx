@@ -90,7 +90,7 @@ const [moreMenu, setMoreMenu] = useState(false)
       </Link>
       
 
-<Link to="/">
+<Link to="/toys">
 <div className="px-4 py-1 hover:text-[#ff8200]">
         Toys
       </div>
@@ -104,7 +104,7 @@ const [moreMenu, setMoreMenu] = useState(false)
 
 </Link>
       
-<Link to="/">
+<Link to="/book">
  <div className="px-4 py-1 hover:text-[#ff8200]">
         Music/Books
       </div>
@@ -125,7 +125,7 @@ const [moreMenu, setMoreMenu] = useState(false)
 
 </Link>
      
-<Link to="/">
+<Link to="/stationary">
 <div className="px-4 py-1 hover:text-[#ff8200]">
         Stationary
       </div>

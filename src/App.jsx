@@ -48,6 +48,9 @@ import ProductCards from "./components/Home/ProductCards";
 import ProductDetailPage from "./components/pages/ProductDetailPage";
 import HanbokPage from "./components/pages/HanbokPage";
 import PantsPage from "./components/pages/PantsPage";
+import ToysPage from "./components/pages/ToysPage";
+import StationaryPage from "./components/pages/StationayPage";
+import BooksPage from "./components/pages/BooksPage";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -126,6 +129,9 @@ function App() {
            <Route path="/products/:id" element={<ProductDetailPage setCart={setCart}/>} />
             <Route path="/hanbok" element={<HanbokPage />} />
             <Route path="/pant" element={<PantsPage />} />
+             <Route path="/toys" element={<ToysPage setCart={setCart} />} />
+              <Route path="/stationary" element={<StationaryPage />} />
+               <Route path="/book" element={<BooksPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

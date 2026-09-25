@@ -1,12 +1,14 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-useNavigate
+import { AuthContext } from '../../Context/AuthContext'
+
 
 const Login = () => {
   const navigate = useNavigate()
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+   const { currentUser, setCurrentUser } = useContext(AuthContext)
 
   const loginHandler = (e) => {
     e.preventDefault()
@@ -18,6 +20,7 @@ const Login = () => {
       alert("Invalid email or password")
       return
     }
+    setCurrentUser(logginUser)
     localStorage.setItem("logginUser", JSON.stringify(logginUser))
     navigate("/")
   }

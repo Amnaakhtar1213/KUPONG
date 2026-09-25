@@ -45,9 +45,13 @@ const WomenCard = ({product}) => {
   )}
 
   {/* Save Button */}
-  <button className="absolute top-3 right-3 w-10 h-10 bg-white rounded-full shadow flex items-center justify-center text-xl hover:text-red-600">
-    ♡
-  </button>
+     <button onClick={(e) => {
+          e.stopPropagation()   //heart click should stay on the heart the card cant trigger when we click
+          handleSaved()
+        }} 
+        className="absolute bottom-3 right-3  flex">
+          <i className={`fa-solid fa-heart ${saved ? "text-red-700" : "text-gray-300"}`}></i>
+        </button>
 
 </div>
   )
