@@ -1,6 +1,6 @@
 import React from "react";
 
-const AccountInfo = () => {
+const AccountInfo = ({currentUser}) => {
   return (
     <div>
       <div className="border border-gray-300 p-6 rounded-lg shadow-sm">
@@ -13,20 +13,20 @@ const AccountInfo = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-10">
           <div className="">
             <h1 className="text-gray-600 font-bold">Full Name</h1>
-            <h3 className="text-gray-500">Jogn Doe</h3>
+            <h3 className="text-gray-500">{currentUser?.name}</h3>
           </div>
           <div>
             <h1 className="text-gray-600 font-bold">Email</h1>
-            <h3 className="text-gray-500">johndoe@example.com</h3>
+            <h3 className="text-gray-500">{currentUser?.email}</h3>
           </div>
-          <div>
+          {/* <div>
             <h1 className="text-gray-600 font-bold">Phone Number</h1>
-            <h3 className="text-gray-500">(123) 456-7890</h3>
+            <h3 className="text-gray-500">{currentUser.number}</h3>
           </div>
           <div>
             <h1 className="text-gray-600 font-bold">Address</h1>
-            <p className="text-gray-500">Islamabad, Pakistan</p>
-          </div>
+            <p className="text-gray-500">{currentUser.address}</p>
+          </div> */}
         </div>
       </div>
     </div>

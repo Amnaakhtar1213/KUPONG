@@ -51,8 +51,10 @@ import PantsPage from "./components/pages/PantsPage";
 import ToysPage from "./components/pages/ToysPage";
 import StationaryPage from "./components/pages/StationayPage";
 import BooksPage from "./components/pages/BooksPage";
+import ProtectedRoute from "./ProtectedRoute";
 
 function App() {
+  
   const [search, setSearch] = useState("");
 
   const allProducts = [
@@ -105,7 +107,9 @@ function App() {
         <Route path="/save" element={<Save setCart={setCart} />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile" element={<ProtectedRoute>
+          <Profile />
+          </ProtectedRoute>} />
         <Route
           path="/search"
           element={

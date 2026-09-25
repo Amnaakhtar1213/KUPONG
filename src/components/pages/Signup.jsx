@@ -5,13 +5,14 @@ useNavigate
 const Signup = () => {
   const navigate = useNavigate()
 
+  const[name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] =  useState("")
   const[confirmPassword, setConfirmPassword] = useState("")
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if(email === "" || password === "" || confirmPassword === ""){
+    if(name === "" || email === "" || password === "" || confirmPassword === ""){
           alert("Fill all the details here")
           return
     }  if(password !== confirmPassword){
@@ -27,6 +28,7 @@ const Signup = () => {
       return
     }
     const newUser = {
+      name: name,
       email: email,
       password: password
     }
@@ -50,6 +52,19 @@ const Signup = () => {
             <p className="text-gray-500 mt-2 text-center">Creat Account</p>
       </div>
       <div className="flex flex-col items-center justify-between gap-6 mt-8 border border-gray-300 bg-white rounded-2xl shadow-3xl p-8  shadow-orange-200 hover:shadow-xl hover:shadow-orange-200">
+
+        <div className="flex flex-col gap-2">
+  <label className="text-xl text-[#ff8200]">Full Name</label>
+
+  <input
+    type="text"
+    value={name}
+    onChange={(e) => setName(e.target.value)}
+    placeholder="Write your full name"
+    className="outline-none rounded-2xl border border-[#ff8200] shadow shadow-[#ff8200] cursor-pointer placeholder:text-sm placeholder:text-gray-300 px-2 py-1"
+  />
+</div>
+
         <div className="flex flex-col gap-2">
            <label className="text-xl text-[#ff8200]">Email</label>
           <input type="email"
