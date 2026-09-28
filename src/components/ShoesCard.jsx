@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const ShoesCard = ({product}) => {
 const navigate = useNavigate()
@@ -117,9 +117,11 @@ const navigate = useNavigate()
         </p>
 
         {/* Add To Cart */}
-        <button className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2.5 rounded-lg font-medium transition">
+       <Link to="/cart">
+        <button  onClick={(e) => e.stopPropagation()} className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2.5 rounded-lg font-medium transition">
           Add to Cart
         </button>
+        </Link>
 
       </div>
 

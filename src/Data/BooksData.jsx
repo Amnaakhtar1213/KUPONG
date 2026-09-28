@@ -1,18 +1,27 @@
 const KidsBooksData = [
   // 📖 STORY BOOK
   {
-    id: 13001,
+    id: 67,
     name: "The Very Hungry Caterpillar",
     title: "The Very Hungry Caterpillar",
     brand: "Penguin Random House",
     category: "books",
     subCategory: "story-books",
     age: "2-5 Years",
+    type: "Story Book",
+    size: "Picture Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 899,
     oldPrice: 1099,
     rating: 4.9,
     reviews: 532,
     stock: 24,
+    badge: "Bestseller",
+    tag: "Popular",
+    points: 9,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
     description:
@@ -27,18 +36,27 @@ const KidsBooksData = [
 
   // 🐻 PICTURE BOOK
   {
-    id: 13002,
+    id: 68,
     name: "Brown Bear Picture Book",
     title: "Brown Bear, Brown Bear, What Do You See?",
     brand: "Macmillan Publishers",
     category: "books",
     subCategory: "picture-books",
     age: "2-5 Years",
+    type: "Picture Book",
+    size: "Picture Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 799,
     oldPrice: 999,
     rating: 4.8,
     reviews: 421,
     stock: 18,
+    badge: "Popular",
+    tag: "Popular",
+    points: 8,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
     description:
@@ -53,18 +71,27 @@ const KidsBooksData = [
 
   // 🦁 ANIMAL BOOK
   {
-    id: 13003,
+    id: 69,
     name: "My First Animal Encyclopedia",
     title: "My First Animal Encyclopedia",
     brand: "DK",
     category: "books",
     subCategory: "animal-books",
     age: "5-8 Years",
+    type: "Animal Encyclopedia",
+    size: "Large Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 1499,
     oldPrice: 1799,
     rating: 4.9,
     reviews: 318,
     stock: 15,
+    badge: "Educational",
+    tag: "Educational",
+    points: 15,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=800&q=80",
     description:
@@ -79,18 +106,27 @@ const KidsBooksData = [
 
   // 🚀 SCIENCE BOOK
   {
-    id: 13004,
+    id: 70,
     name: "Science Encyclopedia for Kids",
     title: "The Usborne Science Encyclopedia",
     brand: "Usborne",
     category: "books",
     subCategory: "science-books",
     age: "7-12 Years",
+    type: "Science Encyclopedia",
+    size: "Large Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 1899,
     oldPrice: 2299,
     rating: 4.8,
     reviews: 267,
     stock: 12,
+    badge: "Educational",
+    tag: "Educational",
+    points: 19,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80",
     description:
@@ -105,18 +141,27 @@ const KidsBooksData = [
 
   // 🧠 EDUCATIONAL BOOK
   {
-    id: 13005,
+    id: 71,
     name: "Math Practice Book",
     title: "Big First Grade Math Workbook",
     brand: "School Zone",
     category: "books",
     subCategory: "educational",
     age: "5-7 Years",
+    type: "Math Workbook",
+    size: "Workbook",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 999,
     oldPrice: 1199,
     rating: 4.7,
     reviews: 194,
     stock: 20,
+    badge: "Educational",
+    tag: "Educational",
+    points: 10,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80",
     description:
@@ -131,18 +176,27 @@ const KidsBooksData = [
 
   // 🔤 ALPHABET BOOK
   {
-    id: 13006,
+    id: 72,
     name: "ABC Learning Book",
     title: "My First ABC Alphabet Book",
     brand: "Scholastic",
     category: "books",
     subCategory: "alphabet",
     age: "2-5 Years",
+    type: "Alphabet Book",
+    size: "Picture Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 699,
     oldPrice: 849,
     rating: 4.8,
     reviews: 236,
     stock: 28,
+    badge: "Educational",
+    tag: "Learning",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=800&q=80",
     description:
@@ -157,18 +211,27 @@ const KidsBooksData = [
 
   // 🔢 NUMBERS BOOK
   {
-    id: 13007,
+    id: 73,
     name: "Numbers Learning Book",
     title: "My First Numbers & Counting Book",
     brand: "Highlights",
     category: "books",
     subCategory: "numbers",
     age: "3-6 Years",
+    type: "Numbers & Counting Book",
+    size: "Picture Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 749,
     oldPrice: 899,
     rating: 4.7,
     reviews: 172,
     stock: 22,
+    badge: "Educational",
+    tag: "Learning",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
     description:
@@ -183,18 +246,27 @@ const KidsBooksData = [
 
   // 🧩 ACTIVITY BOOK
   {
-    id: 13008,
+    id: 74,
     name: "Kids Activity Book",
     title: "Ultimate Kids Activity Book",
     brand: "Highlights",
     category: "books",
     subCategory: "activity-books",
     age: "5-8 Years",
+    type: "Activity Book",
+    size: "Activity Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Activity",
     price: 899,
     oldPrice: 1099,
     rating: 4.8,
     reviews: 287,
     stock: 25,
+    badge: "Popular",
+    tag: "Popular",
+    points: 9,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?auto=format&fit=crop&w=800&q=80",
     description:
@@ -209,18 +281,27 @@ const KidsBooksData = [
 
   // 🎨 COLORING BOOK
   {
-    id: 13009,
+    id: 75,
     name: "Kids Coloring Book",
     title: "Big Coloring Book for Kids",
     brand: "Crayola",
     category: "books",
     subCategory: "coloring-books",
     age: "4-8 Years",
+    type: "Coloring Book",
+    size: "Large Coloring Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Activity",
     price: 699,
     oldPrice: 849,
     rating: 4.9,
     reviews: 354,
     stock: 32,
+    badge: "Bestseller",
+    tag: "Popular",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80",
     description:
@@ -235,18 +316,27 @@ const KidsBooksData = [
 
   // 🏰 FAIRY TALES
   {
-    id: 13010,
+    id: 76,
     name: "Fairy Tales Collection",
     title: "Classic Fairy Tales for Kids",
     brand: "Ladybird",
     category: "books",
     subCategory: "fairy-tales",
     age: "5-9 Years",
+    type: "Fairy Tale Book",
+    size: "Story Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 1199,
     oldPrice: 1399,
     rating: 4.8,
     reviews: 218,
     stock: 17,
+    badge: "Popular",
+    tag: "Popular",
+    points: 12,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1511108690759-009324a90311?auto=format&fit=crop&w=800&q=80",
     description:
@@ -261,18 +351,27 @@ const KidsBooksData = [
 
   // 🏴‍☠️ ADVENTURE BOOK
   {
-    id: 13011,
+    id: 77,
     name: "Kids Adventure Story",
     title: "The Secret Adventure",
     brand: "Scholastic",
     category: "books",
     subCategory: "adventure",
     age: "7-10 Years",
+    type: "Adventure Story",
+    size: "Story Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 999,
     oldPrice: 1199,
     rating: 4.7,
     reviews: 163,
     stock: 14,
+    badge: "Popular",
+    tag: "Adventure",
+    points: 10,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?auto=format&fit=crop&w=800&q=80",
     description:
@@ -287,18 +386,27 @@ const KidsBooksData = [
 
   // 🦸 COMIC BOOK
   {
-    id: 13012,
+    id: 78,
     name: "Kids Superhero Comic",
     title: "Marvel Kids Superhero Comic",
     brand: "Marvel",
     category: "books",
     subCategory: "comics",
     age: "6-10 Years",
+    type: "Comic Book",
+    size: "Comic Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 899,
     oldPrice: 1099,
     rating: 4.8,
     reviews: 291,
     stock: 19,
+    badge: "Popular",
+    tag: "Popular",
+    points: 9,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=800&q=80",
     description:
@@ -313,18 +421,27 @@ const KidsBooksData = [
 
   // 📚 EARLY READER
   {
-    id: 13013,
+    id: 79,
     name: "Early Reader Book",
     title: "First Little Readers",
     brand: "Scholastic",
     category: "books",
     subCategory: "early-readers",
     age: "4-6 Years",
+    type: "Early Reader Book",
+    size: "Story Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Beginner Reading",
     price: 1299,
     oldPrice: 1499,
     rating: 4.9,
     reviews: 346,
     stock: 21,
+    badge: "Bestseller",
+    tag: "Popular",
+    points: 13,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
     description:
@@ -339,18 +456,27 @@ const KidsBooksData = [
 
   // 🦖 DINOSAUR BOOK
   {
-    id: 13014,
+    id: 80,
     name: "Dinosaur Encyclopedia",
     title: "Dinosaurs Encyclopedia for Kids",
     brand: "National Geographic Kids",
     category: "books",
     subCategory: "dinosaurs",
     age: "6-10 Years",
+    type: "Dinosaur Encyclopedia",
+    size: "Large Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 1599,
     oldPrice: 1899,
     rating: 4.9,
     reviews: 278,
     stock: 13,
+    badge: "Educational",
+    tag: "Educational",
+    points: 16,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
     description:
@@ -365,18 +491,27 @@ const KidsBooksData = [
 
   // 🌍 GEOGRAPHY BOOK
   {
-    id: 13015,
+    id: 81,
     name: "World Atlas for Kids",
     title: "Children's Illustrated World Atlas",
     brand: "National Geographic Kids",
     category: "books",
     subCategory: "geography",
     age: "7-12 Years",
+    type: "World Atlas",
+    size: "Large Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 1799,
     oldPrice: 2099,
     rating: 4.8,
     reviews: 185,
     stock: 10,
+    badge: "Educational",
+    tag: "Educational",
+    points: 18,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80",
     description:
@@ -391,18 +526,27 @@ const KidsBooksData = [
 
   // 🔬 EXPERIMENT BOOK
   {
-    id: 13016,
+    id: 82,
     name: "Science Experiments Book",
     title: "101 Easy Science Experiments for Kids",
     brand: "Usborne",
     category: "books",
     subCategory: "experiments",
     age: "7-12 Years",
+    type: "Science Experiment Book",
+    size: "Activity Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 1399,
     oldPrice: 1699,
     rating: 4.8,
     reviews: 214,
     stock: 16,
+    badge: "Educational",
+    tag: "Learning",
+    points: 14,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80",
     description:
@@ -417,18 +561,27 @@ const KidsBooksData = [
 
   // 🧠 PUZZLE BOOK
   {
-    id: 13017,
+    id: 83,
     name: "Kids Puzzle Book",
     title: "Brain Games & Puzzles for Kids",
     brand: "Highlights",
     category: "books",
     subCategory: "puzzle-books",
     age: "6-10 Years",
+    type: "Puzzle Book",
+    size: "Activity Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Activity",
     price: 799,
     oldPrice: 949,
     rating: 4.7,
     reviews: 153,
     stock: 27,
+    badge: "Educational",
+    tag: "Learning",
+    points: 8,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?auto=format&fit=crop&w=800&q=80",
     description:
@@ -443,18 +596,27 @@ const KidsBooksData = [
 
   // 📰 KIDS MAGAZINE
   {
-    id: 13018,
+    id: 84,
     name: "National Geographic Kids",
     title: "National Geographic Kids Magazine",
     brand: "National Geographic",
     category: "magazines",
     subCategory: "kids-magazines",
     age: "6-12 Years",
+    type: "Kids Magazine",
+    size: "Magazine",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 699,
     oldPrice: 799,
     rating: 4.9,
     reviews: 432,
     stock: 30,
+    badge: "Bestseller",
+    tag: "Popular",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
     description:
@@ -469,18 +631,27 @@ const KidsBooksData = [
 
   // 🧪 SCIENCE MAGAZINE
   {
-    id: 13019,
+    id: 85,
     name: "Kids Science Magazine",
     title: "Science & Discovery Kids Magazine",
     brand: "Scholastic",
     category: "magazines",
     subCategory: "science-magazines",
     age: "7-12 Years",
+    type: "Science Magazine",
+    size: "Magazine",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 599,
     oldPrice: 699,
     rating: 4.7,
     reviews: 128,
     stock: 25,
+    badge: "Educational",
+    tag: "Learning",
+    points: 6,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80",
     description:
@@ -495,18 +666,27 @@ const KidsBooksData = [
 
   // 🧑‍🚀 SPACE BOOK
   {
-    id: 13020,
+    id: 86,
     name: "Space Encyclopedia",
     title: "Space Encyclopedia for Young Readers",
     brand: "DK",
     category: "books",
     subCategory: "space-books",
     age: "6-10 Years",
+    type: "Space Encyclopedia",
+    size: "Large Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Reading",
     price: 1699,
     oldPrice: 1999,
     rating: 4.9,
     reviews: 241,
     stock: 11,
+    badge: "Educational",
+    tag: "Educational",
+    points: 17,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80",
     description:

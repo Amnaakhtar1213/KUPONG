@@ -41,11 +41,11 @@ const Cloth = ({product}) => {
      </div>
      <div className="p-4">
         
-        <h2 className="text-xl text-[#1f2937] font-semibold text-center ">{product.title}</h2>
-        <h1 className=" font-semibold mt-2 text-gray-500"><i className="fa-solid fa-star text-yellow-400"></i> {product.rating}</h1>
-        <p className="text-[#ff8200]">{product.category}</p>
-        <p className="text-green-700">Gurantee arrival tomorrow</p>
-        <h2 className="text-red-600 font-semibold text-lg">{product.price} WON</h2>
+        <h2 className="text-sm text-[#1f2937] font-semibold text-center ">{product.title}</h2>
+        <h1 className=" mt-2 text-gray-500"><i className="fa-solid fa-star text-yellow-400"></i> {product.rating}</h1>
+        <p className="text-sm text-[#ff8200]">{product.category}</p>
+        <p className="text-green-700 text-xs">Gurantee arrival tomorrow</p>
+        <h2 className="text-red-600 font-semibold">{product.price} WON</h2>
 
      </div>
      </div>

@@ -4,12 +4,23 @@ import CartCard from './CartCard'
 import CartSummery from './CartSummery'
 import PaymentSuccess from './PaymentSuccess'
 
-const CartGrid = ({ cart, setCart }) => {
+const CartGrid = ({ cart, setCart, order, setOrder }) => {
   const totalItems = cart.reduce((score, product) => {
     return score + product.quantity
   }, 0)
 
   const [paymentDone, setPaymentDone] = useState(false)
+
+  const handlePaymentSuccess = () => {
+    const newOrder = {
+      id: Date.now(),
+      items: cart,
+      status: "Processing"
+    }
+    setOrder(prev => [...prev, newOrder])
+    setPaymentDone(true)
+    setCart([])
+  }
 
   return (
     <div className="mx-auto min-h-screen bg-gray-50 px-4 py-8 md:px-8 lg:px-40 mt-46 md:mt-24">
@@ -47,7 +58,7 @@ const CartGrid = ({ cart, setCart }) => {
             <div className="lg:col-span-1">
               <CartSummery
                 cart={cart}
-                onPaymentSuccess={() => setPaymentDone(true)}
+                onPaymentSuccess={handlePaymentSuccess}
               />
             </div>
 

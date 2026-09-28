@@ -1,6 +1,6 @@
 const HoodiesData = [
   {
-    id: 401,
+    id: 238,
     name: "Boys Classic Navy Fleece Hoodie",
     title: "Soft Navy Pullover Hoodie for Boys",
     category: "Hoodies",
@@ -25,7 +25,7 @@ const HoodiesData = [
   },
 
   {
-    id: 402,
+    id: 239,
     name: "Boys Forest Green Zip Hoodie",
     title: "Forest Green Full-Zip Hoodie for Boys",
     category: "Hoodies",
@@ -50,7 +50,7 @@ const HoodiesData = [
   },
 
   {
-    id: 403,
+    id: 240,
     name: "Boys Street Graphic Hoodie",
     title: "Urban Graphic Print Hoodie for Boys",
     category: "Hoodies",
@@ -75,7 +75,7 @@ const HoodiesData = [
   },
 
   {
-    id: 404,
+    id: 241,
     name: "Boys Charcoal Sports Hoodie",
     title: "Active Sports Hoodie for Boys",
     category: "Hoodies",
@@ -100,7 +100,7 @@ const HoodiesData = [
   },
 
   {
-    id: 405,
+    id: 242,
     name: "Boys Rust Orange Pullover",
     title: "Warm Rust Orange Pullover Hoodie",
     category: "Hoodies",
@@ -125,7 +125,7 @@ const HoodiesData = [
   },
 
   {
-    id: 406,
+    id: 243,
     name: "Boys Grey Essential Hoodie",
     title: "Everyday Grey Essential Hoodie",
     category: "Hoodies",
@@ -150,7 +150,7 @@ const HoodiesData = [
   },
 
   {
-    id: 407,
+    id: 244,
     name: "Boys Royal Blue Hoodie",
     title: "Royal Blue Cozy Fleece Hoodie",
     category: "Hoodies",
@@ -175,7 +175,7 @@ const HoodiesData = [
   },
 
   {
-    id: 408,
+    id: 245,
     name: "Boys Black Colorblock Hoodie",
     title: "Black & Grey Colorblock Hoodie",
     category: "Hoodies",
@@ -202,7 +202,7 @@ const HoodiesData = [
   // GIRLS
 
   {
-    id: 409,
+    id: 246,
     name: "Girls Soft Pink Fleece Hoodie",
     title: "Soft Pink Cozy Pullover Hoodie",
     category: "Hoodies",
@@ -227,7 +227,7 @@ const HoodiesData = [
   },
 
   {
-    id: 410,
+    id: 247,
     name: "Girls Lavender Zip Hoodie",
     title: "Lavender Full-Zip Hoodie for Girls",
     category: "Hoodies",
@@ -252,7 +252,7 @@ const HoodiesData = [
   },
 
   {
-    id: 411,
+    id: 248,
     name: "Girls Butterfly Print Hoodie",
     title: "Cute Butterfly Graphic Hoodie",
     category: "Hoodies",
@@ -277,7 +277,7 @@ const HoodiesData = [
   },
 
   {
-    id: 412,
+    id: 249,
     name: "Girls Mint Green Hoodie",
     title: "Mint Green Everyday Fleece Hoodie",
     category: "Hoodies",
@@ -302,7 +302,7 @@ const HoodiesData = [
   },
 
   {
-    id: 413,
+    id: 250,
     name: "Girls Peach Heart Hoodie",
     title: "Peach Heart Print Pullover Hoodie",
     category: "Hoodies",
@@ -327,7 +327,7 @@ const HoodiesData = [
   },
 
   {
-    id: 414,
+    id: 251,
     name: "Girls Sky Blue Oversized Hoodie",
     title: "Sky Blue Relaxed Fit Hoodie",
     category: "Hoodies",
@@ -352,7 +352,7 @@ const HoodiesData = [
   },
 
   {
-    id: 415,
+    id: 252,
     name: "Girls Cream Teddy Hoodie",
     title: "Cream Cozy Teddy Fleece Hoodie",
     category: "Hoodies",
@@ -377,7 +377,7 @@ const HoodiesData = [
   },
 
   {
-    id: 416,
+    id: 252,
     name: "Girls Lilac Star Hoodie",
     title: "Lilac Star Print Pullover Hoodie",
     category: "Hoodies",
@@ -402,7 +402,7 @@ const HoodiesData = [
   },
 
   {
-    id: 417,
+    id: 253,
     name: "Girls Rose Pink Zip Hoodie",
     title: "Rose Pink Casual Zip-Up Hoodie",
     category: "Hoodies",
@@ -427,7 +427,7 @@ const HoodiesData = [
   },
 
   {
-    id: 418,
+    id: 254,
     name: "Girls Rainbow Graphic Hoodie",
     title: "Colorful Rainbow Graphic Hoodie",
     category: "Hoodies",
@@ -452,7 +452,7 @@ const HoodiesData = [
   },
 
   {
-    id: 419,
+    id: 255,
     name: "Kids Classic Black Unisex Hoodie",
     title: "Classic Black Hoodie for Boys & Girls",
     category: "Hoodies",
@@ -477,7 +477,7 @@ const HoodiesData = [
   },
 
   {
-    id: 420,
+    id: 256,
     name: "Kids Winter Cream Zip Hoodie",
     title: "Cozy Cream Full-Zip Hoodie",
     category: "Hoodies",

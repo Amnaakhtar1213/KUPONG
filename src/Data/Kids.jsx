@@ -1,429 +1,618 @@
 const KidsClothData = [
   {
-    id: 5050,
+    id: 257,
     name: "Blush Pink Princess Frock",
     title: "Pretty layered party dress with soft tulle skirt and bow",
     category: "Girls",
     gender: "Baby Girl",
     age: "2-3 Years",
+    type: "Girls Dress",
+    brand: "Little Princess",
     price: 32900,
     oldPrice: 39900,
+    discount: 18,
     rating: 4.9,
     reviews: 284,
     points: 329,
+    tag: "New",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42",
+    image:
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42",
+    images: [
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42",
+    ],
     description:
       "A beautiful princess-style frock with a soft layered skirt, delicate bow and comfortable inner lining.",
     colors: ["Pink", "Ivory", "Lavender"],
+    color: "Pink",
     sizes: ["2Y", "3Y"],
+    size: "2-3 Years",
+    ageGroup: "2-3 Years",
     material: "Soft cotton and tulle",
+    fit: "Comfortable Fit",
     features: [
       "Layered tulle skirt",
       "Soft inner lining",
       "Decorative waist bow",
-      "Comfortable for parties"
-    ]
+      "Comfortable for parties",
+    ],
   },
-{
-    id:  5051,
+
+  {
+    id: 258,
     name: "Boys Formal Waistcoat Set",
     title: "Smart waistcoat, shirt and trouser set for special occasions",
     category: "Boys",
     gender: "Boy",
     age: "8-9 Years",
+    type: "Boys Formal Set",
+    brand: "Little Gentleman",
     price: 48900,
     oldPrice: 57900,
+    discount: 16,
     rating: 4.9,
     reviews: 143,
     points: 489,
+    tag: "New",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/3a93/6431725882a204ad1afb5354623499cecda93ea83248fc0a4067d2934911.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/3a93/6431725882a204ad1afb5354623499cecda93ea83248fc0a4067d2934911.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/3a93/6431725882a204ad1afb5354623499cecda93ea83248fc0a4067d2934911.jpg",
+    ],
     description:
       "A polished three-piece outfit for weddings, birthdays, Eid and formal family events.",
     colors: ["Black", "Navy", "Beige"],
+    color: "Black",
     sizes: ["8Y", "9Y"],
+    size: "8-9 Years",
+    ageGroup: "8-9 Years",
     material: "Cotton blend and polyester",
+    fit: "Regular Fit",
     features: [
       "Smart waistcoat",
       "Button-up shirt",
       "Matching trousers",
-      "Formal occasion wear"
-    ]
+      "Formal occasion wear",
+    ],
   },
+
   {
-    id:  5052,
+    id: 259,
     name: "Floral Lace Party Dress",
     title: "Elegant floral lace dress for birthdays and family occasions",
     category: "Girls",
     gender: "Baby Girl",
     age: "3-4 Years",
+    type: "Girls Party Dress",
+    brand: "Little Blossom",
     price: 35900,
     oldPrice: 42900,
+    discount: 16,
     rating: 4.8,
     reviews: 196,
     points: 359,
+    tag: "Party Wear",
     arrival: "Today",
+    delivery: "Today",
     new: true,
-    image: "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7",
+    image:
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7",
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7",
+    ],
     description:
       "A charming floral dress with lace detailing and a soft flowing skirt for special occasions.",
     colors: ["Pink", "White", "Sky Blue"],
+    color: "Pink",
     sizes: ["3Y", "4Y"],
+    size: "3-4 Years",
+    ageGroup: "3-4 Years",
     material: "Cotton blend and lace",
+    fit: "Comfortable Fit",
     features: [
       "Floral design",
       "Lace detailing",
       "Soft fabric",
-      "Party wear style"
-    ]
+      "Party wear style",
+    ],
   },
-{ 
-   id:  5053,
+
+  {
+    id: 260,
     name: "Ivory Lace Princess Dress",
     title: "Soft layered Korean-style party dress with delicate lace",
     category: "Girls",
     gender: "Baby Girl",
     age: "2-3 Years",
+    type: "Girls Party Dress",
+    brand: "Little Princess",
     price: 32900,
     oldPrice: 39900,
+    discount: 18,
     rating: 4.9,
     reviews: 284,
     points: 329,
+    tag: "New",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/6e4a/cddfc9f7ce740a80a3c243e7575cc62d0904eccd383870e57f42427b5924.png",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/6e4a/cddfc9f7ce740a80a3c243e7575cc62d0904eccd383870e57f42427b5924.png",
+    ],
     description:
       "An elegant ivory dress with a soft layered skirt and delicate lace trim.",
     colors: ["Ivory", "Cream"],
+    color: "Ivory",
     sizes: ["2Y", "3Y"],
+    size: "2-3 Years",
+    ageGroup: "2-3 Years",
     material: "Cotton and tulle",
+    fit: "Comfortable Fit",
     features: [
       "Layered skirt",
       "Lace detailing",
       "Soft lining",
-      "Party wear"
-    ]
+      "Party wear",
+    ],
   },
-   {
-    id: 5065,
+
+  {
+    id: 261,
     name: "Cream Everyday Flare Dress",
     title: "Simple Korean kids dress with a soft comfortable silhouette",
     category: "Girls",
     gender: "Girl",
     age: "5-6 Years",
+    type: "Girls Casual Dress",
+    brand: "Little Bloom",
     price: 28900,
     oldPrice: 34900,
+    discount: 17,
     rating: 4.8,
     reviews: 196,
     points: 289,
+    tag: "Everyday",
     arrival: "Today",
+    delivery: "Today",
     new: true,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/8449/735a6edda91af260a3fb9960382a205a8fee5e03331e0493c7b7d7cf63c9.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/8449/735a6edda91af260a3fb9960382a205a8fee5e03331e0493c7b7d7cf63c9.jpg",
+    ],
     description:
       "A simple cream dress designed for comfortable everyday wear.",
     colors: ["Cream", "Ivory"],
+    color: "Cream",
     sizes: ["5Y", "6Y"],
+    size: "5-6 Years",
+    ageGroup: "5-6 Years",
     material: "Soft cotton",
+    fit: "Relaxed Fit",
     features: [
       "Long sleeves",
       "Soft fabric",
       "Comfortable fit",
-      "Everyday wear"
-    ]
+      "Everyday wear",
+    ],
   },
 
-
   {
-    id:  5054,
+    id: 262,
     name: "Pink Velvet Mini Dress",
     title: "Pretty soft velvet dress with a cute Korean-inspired look",
     category: "Girls",
     gender: "Baby Girl",
     age: "2-3 Years",
+    type: "Girls Velvet Dress",
+    brand: "Little Velvet",
     price: 31900,
     oldPrice: 38900,
+    discount: 18,
     rating: 4.8,
     reviews: 173,
     points: 319,
+    tag: "New",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e799/679fa1c234c9b9e87e6c928c02cce49d9fe06d3313ec6d3a0f21b753c3e1.png",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/e799/679fa1c234c9b9e87e6c928c02cce49d9fe06d3313ec6d3a0f21b753c3e1.png",
+    ],
     description:
       "A soft pink velvet-style dress perfect for cool weather and special outings.",
     colors: ["Pink", "Navy"],
+    color: "Pink",
     sizes: ["2Y", "3Y"],
+    size: "2-3 Years",
+    ageGroup: "2-3 Years",
     material: "Soft velvet fabric",
+    fit: "Comfortable Fit",
     features: [
       "Soft texture",
       "Adjustable shoulder straps",
       "Cute bow detail",
-      "Autumn style"
-    ]
+      "Autumn style",
+    ],
   },
+
   {
-    id:  5055,
+    id: 263,
     name: "Boys Denim Jacket Outfit",
     title: "Trendy denim jacket with comfortable everyday trousers",
     category: "Boys",
     gender: "Boy",
     age: "9-10 Years",
+    type: "Boys Denim Outfit",
+    brand: "Young Explorer",
     price: 41900,
     oldPrice: 49900,
+    discount: 16,
     rating: 4.8,
     reviews: 164,
     points: 419,
+    tag: "New",
     arrival: "Today",
+    delivery: "Today",
     new: true,
-    image: "https://thumbnail7.coupangcdn.com/thumbnails/remote/292x292q65ex/image/vendor_inventory/dc41/c02c23599415b080e8a7c827285b053cab31dd3b574c9b544b7f58adf729.jpg",
+    image:
+      "https://thumbnail7.coupangcdn.com/thumbnails/remote/292x292q65ex/image/vendor_inventory/dc41/c02c23599415b080e8a7c827285b053cab31dd3b574c9b544b7f58adf729.jpg",
+    images: [
+      "https://thumbnail7.coupangcdn.com/thumbnails/remote/292x292q65ex/image/vendor_inventory/dc41/c02c23599415b080e8a7c827285b053cab31dd3b574c9b544b7f58adf729.jpg",
+    ],
     description:
       "A trendy denim jacket outfit designed for older boys who want a stylish everyday look.",
     colors: ["Blue", "Black"],
+    color: "Blue",
     sizes: ["9Y", "10Y"],
+    size: "9-10 Years",
+    ageGroup: "9-10 Years",
     material: "Denim and cotton",
+    fit: "Regular Fit",
     features: [
       "Classic denim jacket",
       "Soft cotton shirt",
       "Comfortable trousers",
-      "Trendy everyday style"
-    ]
+      "Trendy everyday style",
+    ],
   },
 
-
   {
-    id:  5056,
+    id: 264,
     name: "Ivory Long Sleeve Dress",
     title: "Minimal Korean-style dress with delicate ruffle hem",
     category: "Girls",
     gender: "Girl",
     age: "6-7 Years",
+    type: "Girls Casual Dress",
+    brand: "K-Bloom Kids",
     price: 34900,
     oldPrice: 41900,
+    discount: 17,
     rating: 4.8,
     reviews: 142,
     points: 349,
+    tag: "Korean Style",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: false,
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/9698/fae3ba22e313f70c70eed1790f4f2516bde278fa29473bc9456189405138.png",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/9698/fae3ba22e313f70c70eed1790f4f2516bde278fa29473bc9456189405138.png",
+    ],
     description:
       "A comfortable ivory dress with a relaxed shape and soft decorative hem.",
     colors: ["Ivory", "Cream"],
+    color: "Ivory",
     sizes: ["6Y", "7Y"],
+    size: "6-7 Years",
+    ageGroup: "6-7 Years",
     material: "Cotton blend",
+    fit: "Relaxed Fit",
     features: [
       "Long sleeves",
       "Soft fabric",
       "Relaxed fit",
-      "Ruffle hem"
-    ]
+      "Ruffle hem",
+    ],
   },
-    {
-    id:  5057,
+
+  {
+    id: 265,
     name: "Boys Korean Style Layered Outfit",
     title: "Modern Korean-inspired jacket and pants outfit",
     category: "Boys",
     gender: "Boy",
     age: "7-8 Years",
+    type: "Boys Layered Outfit",
+    brand: "Seoul Kids",
     price: 42900,
     oldPrice: 49900,
+    discount: 14,
     rating: 4.8,
     reviews: 126,
     points: 429,
+    tag: "Korean Style",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/3ef1/4694bb753b8de885cdfc10aeae1bbadb75061c7a7c0d81f13e3c42e99223.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/3ef1/4694bb753b8de885cdfc10aeae1bbadb75061c7a7c0d81f13e3c42e99223.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/3ef1/4694bb753b8de885cdfc10aeae1bbadb75061c7a7c0d81f13e3c42e99223.jpg",
+    ],
     description:
       "A modern layered outfit inspired by Korean kids fashion, combining a lightweight jacket with comfortable pants.",
     colors: ["Blue", "Beige", "Green"],
+    color: "Blue",
     sizes: ["7Y", "8Y"],
+    size: "7-8 Years",
+    ageGroup: "7-8 Years",
     material: "Cotton and polyester",
+    fit: "Regular Fit",
     features: [
       "Korean-inspired style",
       "Layered design",
       "Comfortable pants",
-      "Everyday wear"
-    ]
+      "Everyday wear",
+    ],
   },
 
   {
-    id:  5058,
+    id: 266,
     name: "Girls Embroidered Festive Dress",
     title: "Elegant embroidered dress for Eid and family celebrations",
     category: "Girls",
     gender: "Girl",
     age: "8-9 Years",
+    type: "Girls Festive Dress",
+    brand: "Festive Bloom",
     price: 39900,
     oldPrice: 47900,
+    discount: 17,
     rating: 4.8,
     reviews: 132,
     points: 399,
+    tag: "Festive",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/1430ce95a5e4a1aeb6d52a51a4da42b7882d3cf152c92ea8aeca90b5260a_1770364974993.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/1430ce95a5e4a1aeb6d52a51a4da42b7882d3cf152c92ea8aeca90b5260a_1770364974993.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/1430ce95a5e4a1aeb6d52a51a4da42b7882d3cf152c92ea8aeca90b5260a_1770364974993.jpg",
+    ],
     description:
       "A graceful festive dress featuring delicate embroidery and a comfortable flowing silhouette.",
     colors: ["Green", "Ivory", "Pink"],
+    color: "Green",
     sizes: ["8Y", "9Y"],
+    size: "8-9 Years",
+    ageGroup: "8-9 Years",
     material: "Cotton and embroidered fabric",
+    fit: "Comfortable Fit",
     features: [
       "Floral embroidery",
       "Comfortable lining",
       "Festive design",
-      "Easy movement"
-    ]
+      "Easy movement",
+    ],
   },
 
   {
-    id:  5059,
+    id: 267,
     name: "Girls Pastel Party Dress",
     title: "Soft pastel party dress with elegant layered skirt",
     category: "Girls",
     gender: "Girl",
     age: "9-10 Years",
+    type: "Girls Party Dress",
+    brand: "Pastel Kids",
     price: 44900,
     oldPrice: 52900,
+    discount: 15,
     rating: 4.8,
     reviews: 117,
     points: 449,
+    tag: "Party Wear",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/031e/37b4aad91ba5a1f56a5d32b27b8ece5fec495dca7e03a4ddb17d1c4e0b19.png",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/031e/37b4aad91ba5a1f56a5d32b27b8ece5fec495dca7e03a4ddb17d1c4e0b19.png",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/031e/37b4aad91ba5a1f56a5d32b27b8ece5fec495dca7e03a4ddb17d1c4e0b19.png",
+    ],
     description:
       "A stylish pastel party dress designed for older girls with a comfortable fit and elegant finish.",
     colors: ["Blue", "Pink", "Mint"],
+    color: "Blue",
     sizes: ["9Y", "10Y"],
+    size: "9-10 Years",
+    ageGroup: "9-10 Years",
     material: "Cotton blend and tulle",
+    fit: "Comfortable Fit",
     features: [
       "Pastel color",
       "Layered skirt",
       "Elegant finish",
-      "Party wear"
-    ]
+      "Party wear",
+    ],
   },
 
   {
-    id:  5060,
+    id: 268,
     name: "Baby Boy Bear Hoodie Set",
     title: "Cozy hoodie and jogger set with cute winter bear design",
     category: "Boys",
     gender: "Baby Boy",
     age: "1-2 Years",
+    type: "Baby Boy Hoodie Set",
+    brand: "Tiny Bear",
     price: 29900,
     oldPrice: 35900,
+    discount: 17,
     rating: 4.8,
     reviews: 264,
     points: 299,
+    tag: "New",
     arrival: "Today",
+    delivery: "Today",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/bffe/77f3f7cd4e15018df6d3ebfd1b99c33bb299e307ecb16b20e2ecddafea21.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/bffe/77f3f7cd4e15018df6d3ebfd1b99c33bb299e307ecb16b20e2ecddafea21.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/bffe/77f3f7cd4e15018df6d3ebfd1b99c33bb299e307ecb16b20e2ecddafea21.jpg",
+    ],
     description:
       "A cozy two-piece outfit with a soft hoodie and matching joggers, perfect for everyday wear.",
     colors: ["Teal", "Gray", "Navy"],
+    color: "Teal",
     sizes: ["1Y", "2Y"],
+    size: "1-2 Years",
+    ageGroup: "1-2 Years",
     material: "Cotton fleece",
+    fit: "Relaxed Fit",
     features: [
       "Soft fleece",
       "Bear graphic",
       "Matching joggers",
-      "Warm and comfortable"
-    ]
+      "Warm and comfortable",
+    ],
   },
 
   {
-    id:  5061,
+    id: 269,
     name: "Baby Boy Denim Layered Set",
     title: "Stylish denim vest outfit with soft knitted top",
     category: "Boys",
     gender: "Baby Boy",
     age: "2-3 Years",
+    type: "Baby Boy Layered Set",
+    brand: "Little Explorer",
     price: 33900,
     oldPrice: 39900,
+    discount: 15,
     rating: 4.7,
     reviews: 181,
     points: 339,
+    tag: "New",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: true,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/c728/53a8e741a664e5840e1fbe03ca9c4fb567a708270379b645b216f7bd852b.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/c728/53a8e741a664e5840e1fbe03ca9c4fb567a708270379b645b216f7bd852b.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/c728/53a8e741a664e5840e1fbe03ca9c4fb567a708270379b645b216f7bd852b.jpg",
+    ],
     description:
       "A fashionable layered outfit combining a soft knit top with a lightweight denim vest.",
     colors: ["Blue", "Gray"],
+    color: "Blue",
     sizes: ["2Y", "3Y"],
+    size: "2-3 Years",
+    ageGroup: "2-3 Years",
     material: "Cotton and denim",
+    fit: "Regular Fit",
     features: [
       "Layered look",
       "Soft knit top",
       "Denim vest",
-      "Everyday style"
-    ]
+      "Everyday style",
+    ],
   },
 
   {
-    id:  5062,
+    id: 270,
     name: "Boys Smart Shirt and Trouser Set",
     title: "Classic shirt and trouser outfit for parties and events",
     category: "Boys",
     gender: "Boy",
     age: "4-5 Years",
+    type: "Boys Formal Set",
+    brand: "Young Gentleman",
     price: 38900,
     oldPrice: 45900,
+    discount: 15,
     rating: 4.8,
     reviews: 205,
     points: 389,
+    tag: "Smart Wear",
     arrival: "Tomorrow",
+    delivery: "Tomorrow",
     new: false,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b8f1/1ac27bb35a6034a6127c48dd1dc5326f34ed459c93b9038bb68f1f02034e.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b8f1/1ac27bb35a6034a6127c48dd1dc5326f34ed459c93b9038bb68f1f02034e.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b8f1/1ac27bb35a6034a6127c48dd1dc5326f34ed459c93b9038bb68f1f02034e.jpg",
+    ],
     description:
       "A smart coordinated outfit with a button-up shirt and matching trousers for special occasions.",
     colors: ["White", "Blue", "Beige"],
+    color: "White",
     sizes: ["4Y", "5Y"],
+    size: "4-5 Years",
+    ageGroup: "4-5 Years",
     material: "Cotton blend",
+    fit: "Regular Fit",
     features: [
       "Button-up shirt",
       "Matching trousers",
       "Smart casual style",
-      "Comfortable fabric"
-    ]
+      "Comfortable fabric",
+    ],
   },
 
   {
-    id:  5063,
+    id: 271,
     name: "Boys Casual Hoodie Set",
     title: "Comfortable hoodie and jogger set for active kids",
     category: "Boys",
     gender: "Boy",
     age: "5-6 Years",
+    type: "Boys Hoodie Set",
+    brand: "Active Kids",
     price: 31900,
     oldPrice: 37900,
+    discount: 16,
     rating: 4.7,
     reviews: 149,
     points: 319,
+    tag: "Everyday",
     arrival: "Today",
+    delivery: "Today",
     new: false,
-    image: "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b681/2db759b7273170a61d8ea267de015b6551ae3d0e30a18d1c3d37a5849237.jpg",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b681/2db759b7273170a61d8ea267de015b6551ae3d0e30a18d1c3d37a5849237.jpg",
+    images: [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/b681/2db759b7273170a61d8ea267de015b6551ae3d0e30a18d1c3d37a5849237.jpg",
+    ],
     description:
       "A comfortable everyday set made for school, playtime and outdoor activities.",
     colors: ["Navy", "Gray", "Olive"],
+    color: "Navy",
     sizes: ["5Y", "6Y"],
+    size: "5-6 Years",
+    ageGroup: "5-6 Years",
     material: "Cotton fleece",
+    fit: "Relaxed Fit",
     features: [
       "Soft hoodie",
       "Matching joggers",
       "Flexible fabric",
-      "Everyday comfort"
-    ]
+      "Everyday comfort",
+    ],
   },
+];
 
-
-
-  
-
-  
-]
-
-export default KidsClothData
+export default KidsClothData;

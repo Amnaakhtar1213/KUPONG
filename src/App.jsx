@@ -52,6 +52,7 @@ import ToysPage from "./components/pages/ToysPage";
 import StationaryPage from "./components/pages/StationayPage";
 import BooksPage from "./components/pages/BooksPage";
 import ProtectedRoute from "./ProtectedRoute";
+import FlashSale from "./components/pages/FlashSale";
 
 function App() {
   
@@ -89,6 +90,16 @@ function App() {
     localStorage.setItem("kupongCart", JSON.stringify(cart));
   }, [cart]);
 
+  const [order, setOrder] = useState(() => {
+    const savedOrder = JSON.parse(localStorage.getItem("kupongOrder")) || []
+    return savedOrder;
+  })
+
+
+  useEffect(() => {
+   localStorage.setItem("kupongOrder", JSON.stringify(order))
+  }, [order])
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -103,13 +114,18 @@ function App() {
         <Route path="/arrivals" element={<NewArrival />} />
         <Route path="/best" element={<Best />} />
         <Route path="/todays" element={<TodayDeals />} />
-        <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
+        <Route path="/cart" element={<Cart cart={cart} setCart={setCart} order={order} setOrder={setOrder}/>} />
         <Route path="/save" element={<Save setCart={setCart} />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/profile" element={<ProtectedRoute>
-          <Profile />
-          </ProtectedRoute>} />
+       <Route
+  path="/profile"
+  element={
+    <ProtectedRoute>
+      <Profile order={order} cart={cart}/>
+    </ProtectedRoute>
+  }
+/>
         <Route
           path="/search"
           element={
@@ -136,6 +152,7 @@ function App() {
              <Route path="/toys" element={<ToysPage setCart={setCart} />} />
               <Route path="/stationary" element={<StationaryPage />} />
                <Route path="/book" element={<BooksPage />} />
+               <Route path="/flash" element={<FlashSale setCart={setCart} />} />
       </Routes>
       <Footer />
     </BrowserRouter>

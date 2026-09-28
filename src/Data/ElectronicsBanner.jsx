@@ -1,6 +1,6 @@
 const electronicsBanners = [
   {
-    id: 1,
+    id: 115,
     title: "Power Up Your World",
     subtitle: "Discover the latest smartphones, laptops, and smart devices.",
     buttonText: "Shop Electronics",
@@ -14,7 +14,7 @@ const electronicsBanners = [
   },
 
   {
-    id: 2,
+    id: 116,
     title: "Upgrade Your Setup",
     subtitle: "Build your perfect workspace with premium laptops, monitors, and accessories.",
     buttonText: "Explore Computers",
@@ -28,7 +28,7 @@ const electronicsBanners = [
   },
 
   {
-    id: 3,
+    id: 117,
     title: "Next-Level Gaming",
     subtitle: "Level up your gaming experience with powerful consoles and accessories.",
     buttonText: "Shop Gaming",
@@ -42,7 +42,7 @@ const electronicsBanners = [
   },
 
   {
-    id: 4,
+    id: 118,
     title: "Sound That Moves You",
     subtitle: "Experience immersive audio with headphones, earbuds, and powerful speakers.",
     buttonText: "Shop Audio",
@@ -56,7 +56,7 @@ const electronicsBanners = [
   },
 
   {
-    id: 5,
+    id: 119,
     title: "Smart Technology, Smarter Life",
     subtitle: "Bring your home into the future with smart watches, speakers, and connected devices.",
     buttonText: "Explore Smart Tech",

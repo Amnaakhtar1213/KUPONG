@@ -1,6 +1,12 @@
 import React from 'react'
 
-const OrderSummary = () => {
+const OrderSummary = ({order}) => {
+
+
+  const processingOrder = order.filter((item) => item.status === "Processing").length;
+
+  const deliveredOrder = order.filter((item) => item.status === "Delivered").length;
+  
   return (
     <div>
       <div className="border border-gray-300 rounded-lg p-6 ml-auto font-semibold shadow-sm">
@@ -10,19 +16,19 @@ const OrderSummary = () => {
         <div className="flex flex-row gap-4 items-center mt-10">
           <i className="fa-solid fa-box text-yellow-500 text-lg"></i>
           <p className="text-gray-700 font-bold">Total Order </p>
-          <h2 className="mx-auto text-gray-500">5</h2>
+          <h2 className="mx-auto text-gray-500">{order.length}</h2>
         </div>
 
          <div className="flex flex-row gap-4 items-center mt-6">
          <i className="fa-regular fa-clock text-blue-500 text-lg"></i>
           <p className="text-gray-700 font-bold">Processing </p>
-          <h2 className="mx-auto text-gray-500">5</h2>
+          <h2 className="mx-auto text-gray-500">{processingOrder}</h2>
         </div>
 
          <div className="flex flex-row gap-4 items-center mt-6">
           <i className="fa-solid fa-check text-green-500 text-lg"></i>
           <p className="text-gray-700 font-bold">Delivered </p>
-          <h2 className="mx-auto text-gray-500">5</h2>
+          <h2 className="mx-auto text-gray-500">{deliveredOrder}</h2>
         </div>
       </div>
     </div>

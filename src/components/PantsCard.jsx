@@ -1,9 +1,37 @@
 import React from 'react'
-
+import { useState, useEffect } from 'react'; 
+import { useNavigate } from 'react-router-dom';
 
 const PantsCard = ({ product }) => {
+
+   const navigate = useNavigate()
+    const [saved, setSaved] = useState(false);
+  
+    useEffect(() => {
+          const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+      
+          const alreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
+          setSaved(alreadySaved)
+        },[product.id])
+    
+        const handleSaved = () => {
+        const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+        const alreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
+    
+        if(alreadySaved){
+          const updatedSavedProducts = kupongSavedProducts.filter((savedProduct) => savedProduct.id !== product.id)
+          localStorage.setItem("kupongSavedProducts", JSON.stringify(updatedSavedProducts))
+          setSaved(false)
+        } else{
+          kupongSavedProducts.push(product)
+          localStorage.setItem("kupongSavedProducts", JSON.stringify(kupongSavedProducts))
+          setSaved(true)
+        }
+      }
+
+
   return (
-    <div className="bg-white border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="group bg-white border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
 
       {/* Image */}
       <div className="relative bg-gray-100 h-64">
@@ -21,8 +49,11 @@ const PantsCard = ({ product }) => {
         )}
 
         {/* Heart */}
-        <button className="absolute top-2 right-2 bg-white rounded-full w-9 h-9 flex items-center justify-center shadow">
-          <i className="fa-regular fa-heart text-gray-500"></i>
+        <button  onClick={(e) => {
+          e.stopPropagation()   //heart click should stay on the heart the card cant trigger when we click
+          handleSaved()
+        }}  className="absolute top-2 right-2 bg-white rounded-full w-9 h-9 flex items-center justify-center shadow">
+          <i className={`fa-solid fa-heart ${saved ? "text-red-700" : "text-gray-300"}`}></i>
         </button>
       </div>
 

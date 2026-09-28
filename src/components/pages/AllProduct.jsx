@@ -1,4 +1,5 @@
 import React from 'react'
+
 import CoatData from '../../Data/Coats'
 import BeautyCare from '../../Data/BeautyCare'
 import beautyProductsData from '../../Data/Beauty'
@@ -21,82 +22,278 @@ import TechCard from '../TechCard'
 import WomenCard from '../Home/WomenCard'
 import CoatCard from '../CoatCard'
 
-const AllProduct = ({product}) => {
 
-  const AllProducts = [
-    ...CoatData,
+const AllProduct = () => {
+
+  // Combine datasets that belong to the same category
+
+  const AllBeautyProducts = [
     ...BeautyCare,
-    ...beautyProductsData,
-    ...HoodiesData,
-    ...KidsClothData,
-    ...MenData,
-    ...ShoesData,
-    ...TechData,
-    ...WomenData,
-    ...mensCollectionData,
-    ...SweaterData
+    ...beautyProductsData
   ]
 
-  
-  return (
-      <div className="w-full px-4 md:px-8 lg:px-12 py-6 mt-30">
+  const AllMensProducts = [
+    ...MenData,
+    ...mensCollectionData
+  ]
 
-      <div className="mb-6">
+
+  return (
+
+    <div className="w-full px-4 md:px-8 lg:px-12 py-6 mt-30">
+
+      {/* PAGE HEADING */}
+
+      <div className="mb-10">
+
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800">
           All Products
         </h1>
 
         <p className="text-sm text-gray-500 mt-1">
-          Discover all products
+          Discover our products
         </p>
-      </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-
-        {AllProducts.map((product) => {
-
-          if (CoatData.some((item) => item.id === product.id)) {
-            return <CoatCard key={product.id} product={product} />;
-          }
-
-          if (BeautyCare.some((item) => item.id === product.id)) {
-            return <SkinCard key={product.id} product={product} />;
-          }
-
-          if (HoodiesData.some((item) => item.id === product.id)) {
-            return <HoodiesCard key={product.id} product={product} />;
-          }
-
-          if (KidsClothData.some((item) => item.id === product.id)) {
-            return <KidsCard key={product.id} product={product} />;
-          }
-
-          if (TechData.some((item) => item.id === product.id)) {
-            return <TechCard key={product.id} product={product} />;
-          }
-
-          if (WomenData.some((item) => item.id === product.id)) {
-            return <WomenCard key={product.id} product={product} />;
-          }
-
-          if (MenData.some((item) => item.id === product.id)) {
-            return <MensCollCards key={product.id} product={product} />;
-          }
-
-           if (ShoesData.some((item) => item.id === product.id)) {
-            return <ShoesCard key={product.id} product={product} />;
-          }
-
-            if (SweaterData.some((item) => item.id === product.id)) {
-            return <SweaterCard key={product.id} product={product} />;
-          }
-
-          return null;
-        })}
 
       </div>
+
+
+      {/* =========================
+          COATS - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Coats
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {CoatData.slice(0, 5).map((product) => (
+
+            <CoatCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          BEAUTY - ONLY 5 TOTAL
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Beauty
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {AllBeautyProducts.slice(0, 5).map((product) => (
+
+            <SkinCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          HOODIES - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Hoodies
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {HoodiesData.slice(0, 5).map((product) => (
+
+            <HoodiesCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          KIDS - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Kids Clothing
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {KidsClothData.slice(0, 5).map((product) => (
+
+            <KidsCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          MEN - ONLY 5 TOTAL
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Men's Collection
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {AllMensProducts.slice(0, 5).map((product) => (
+
+            <MensCollCards
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          SHOES - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Shoes
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {ShoesData.slice(0, 5).map((product) => (
+
+            <ShoesCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          TECHNOLOGY - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Technology
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {TechData.slice(0, 5).map((product) => (
+
+            <TechCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          WOMEN - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Women's Collection
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {WomenData.slice(0, 5).map((product) => (
+
+            <WomenCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          SWEATERS - ONLY 5
+      ========================= */}
+
+      <section className="mb-12">
+
+        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-5">
+          Sweaters
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+
+          {SweaterData.slice(0, 5).map((product) => (
+
+            <SweaterCard
+              key={product.id}
+              product={product}
+            />
+
+          ))}
+
+        </div>
+
+      </section>
+
     </div>
+
   )
 }
+
 
 export default AllProduct

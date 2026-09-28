@@ -31,7 +31,7 @@ const TechCard = ({product}) => {
     }
   return (
     <div onClick={() => navigate(`/products/${product.id}`)} className="w-60 hover:shadow-lg hover:shadow-gray-300">
-   <div className="relative w-70 md:w-40">
+   <div className="relative w-60 md:w-40">
     <img src={product.image} className="w-full object-contain"/>
     <i onClick={handleSave} className={`absolute bottom-2 right-2 ${isFavorite ? "text-red-700" : "text-gray-200"} fa-solid fa-heart`}></i>
    </div>

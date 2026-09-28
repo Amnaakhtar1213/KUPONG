@@ -1,7 +1,7 @@
 const products = [
 
   {
-    id: 2,
+    id: 356,
     name: "Smart Watch Series 8",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
     category: "Electronics",
@@ -16,7 +16,7 @@ const products = [
   },
  
   {
-    id: 4,
+    id: 357,
     name: "Portable Personal Blender",
     image: "https://images.unsplash.com/photo-1570222094114-d054a817e56b",
     category: "Home & Kitchen",
@@ -30,7 +30,7 @@ const products = [
     quantity:1,
   },
   {
-    id: 5,
+    id: 358,
     name: "Modern LED Desk Lamp",
     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
     category: "Home & Living",
@@ -44,7 +44,7 @@ const products = [
     quantity:1,
   },
   {
-    id: 6,
+    id: 359,
     name: "Portable Bluetooth Speaker",
     image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
     category: "Electronics",

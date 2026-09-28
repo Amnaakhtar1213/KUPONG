@@ -1,107 +1,102 @@
 const electronicsData = [
   {
-    id: 1,
+    id: 120,
     category: "Electronics",
     subcategory: "Home Appliances",
-    brand: "",
+    brand: "KUPONG Home",
     title: "KOREAN Low Noice Mini Air Cooler Portable",
-    shortTitle: "Samsung Galaxy S25 Ultra",
+    shortTitle: "Portable Mini Air Cooler",
     description:
-      "Premium flagship smartphone with a powerful processor, advanced camera system, vibrant AMOLED display, and long-lasting battery.",
+      "Compact portable air cooler designed for personal cooling with low-noise operation and convenient portability.",
     price: 9400,
     originalPrice: 10400,
     discount: 13,
     currency: "won",
-     quantity:1,
+    quantity: 1,
     rating: 4.8,
     reviews: 324,
     stock: 18,
     stockStatus: "In Stock",
     badge: "Best Seller",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/091e/73e5c85be9a85851c984bd2d3bb0852fdb0a8ae44c48fe80b3066b96c33e.jpg",
 
+    size: "Mini / Portable",
+    material: "ABS Plastic",
+    color: "White",
+    delivery: "Free delivery",
+
     specifications: {
-      display: "6.9-inch Dynamic AMOLED 2X",
-      resolution: "3120 × 1440",
-      processor: "Snapdragon 8 Elite",
-      ram: "12GB",
-      storage: "256GB",
-      camera: "200MP + 50MP + 50MP + 10MP",
-      frontCamera: "12MP",
-      battery: "5000mAh",
-      operatingSystem: "Android",
-      connectivity: "5G, Wi-Fi, Bluetooth",
-      color: "Titanium Black"
+      coolingType: "Air Cooler",
+      noiseLevel: "Low Noise",
+      portability: "Portable",
+      power: "USB Powered",
+      waterTank: "Compact Water Tank",
+      color: "White",
     },
 
     features: [
-      "6.9-inch Dynamic AMOLED display",
-      "200MP professional camera",
-      "5G connectivity",
-      "5000mAh battery",
-      "Fast charging",
-      "Water and dust resistance"
+      "Low-noise operation",
+      "Compact portable design",
+      "Personal cooling",
+      "USB powered",
+      "Easy to carry",
+      "Suitable for desk and bedroom use",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Official Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 2,
+    id: 121,
     category: "Electronics",
     subcategory: "Home Appliance",
     brand: "Haier",
     title: "Porable Air Cooler low noice high-cooling",
-    shortTitle: "iPhone 16 Pro Max",
+    shortTitle: "Portable Air Cooler",
     description:
-      "High-performance Apple smartphone featuring a titanium design, advanced camera system, powerful A18 Pro chip, and Super Retina XDR display.",
+      "Portable air cooler designed to provide efficient personal cooling with low-noise operation and a compact design.",
     price: 11900,
     originalPrice: 12999,
     discount: 7,
     currency: "won",
     rating: 4.9,
     reviews: 512,
-     quantity:1,
+    quantity: 1,
     stock: 12,
     stockStatus: "In Stock",
     badge: "Premium",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/72ad/36c57ad79f9a25ae2736640753c7d4d9555b1f5de629135fe13fd76a750e.png",
 
-   
+    size: "Medium / Portable",
+    material: "ABS Plastic",
+    color: "White",
+    delivery: "Free delivery",
 
     specifications: {
-      display: "6.9-inch Super Retina XDR",
-      processor: "A18 Pro",
-      ram: "8GB",
-      storage: "256GB",
-      camera: "48MP Fusion + 48MP Ultra Wide + 12MP Telephoto",
-      frontCamera: "12MP",
-      battery: "Up to 33 hours video playback",
-      operatingSystem: "iOS",
-      connectivity: "5G, Wi-Fi 7, Bluetooth",
-      color: "Desert Titanium"
+      coolingType: "Portable Air Cooler",
+      noiseLevel: "Low Noise",
+      coolingModes: "Multiple",
+      portability: "Portable",
+      power: "Electric",
+      color: "White",
     },
 
     features: [
-      "A18 Pro chip",
-      "Titanium design",
-      "Pro camera system",
-      "USB-C connectivity",
-      "Face ID",
-      "Action button"
+      "High cooling performance",
+      "Low-noise operation",
+      "Portable design",
+      "Multiple cooling modes",
+      "Easy to operate",
+      "Suitable for bedrooms and offices",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Apple Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 3,
+    id: 122,
     category: "Electronics",
     subcategory: "Laptops",
     brand: "Apple",
@@ -111,7 +106,7 @@ const electronicsData = [
       "Thin and lightweight laptop powered by Apple's M3 chip with a large Liquid Retina display and all-day battery life.",
     price: 329999,
     originalPrice: 359999,
-     quantity:1,
+    quantity: 1,
     discount: 8,
     currency: "PKR",
     rating: 4.8,
@@ -119,9 +114,13 @@ const electronicsData = [
     stock: 9,
     stockStatus: "In Stock",
     badge: "Top Rated",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/retail/images/178410262546251-02c75113-a9db-4e3f-bc90-1b59ebb4f05a.png",
+
+    size: "15.3-inch",
+    material: "Aluminum",
+    color: "Midnight",
+    delivery: "Free delivery",
 
     specifications: {
       display: "15.3-inch Liquid Retina",
@@ -132,7 +131,7 @@ const electronicsData = [
       battery: "Up to 18 hours",
       operatingSystem: "macOS",
       connectivity: "Wi-Fi 6E, Bluetooth 5.3",
-      color: "Midnight"
+      color: "Midnight",
     },
 
     features: [
@@ -140,25 +139,25 @@ const electronicsData = [
       "15.3-inch Retina display",
       "18-hour battery life",
       "MagSafe charging",
-      "Backlit Magic Keyboard"
+      "Backlit Magic Keyboard",
+      "Lightweight aluminum design",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 4,
+    id: 123,
     category: "Electronics",
     subcategory: "Power bank large capacity",
-    brand: "Dell",
+    brand: "KUPONG Power",
     title: "Power bank large capacity",
-    shortTitle: "Dell XPS 15",
+    shortTitle: "Large Capacity Power Bank",
     description:
-      "Powerful premium laptop designed for productivity, development, creative work, and everyday professional use.",
+      "High-capacity portable power bank designed to provide reliable charging for smartphones, tablets, and other USB devices.",
     price: 289999,
     originalPrice: 319999,
-     quantity:1,
+    quantity: 1,
     discount: 9,
     currency: "PKR",
     rating: 4.7,
@@ -166,48 +165,47 @@ const electronicsData = [
     stock: 15,
     stockStatus: "In Stock",
     badge: "Popular",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/stage/manual/996c21bfe6c21034d7f0a3858f9ac851eda328c691856c0fdc4ad33dd609_1785134296554.jpg",
 
-   
+    size: "Large Capacity",
+    material: "ABS & Aluminum",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
-      display: "15.6-inch FHD+",
-      processor: "Intel Core i7",
-      ram: "16GB",
-      storage: "512GB SSD",
-      graphics: "NVIDIA GeForce RTX",
-      battery: "Up to 13 hours",
-      operatingSystem: "Windows 11",
-      connectivity: "Wi-Fi 6E, Bluetooth",
-      color: "Platinum Silver"
+      capacity: "Large Capacity",
+      output: "High-Speed Charging",
+      ports: "USB-C + USB-A",
+      charging: "Fast Charging",
+      display: "LED Indicator",
+      color: "Black",
     },
 
     features: [
-      "Intel Core i7 processor",
-      "16GB RAM",
-      "512GB SSD",
-      "Premium aluminum body",
-      "Full HD+ display"
+      "Large battery capacity",
+      "Fast charging",
+      "Multiple USB ports",
+      "LED battery indicator",
+      "Portable design",
+      "Multi-device charging",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 5,
+    id: 124,
     category: "Electronics",
     subcategory: "DS Rechargeable Multi-handy vacume cleaner",
     brand: "Sony",
     title: "Sony WH-1000XM5 Wireless Headphones",
-    shortTitle: "DS Rechargeable Multi-handy vacume cleaner",
+    shortTitle: "Sony WH-1000XM5",
     description:
       "Premium wireless noise-canceling headphones offering immersive sound, comfortable design, and long battery life.",
     price: 74999,
     originalPrice: 84999,
-     quantity:1,
+    quantity: 1,
     discount: 12,
     currency: "PKR",
     rating: 4.8,
@@ -215,9 +213,13 @@ const electronicsData = [
     stock: 24,
     stockStatus: "In Stock",
     badge: "Best Seller",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/650b/79ec61ae07b1646a354e91f38d68f2c0e30750b54f1e79d6002d0840c05d.jpg",
+
+    size: "Over-Ear",
+    material: "Synthetic Leather & Plastic",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
       type: "Over-Ear",
@@ -226,7 +228,7 @@ const electronicsData = [
       noiseCancellation: "Active Noise Cancellation",
       microphone: "Built-in",
       charging: "USB-C",
-      color: "Black"
+      color: "Black",
     },
 
     features: [
@@ -234,15 +236,15 @@ const electronicsData = [
       "30-hour battery life",
       "Wireless Bluetooth",
       "Touch controls",
-      "Fast charging"
+      "Fast charging",
+      "Comfortable over-ear design",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 6,
+    id: 125,
     category: "Electronics",
     subcategory: "Headphones & Earbuds",
     brand: "Apple",
@@ -253,16 +255,20 @@ const electronicsData = [
     price: 64999,
     originalPrice: 74999,
     discount: 13,
-     quantity:1,
+    quantity: 1,
     currency: "PKR",
     rating: 4.7,
     reviews: 634,
     stock: 31,
     stockStatus: "In Stock",
     badge: "Trending",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/f39b/d95e3c4b7abd45339f82293e8360e23050160d3ebee6ef5723b9b552f293.jpg",
+
+    size: "Compact",
+    material: "Plastic",
+    color: "White",
+    delivery: "Free delivery",
 
     specifications: {
       type: "True Wireless Earbuds",
@@ -272,7 +278,7 @@ const electronicsData = [
       noiseCancellation: "Active Noise Cancellation",
       charging: "USB-C MagSafe Case",
       waterResistance: "IP54",
-      color: "White"
+      color: "White",
     },
 
     features: [
@@ -280,15 +286,15 @@ const electronicsData = [
       "Transparency Mode",
       "Spatial Audio",
       "USB-C charging",
-      "Sweat and water resistance"
+      "Sweat and water resistance",
+      "Apple H2 chip",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Apple Warranty"
+    warranty: "1 Year Apple Warranty",
   },
 
   {
-    id: 7,
+    id: 126,
     category: "Electronics",
     subcategory: "Smart Watches",
     brand: "Apple",
@@ -297,7 +303,7 @@ const electronicsData = [
     description:
       "Advanced smartwatch with a bright display, health tracking features, fitness monitoring, and smart notifications.",
     price: 89999,
-     quantity:1,
+    quantity: 1,
     originalPrice: 99999,
     discount: 10,
     currency: "PKR",
@@ -306,9 +312,13 @@ const electronicsData = [
     stock: 14,
     stockStatus: "In Stock",
     badge: "New",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/be1c/6f5098c59e6113fa31d859d0307cb23aebe64d76a8e5ff2617511b7549ce.jpg",
+
+    size: "46mm",
+    material: "Aluminum",
+    color: "Jet Black",
+    delivery: "Free delivery",
 
     specifications: {
       display: "46mm Retina OLED",
@@ -318,7 +328,7 @@ const electronicsData = [
       connectivity: "Bluetooth, Wi-Fi",
       waterResistance: "50 meters",
       compatibility: "iPhone",
-      color: "Jet Black"
+      color: "Jet Black",
     },
 
     features: [
@@ -327,25 +337,24 @@ const electronicsData = [
       "Fitness tracking",
       "Fall detection",
       "Water resistant",
-      "Smart notifications"
+      "Smart notifications",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 8,
+    id: 127,
     category: "Electronics",
-    subcategory: "cooking pot",
-    brand: "Samsung",
-    title: "Handol Living Baked Stone Egg ",
-    shortTitle: "Galaxy Watch 7",
+    subcategory: "Cooking Pot",
+    brand: "Handol Living",
+    title: "Handol Living Baked Stone Egg",
+    shortTitle: "Baked Stone Egg Cooker",
     description:
-      "Modern smartwatch with health monitoring, fitness tracking, GPS, and a bright AMOLED display.",
+      "Compact kitchen appliance designed for convenient cooking with a durable baked-stone style body and easy operation.",
     price: 54999,
     originalPrice: 64999,
-     quantity:1,
+    quantity: 1,
     discount: 15,
     currency: "PKR",
     rating: 4.6,
@@ -353,80 +362,85 @@ const electronicsData = [
     stock: 22,
     stockStatus: "In Stock",
     badge: "Deal",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/3f85/a30d34e8426922754ef1f6424a94038736546a95e1988123ab68b91ffd9d.png",
 
+    size: "Medium",
+    material: "Stone & Ceramic",
+    color: "Brown",
+    delivery: "Free delivery",
+
     specifications: {
-      display: "44mm Super AMOLED",
-      processor: "Exynos W1000",
-      storage: "32GB",
-      battery: "Up to 40 hours",
-      connectivity: "Bluetooth, Wi-Fi, GPS",
-      waterResistance: "5ATM",
-      compatibility: "Android",
-      color: "Silver"
+      type: "Cooking Appliance",
+      capacity: "Medium",
+      heating: "Electric Heating",
+      body: "Baked Stone",
+      usage: "Cooking",
+      color: "Brown",
     },
 
     features: [
-      "Advanced health tracking",
-      "Built-in GPS",
-      "Sleep monitoring",
-      "Heart rate tracking",
-      "AMOLED display"
+      "Baked stone construction",
+      "Even heating",
+      "Compact kitchen design",
+      "Easy operation",
+      "Durable cooking surface",
+      "Suitable for everyday cooking",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 9,
+    id: 128,
     category: "Electronics",
-    subcategory: "Weight machine",
-    brand: "Canon",
+    subcategory: "Weight Machine",
+    brand: "MIGA",
     title: "MIGA smart bluetooth body fat scale",
-    shortTitle: "Canon EOS R50",
+    shortTitle: "MIGA Smart Body Fat Scale",
     description:
-      "Compact mirrorless camera designed for photography and video creators with fast autofocus and high-resolution imaging.",
+      "Smart Bluetooth body scale designed to monitor body weight and other fitness measurements through a connected mobile device.",
     price: 184999,
     originalPrice: 204999,
-     quantity:1,
+    quantity: 1,
     discount: 10,
     currency: "PKR",
     rating: 4.7,
     reviews: 97,
     stock: 7,
     stockStatus: "Limited Stock",
-    badge: "Creator Pick",
-
+    badge: "Smart",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/daf1/15a1ee88e7b962d15b76d6eb13b7cc0ef6a5a4cca8a6a91d6eced3084216.jpg",
 
+    size: "Standard",
+    material: "Tempered Glass & ABS",
+    color: "Black",
+    delivery: "Free delivery",
+
     specifications: {
-      sensor: "24.2MP APS-C",
-      video: "4K UHD",
-      lens: "18-45mm",
-      autofocus: "Dual Pixel CMOS AF II",
-      connectivity: "Wi-Fi, Bluetooth",
-      display: "3-inch Vari-Angle Touchscreen",
-      color: "Black"
+      type: "Smart Body Scale",
+      connectivity: "Bluetooth",
+      display: "LED Digital Display",
+      measurements: "Weight & Body Composition",
+      compatibility: "Smartphone App",
+      color: "Black",
     },
 
     features: [
-      "24.2MP sensor",
-      "4K video recording",
-      "Fast autofocus",
-      "Wi-Fi connectivity",
-      "Compact design"
+      "Bluetooth connectivity",
+      "Digital weight display",
+      "Body composition tracking",
+      "Tempered glass surface",
+      "Smartphone app support",
+      "Modern compact design",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 10,
+    id: 129,
     category: "Electronics",
     subcategory: "Monitors",
     brand: "LG",
@@ -436,7 +450,7 @@ const electronicsData = [
       "High-refresh-rate gaming monitor designed for smooth gameplay, fast response times, and immersive visuals.",
     price: 89999,
     originalPrice: 99999,
-     quantity:1,
+    quantity: 1,
     discount: 10,
     currency: "PKR",
     rating: 4.6,
@@ -444,13 +458,17 @@ const electronicsData = [
     stock: 11,
     stockStatus: "In Stock",
     badge: "Gaming",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/retail/images/2026/04/02/17/6/34f5e49f-4f3d-4c13-b07b-e39aaf262aa9.jpg",
 
     images: [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop",
     ],
+
+    size: "27-inch",
+    material: "Plastic & Metal",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
       size: "27-inch",
@@ -460,7 +478,7 @@ const electronicsData = [
       panel: "IPS",
       ports: "HDMI, DisplayPort",
       adaptiveSync: "AMD FreeSync",
-      color: "Black"
+      color: "Black",
     },
 
     features: [
@@ -468,25 +486,25 @@ const electronicsData = [
       "1ms response time",
       "QHD resolution",
       "AMD FreeSync",
-      "Gaming optimized display"
+      "Gaming optimized display",
+      "27-inch IPS panel",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 11,
+    id: 130,
     category: "Electronics",
     subcategory: "Gaming",
-    brand: "Sony",
+    brand: "KUPONG Gaming",
     title: "Noice cancelation rainbow LED Headset",
-    shortTitle: "PlayStation 5 Slim",
+    shortTitle: "Rainbow LED Gaming Headset",
     description:
-      "Next-generation gaming console featuring high-speed SSD storage, immersive graphics, and a large game library.",
+      "Gaming headset featuring noise cancellation, colorful RGB LED lighting, comfortable ear cushions, and immersive sound.",
     price: 169999,
     originalPrice: 184999,
-     quantity:1,
+    quantity: 1,
     discount: 8,
     currency: "PKR",
     rating: 4.9,
@@ -494,48 +512,52 @@ const electronicsData = [
     stock: 6,
     stockStatus: "Limited Stock",
     badge: "Hot",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/1025_amir_coupang_oct_80k/8c58/240b3dfeba4fa89a59c7afbe048aed36c8056d2eeb961d638da87c294519.jpg",
 
     images: [
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop",
     ],
 
+    size: "Adjustable",
+    material: "ABS & Soft Cushion",
+    color: "Black / RGB",
+    delivery: "Free delivery",
+
     specifications: {
-      storage: "1TB SSD",
-      resolution: "Up to 4K",
-      processor: "AMD Ryzen Zen 2",
-      graphics: "AMD RDNA 2",
-      connectivity: "Wi-Fi, Bluetooth",
-      ports: "HDMI, USB",
-      color: "White"
+      type: "Gaming Headset",
+      connectivity: "Wireless",
+      lighting: "RGB LED",
+      microphone: "Built-in",
+      noiseCancellation: "Supported",
+      compatibility: "PC & Gaming Devices",
+      color: "Black / RGB",
     },
 
     features: [
-      "4K gaming",
-      "Ultra-fast SSD",
-      "Ray tracing",
-      "3D audio",
-      "DualSense controller"
+      "Noise cancellation",
+      "Rainbow RGB LED lighting",
+      "Wireless connectivity",
+      "Built-in microphone",
+      "Soft ear cushions",
+      "Immersive gaming audio",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 12,
+    id: 131,
     category: "Electronics",
     subcategory: "Home Appliance",
-    brand: "Logitech",
+    brand: "HomePlanet",
     title: "HomePlanet Digital Desk Clock",
-    shortTitle: "Logitech G502 HERO",
+    shortTitle: "Digital Desk Clock",
     description:
-      "High-performance wired gaming mouse with customizable buttons, adjustable weight, and precision tracking.",
+      "Modern digital desk clock designed for clear time display and convenient placement on desks, tables, and bedside areas.",
     price: 12999,
     originalPrice: 15999,
-     quantity:1,
+    quantity: 1,
     discount: 19,
     currency: "PKR",
     rating: 4.6,
@@ -543,35 +565,37 @@ const electronicsData = [
     stock: 42,
     stockStatus: "In Stock",
     badge: "Best Seller",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/1025_amir_coupang_oct_80k/ebe6/b34524b5a012e7834367b9a0d882ae7b7f29e83d11fd365ede6247e18ff0.jpg",
 
+    size: "Compact",
+    material: "ABS Plastic",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
-      sensor: "HERO 25K",
-      dpi: "Up to 25,600 DPI",
-      buttons: "11 Programmable Buttons",
-      connection: "USB Wired",
-      lighting: "RGB",
-      compatibility: "Windows, macOS",
-      color: "Black"
+      type: "Digital Desk Clock",
+      display: "LED Digital Display",
+      power: "USB / Battery",
+      alarm: "Supported",
+      placement: "Desk & Bedside",
+      color: "Black",
     },
 
     features: [
-      "25,600 DPI sensor",
-      "11 programmable buttons",
-      "RGB lighting",
-      "Adjustable weight",
-      "Gaming optimized"
+      "Clear digital display",
+      "Compact desk design",
+      "Alarm function",
+      "Easy-to-read numbers",
+      "USB or battery powered",
+      "Suitable for home and office",
     ],
 
-    delivery: "Free delivery",
-    warranty: "2 Years Warranty"
+    warranty: "2 Years Warranty",
   },
 
   {
-    id: 13,
+    id: 132,
     category: "Electronics",
     subcategory: "Speakers",
     brand: "JBL",
@@ -580,7 +604,7 @@ const electronicsData = [
     description:
       "Portable Bluetooth speaker with powerful sound, long battery life, and water-resistant construction.",
     price: 32999,
-     quantity:1,
+    quantity: 1,
     originalPrice: 38999,
     discount: 15,
     currency: "PKR",
@@ -589,11 +613,13 @@ const electronicsData = [
     stock: 27,
     stockStatus: "In Stock",
     badge: "Popular",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/prod/83e83bf5-7a1a-4f44-98a1-6cc928e98535_fixing_v2.png",
 
-    
+    size: "Portable",
+    material: "Plastic & Fabric",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
       output: "40W",
@@ -602,7 +628,7 @@ const electronicsData = [
       waterResistance: "IP67",
       charging: "USB-C",
       powerBank: "Built-in Power Bank",
-      color: "Black"
+      color: "Black",
     },
 
     features: [
@@ -610,15 +636,15 @@ const electronicsData = [
       "20-hour battery",
       "IP67 waterproof",
       "Bluetooth connectivity",
-      "USB-C charging"
+      "USB-C charging",
+      "Built-in power bank",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 14,
+    id: 133,
     category: "Electronics",
     subcategory: "Computer Accessories",
     brand: "Logitech",
@@ -628,7 +654,7 @@ const electronicsData = [
       "Premium wireless keyboard designed for comfortable typing, productivity, and multi-device connectivity.",
     price: 24999,
     originalPrice: 29999,
-     quantity:1,
+    quantity: 1,
     discount: 17,
     currency: "PKR",
     rating: 4.7,
@@ -636,11 +662,13 @@ const electronicsData = [
     stock: 19,
     stockStatus: "In Stock",
     badge: "Top Rated",
-
     image:
       "https://thumbnail14.coupangcdn.com/thumbnails/remote/292x292q65ex/image/retail/images/2025/03/18/11/5/cde8b0b0-6272-4870-b1a9-037d2d14792d.jpg",
 
-   
+    size: "Full Size",
+    material: "Plastic & Aluminum",
+    color: "Graphite",
+    delivery: "Free delivery",
 
     specifications: {
       connection: "Bluetooth / USB Receiver",
@@ -649,7 +677,7 @@ const electronicsData = [
       backlight: "Smart Backlighting",
       devices: "Up to 3 Devices",
       compatibility: "Windows, macOS, Linux",
-      color: "Graphite"
+      color: "Graphite",
     },
 
     features: [
@@ -657,15 +685,15 @@ const electronicsData = [
       "Backlit keys",
       "Multi-device support",
       "USB-C charging",
-      "Comfortable typing"
+      "Comfortable typing",
+      "Smart backlighting",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 15,
+    id: 134,
     category: "Electronics",
     subcategory: "Chargers & Cables",
     brand: "Anker",
@@ -675,7 +703,7 @@ const electronicsData = [
       "Compact high-speed USB-C charger designed for smartphones, tablets, and compatible laptops.",
     price: 7999,
     originalPrice: 9999,
-     quantity:1,
+    quantity: 1,
     discount: 20,
     currency: "PKR",
     rating: 4.6,
@@ -683,11 +711,13 @@ const electronicsData = [
     stock: 65,
     stockStatus: "In Stock",
     badge: "Deal",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/4f8a/b094c87226677edfdefa856ffc526594fd9c9f4589f7662a4de8baaaa5fb.jpg",
 
-   
+    size: "Compact",
+    material: "Plastic",
+    color: "White",
+    delivery: "Free delivery",
 
     specifications: {
       power: "65W",
@@ -696,7 +726,7 @@ const electronicsData = [
       input: "100-240V",
       fastCharging: "Supported",
       compatibility: "USB-C Devices",
-      color: "White"
+      color: "White",
     },
 
     features: [
@@ -704,15 +734,15 @@ const electronicsData = [
       "GaN technology",
       "Compact design",
       "Over-voltage protection",
-      "Universal compatibility"
+      "Universal compatibility",
+      "USB-C charging",
     ],
 
-    delivery: "Free delivery",
-    warranty: "18 Months Warranty"
+    warranty: "18 Months Warranty",
   },
 
   {
-    id: 16,
+    id: 135,
     category: "Electronics",
     subcategory: "Tablets",
     brand: "Samsung",
@@ -722,7 +752,7 @@ const electronicsData = [
       "Large premium Android tablet designed for entertainment, productivity, drawing, and multitasking.",
     price: 199999,
     originalPrice: 224999,
-     quantity:1,
+    quantity: 1,
     discount: 11,
     currency: "PKR",
     rating: 4.8,
@@ -730,10 +760,13 @@ const electronicsData = [
     stock: 8,
     stockStatus: "Limited Stock",
     badge: "Premium",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/c773/ddddeb0041bafeced0862609501bf6100b77340059552fe48aabf3af7d7b.jpg",
 
+    size: "14.6-inch",
+    material: "Armor Aluminum",
+    color: "Moonstone Gray",
+    delivery: "Free delivery",
 
     specifications: {
       display: "14.6-inch Dynamic AMOLED 2X",
@@ -743,7 +776,7 @@ const electronicsData = [
       battery: "11200mAh",
       operatingSystem: "Android",
       connectivity: "5G, Wi-Fi, Bluetooth",
-      color: "Moonstone Gray"
+      color: "Moonstone Gray",
     },
 
     features: [
@@ -751,15 +784,15 @@ const electronicsData = [
       "S Pen support",
       "5G connectivity",
       "Large battery",
-      "Multi-window multitasking"
+      "Multi-window multitasking",
+      "Premium aluminum design",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 17,
+    id: 136,
     category: "Electronics",
     subcategory: "Power Banks",
     brand: "Anker",
@@ -769,7 +802,7 @@ const electronicsData = [
       "High-capacity portable power bank designed to provide reliable charging for smartphones and other USB devices.",
     price: 8999,
     originalPrice: 10999,
-     quantity:1,
+    quantity: 1,
     discount: 18,
     currency: "PKR",
     rating: 4.5,
@@ -777,10 +810,13 @@ const electronicsData = [
     stock: 51,
     stockStatus: "In Stock",
     badge: "Value Pick",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/advertiser/1756700783716/061cfcfb-3db6-4e43-8acf-c0b3118cc539.jpg",
 
+    size: "20000mAh",
+    material: "Plastic",
+    color: "Black",
+    delivery: "Free delivery",
 
     specifications: {
       capacity: "20000mAh",
@@ -788,7 +824,7 @@ const electronicsData = [
       ports: "USB-C + USB-A",
       charging: "Fast Charging",
       display: "LED Indicator",
-      color: "Black"
+      color: "Black",
     },
 
     features: [
@@ -796,15 +832,15 @@ const electronicsData = [
       "Fast charging",
       "Dual USB ports",
       "Compact design",
-      "Multi-device charging"
+      "Multi-device charging",
+      "LED battery indicator",
     ],
 
-    delivery: "Free delivery",
-    warranty: "18 Months Warranty"
+    warranty: "18 Months Warranty",
   },
 
   {
-    id: 18,
+    id: 137,
     category: "Electronics",
     subcategory: "Smart Home",
     brand: "Amazon",
@@ -814,7 +850,7 @@ const electronicsData = [
       "Compact smart speaker with voice assistant support for music, reminders, smart home control, and everyday tasks.",
     price: 14999,
     originalPrice: 18999,
-     quantity:1,
+    quantity: 1,
     discount: 21,
     currency: "PKR",
     rating: 4.4,
@@ -822,10 +858,13 @@ const electronicsData = [
     stock: 33,
     stockStatus: "In Stock",
     badge: "Smart Home",
-
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/retail/images/2025/02/06/11/7/e6449d80-f3fc-46fa-b019-86e0503c6902.jpg",
 
+    size: "Compact",
+    material: "Plastic & Fabric",
+    color: "Charcoal",
+    delivery: "Free delivery",
 
     specifications: {
       assistant: "Alexa",
@@ -833,7 +872,7 @@ const electronicsData = [
       speaker: "Built-in Speaker",
       smartHome: "Compatible Devices",
       power: "AC Adapter",
-      color: "Charcoal"
+      color: "Charcoal",
     },
 
     features: [
@@ -841,155 +880,242 @@ const electronicsData = [
       "Smart home control",
       "Music streaming",
       "Voice reminders",
-      "Compact design"
+      "Compact design",
+      "Hands-free control",
     ],
 
-    delivery: "Free delivery",
-    warranty: "1 Year Warranty"
+    warranty: "1 Year Warranty",
   },
-   {
-    id: 19,
+
+  {
+    id: 138,
     title: "Smart Fitness Watch with Heart Rate and Activity Tracking",
     category: "Electronics",
+    brand: "KUPONG Fit",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/b09a/ce3ffe9f5e2873b48d207828952fc95301dd13c489c9e19b9e7fd961c13b.jpeg",
     rating: 4.7,
     reviews: 248,
     price: 32900,
     oldPrice: 44900,
-     quantity:1,
+    quantity: 1,
     discount: 27,
     description:
       "Modern smartwatch with activity tracking, notifications, multiple workout modes, and a bright touch display.",
-    features: [
-      "Fitness Tracking",
-      "Sleep Monitoring",
-      "Message Notifications",
-      "Water Resistant",
-    ],
+
+    size: "44mm",
+    material: "Aluminum & Glass",
     color: "Black",
-    connectivity: "Bluetooth",
+    delivery: "Free delivery",
+
+    features: [
+      "Fitness tracking",
+      "Sleep monitoring",
+      "Message notifications",
+      "Water resistant",
+      "Heart rate monitoring",
+      "Multiple workout modes",
+    ],
+
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 20,
+    id: 139,
     title: "Ultra Slim Wireless Mechanical Keyboard",
     category: "Computer Accessories",
+    brand: "KUPONG Tech",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/9f46/97d25b8557ce8b794486b5e85e1d23c99e80b6e28560c53a4a18c20a02b2.jpg",
     rating: 4.6,
     reviews: 174,
     price: 28900,
     oldPrice: 37900,
-     quantity:1,
+    quantity: 1,
     discount: 24,
     description:
       "Compact wireless mechanical keyboard with responsive keys, modern design, and reliable connectivity for work and gaming.",
-    features: [
-      "Mechanical Switches",
-      "Wireless Connection",
-      "RGB Backlight",
-      "Compact Layout",
-    ],
+
+    size: "Compact Layout",
+    material: "ABS & Aluminum",
     color: "White",
-    connectivity: "Bluetooth / USB",
+    delivery: "Free delivery",
+
+    features: [
+      "Mechanical switches",
+      "Wireless connection",
+      "RGB backlight",
+      "Compact layout",
+      "Responsive keys",
+      "Suitable for work and gaming",
+    ],
+
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 21,
+    id: 140,
     title: "Ergonomic Wireless Mouse with Precision Sensor",
     category: "Computer Accessories",
+    brand: "KUPONG Tech",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
     rating: 4.7,
     reviews: 195,
     price: 15900,
     oldPrice: 21900,
-     quantity:1,
+    quantity: 1,
     discount: 27,
     description:
       "Comfortable wireless mouse designed for precise control and extended everyday computer use.",
-    features: [
-      "High Precision Sensor",
-      "Wireless Connectivity",
-      "Ergonomic Design",
-      "Long Battery Life",
-    ],
+
+    size: "Medium",
+    material: "ABS Plastic",
     color: "Black",
-    connectivity: "2.4GHz Wireless",
+    delivery: "Free delivery",
+
+    features: [
+      "High precision sensor",
+      "Wireless connectivity",
+      "Ergonomic design",
+      "Long battery life",
+      "Comfortable grip",
+      "Suitable for work and gaming",
+    ],
+
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 22,
+    id: 141,
     title: "Portable Bluetooth Speaker with Deep Bass",
     category: "Audio",
+    brand: "KUPONG Audio",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/image_audit/prod/66a2a7e7-d1a5-418f-87d1-1b3a74906508_fixing_v2.png",
     rating: 4.9,
     reviews: 412,
     price: 23900,
     oldPrice: 31900,
-     quantity:1,
+    quantity: 1,
     discount: 25,
     description:
       "Compact portable speaker delivering powerful sound, deep bass, and reliable wireless connectivity for indoor and outdoor use.",
-    features: [
-      "360° Sound",
-      "Bluetooth 5.2",
-      "12 Hours Playback",
-      "Portable Design",
-    ],
+
+    size: "Portable",
+    material: "Plastic & Fabric",
     color: "Black",
-    connectivity: "Bluetooth",
+    delivery: "Free delivery",
+
+    features: [
+      "360° sound",
+      "Bluetooth 5.2",
+      "12 hours playback",
+      "Portable design",
+      "Deep bass",
+      "Wireless connectivity",
+    ],
+
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 23,
+    id: 142,
     title: "Full HD Portable Webcam with Built-in Microphone",
     category: "Computer Accessories",
+    brand: "KUPONG Tech",
     image:
       "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=800&auto=format&fit=crop",
     rating: 4.5,
     reviews: 143,
     price: 17900,
     oldPrice: 24900,
-     quantity:1,
+    quantity: 1,
     discount: 28,
     description:
       "Full HD webcam designed for video calls, online classes, meetings, and content creation with clear image and audio.",
+
+    size: "Compact",
+    material: "ABS Plastic",
+    color: "Black",
+    delivery: "Free delivery",
+
     features: [
       "1080p Full HD",
-      "Built-in Microphone",
-      "Auto Focus",
-      "USB Plug & Play",
+      "Built-in microphone",
+      "Auto focus",
+      "USB plug and play",
+      "Clear video calls",
+      "Suitable for online classes and meetings",
     ],
-    color: "Black",
-    connectivity: "USB",
-  },
-  {
-    id: 24,
-    title: "Air Fryer with large capacity low noice",
-    category: "Home Appliances",
-    image:
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/83e83bf5-7a1a-4f44-98a1-6cc928e98535_fixing_v2.png",
-    rating: 4.8,
-    price: 18900,
-    oldPrice: 24900,
-     quantity:1,
-    discount: 24,
+
+    warranty: "1 Year Warranty",
   },
 
   {
-    id: 25,
+    id: 143,
+    title: "Air Fryer with large capacity low noice",
+    category: "Home Appliances",
+    brand: "KUPONG Home",
+    image:
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/83e83bf5-7a1a-4f44-98a1-6cc928e98535_fixing_v2.png",
+    rating: 4.8,
+    reviews: 186,
+    price: 18900,
+    oldPrice: 24900,
+    quantity: 1,
+    discount: 24,
+    description:
+      "Large-capacity air fryer designed for convenient cooking with low-noise operation and easy temperature control.",
+
+    size: "Large Capacity",
+    material: "Stainless Steel & Plastic",
+    color: "Black",
+    delivery: "Free delivery",
+
+    features: [
+      "Large cooking capacity",
+      "Low-noise operation",
+      "Adjustable temperature",
+      "Multiple cooking modes",
+      "Easy-to-clean basket",
+      "Fast hot-air circulation",
+    ],
+
+    warranty: "1 Year Warranty",
+  },
+
+  {
+    id: 144,
     title: "OYEAH Low Noice Air Fryer",
     category: "Home Appliances",
+    brand: "OYEAH",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/397575187492117-f4537fea-f1e0-435e-ac4f-efc598b9f364.png",
     rating: 4.7,
+    reviews: 164,
     price: 21900,
     oldPrice: 29900,
-     quantity:1,
+    quantity: 1,
     discount: 27,
+    description:
+      "Low-noise air fryer designed for convenient everyday cooking with efficient hot-air circulation and a compact modern design.",
+
+    size: "Medium / Large",
+    material: "Stainless Steel & Plastic",
+    color: "Black",
+    delivery: "Free delivery",
+
+    features: [
+      "Low-noise operation",
+      "Efficient hot-air circulation",
+      "Adjustable temperature",
+      "Multiple cooking functions",
+      "Easy-to-clean basket",
+      "Modern compact design",
+    ],
+
+    warranty: "1 Year Warranty",
   },
 ];
 

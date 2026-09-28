@@ -1,6 +1,6 @@
 const PantsData = [
   {
-    id: 501,
+    id: 337,
     title: "Boys Navy Cargo Jogger Pants",
     type: "Cargo Jogger Pants",
     gender: "Boys",
@@ -29,7 +29,7 @@ const PantsData = [
   },
 
   {
-    id: 502,
+    id: 338,
     title: "Girls Pink Cargo Trousers",
     type: "Cargo Pants",
     gender: "Girls",
@@ -58,7 +58,7 @@ const PantsData = [
   },
 
   {
-    id: 503,
+    id: 338,
     title: "Boys Wide Leg Denim Cargo Jeans",
     type: "Wide Leg Cargo Jeans",
     gender: "Boys",
@@ -87,7 +87,7 @@ const PantsData = [
   },
 
   {
-    id: 504,
+    id: 339,
     title: "Girls Slim Fit Stretch Cargo Jeans",
     type: "Slim Cargo Jeans",
     gender: "Girls",
@@ -116,7 +116,7 @@ const PantsData = [
   },
 
   {
-    id: 505,
+    id: 340,
     title: "Boys Classic Straight Jeans",
     type: "Straight Leg Jeans",
     gender: "Boys",
@@ -145,7 +145,7 @@ const PantsData = [
   },
 
   {
-    id: 506,
+    id: 341,
     title: "Girls Acid Wash Jeans",
     type: "Acid Wash Jeans",
     gender: "Girls",
@@ -174,7 +174,7 @@ const PantsData = [
   },
 
   {
-    id: 507,
+    id: 342,
     title: "Boys Relaxed Baggy Jeans",
     type: "Baggy Jeans",
     gender: "Boys",
@@ -203,7 +203,7 @@ const PantsData = [
   },
 
   {
-    id: 508,
+    id: 343,
     title: "Girls Bow Detail Jeans",
     type: "Decorative Jeans",
     gender: "Girls",
@@ -232,7 +232,7 @@ const PantsData = [
   },
 
   {
-    id: 509,
+    id: 344,
     title: "Boys Black Cargo Trousers",
     type: "Cargo Trousers",
     gender: "Boys",
@@ -261,7 +261,7 @@ const PantsData = [
   },
 
   {
-    id: 510,
+    id: 345,
     title: "Girls Floral Bell Bottom Jeans",
     type: "Bell Bottom Jeans",
     gender: "Girls",
@@ -290,7 +290,7 @@ const PantsData = [
   },
 
   {
-    id: 511,
+    id: 346,
     title: "Boys Mustard Chino Pants",
     type: "Chino Pants",
     gender: "Boys",
@@ -319,7 +319,7 @@ const PantsData = [
   },
 
   {
-    id: 512,
+    id: 347,
     title: "Girls White Wide Leg Jeans",
     type: "Wide Leg Jeans",
     gender: "Girls",
@@ -348,7 +348,7 @@ const PantsData = [
   },
 
   {
-    id: 513,
+    id: 348,
     title: "Boys Khaki Cargo Pants",
     type: "Khaki Cargo Pants",
     gender: "Boys",
@@ -377,7 +377,7 @@ const PantsData = [
   },
 
   {
-    id: 514,
+    id: 349,
     title: "Girls Flared Cargo Pants",
     type: "Flared Pants",
     gender: "Girls",
@@ -406,7 +406,7 @@ const PantsData = [
   },
 
   {
-    id: 515,
+    id: 350,
     title: "Boys Winter Fleece Cargo Pants",
     type: "Fleece Cargo Pants",
     gender: "Boys",
@@ -435,7 +435,7 @@ const PantsData = [
   },
 
   {
-    id: 516,
+    id: 351,
     title: "Girls Utility Cargo Joggers",
     type: "Cargo Joggers",
     gender: "Girls",
@@ -464,7 +464,7 @@ const PantsData = [
   },
 
   {
-    id: 517,
+    id: 352,
     title: "Boys Formal Straight Trousers",
     type: "Formal Trousers",
     gender: "Boys",
@@ -493,7 +493,7 @@ const PantsData = [
   },
 
   {
-    id: 518,
+    id: 353,
     title: "Girls Floral Wide Leg Cargo Pants",
     type: "Floral Wide Leg Cargo Pants",
     gender: "Girls",
@@ -522,7 +522,7 @@ const PantsData = [
   },
 
   {
-    id: 519,
+    id: 354,
     title: "Boys Stretch Cargo Pants",
     type: "Stretch Cargo Pants",
     gender: "Boys",
@@ -551,7 +551,7 @@ const PantsData = [
   },
 
   {
-    id: 520,
+    id: 355,
     title: "Girls Burgundy Cargo Joggers",
     type: "Cargo Jogger Pants",
     gender: "Girls",

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProfileCard = ({loginUser}) => {
-  console.log(loginUser)
+ 
   return (
     <div className="px-6 md:px-10 w-full max-w-7xl mx-auto">
       <div className="flex flex-row gap-6 md:gap-10 items-center p-4 border-b border-gray-200">

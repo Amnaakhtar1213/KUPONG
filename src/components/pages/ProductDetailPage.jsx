@@ -12,16 +12,27 @@ import SweaterData from '../../Data/Sweaters'
 import TechData from '../../Data/TechData'
 import WomenData from '../../Data/WomenCollData'
 import mensCollectionData from '../../Data/MenData'
+import beautyProducts from "../../Data/BeautyPro";
+import bestSellerData from "../../Data/Best";
 
-import HoodiesCard from '../HoodiesCard'
-import KidsCard from '../KidsCard'
-import MensCollCards from '../MensCollCards'
-import ShoesCard from '../ShoesCard'
-import SkinCard from '../SkinCard'
-import SweaterCard from '../SweaterCard'
-import TechCard from '../TechCard'
-import WomenCard from '../Home/WomenCard'
-import CoatCard from '../CoatCard'
+import KidsBooksData from "../../Data/BooksData";
+import electronicsData from "../../Data/ElectronicsData";
+import fashionProducts from "../../Data/Fashion";
+import featuredDealsData from "../../Data/FeatureData";
+import foodData from "../../Data/Food";
+import { womenHanbok } from "../../Data/HanbokData";
+import kidsClothingData from "../../Data/KidsCloth";
+import homeAppliancesData from "../../Data/KitchenData";
+import newArrivalData from "../../Data/NewArrival";
+import PantsData from "../../Data/Pants";
+import products from "../../Data/ProductsData";
+import KidsStationeryData from "../../Data/StationaryData";
+import techProductsData from "../../Data/Tech";
+import fruitData from "../../Data/Todays";
+import ToysData from "../../Data/ToysData";
+import womensCollectionData from "../../Data/WomenData";
+
+
 
 const ProductDetailPage = ({setCart}) => {
 
@@ -36,7 +47,26 @@ const ProductDetailPage = ({setCart}) => {
     ...TechData,
     ...WomenData,
     ...mensCollectionData,
-    ...SweaterData
+    ...SweaterData,
+    ...beautyProducts,
+    ...bestSellerData,
+    ...KidsBooksData,
+    ...electronicsData,
+    ...fashionProducts,
+    ...featuredDealsData,
+    ...foodData,
+    ...womenHanbok,
+    ...kidsClothingData,
+    ...homeAppliancesData,
+    ...newArrivalData,
+    ...PantsData,
+    ...products,
+    ...KidsStationeryData,
+    ...techProductsData,
+    ...fruitData,
+    ...ToysData,
+    ...womensCollectionData
+
   ]
 
   const { id } = useParams();
@@ -130,7 +160,7 @@ const ProductDetailPage = ({setCart}) => {
             <img
               src={selectedImage}
               alt={product.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
 

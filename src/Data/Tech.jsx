@@ -1,6 +1,6 @@
 const techProductsData = [
   {
-    id: 2020,
+    id: 420,
     title: "Wireless Noise Cancelling Bluetooth Headphones",
     category: "Electronics",
     quantity:1,
@@ -24,7 +24,7 @@ const techProductsData = [
   },
 
   {
-    id: 2021,
+    id: 421,
     title: "Smart Fitness Watch with Heart Rate and Activity Tracking",
     category: "Electronics",
     quantity:1,
@@ -48,7 +48,7 @@ const techProductsData = [
   },
 
   {
-    id: 2023,
+    id:422,
     title: "Ultra Slim Wireless Mechanical Keyboard",
     category: "Computer Accessories",
     quantity:1,
@@ -72,7 +72,7 @@ const techProductsData = [
   },
 
   {
-    id: 2024,
+    id: 423,
     title: "Ergonomic Wireless Mouse with Precision Sensor",
     category: "Computer Accessories",
     quantity:1,
@@ -96,7 +96,7 @@ const techProductsData = [
   },
 
   {
-    id: 2025,
+    id: 424,
     title: "Portable Bluetooth Speaker with Deep Bass",
     category: "Audio",
     quantity:1,
@@ -120,7 +120,7 @@ const techProductsData = [
   },
 
   {
-    id: 2026,
+    id: 425,
     title: "Full HD Portable Webcam with Built-in Microphone",
     category: "Computer Accessories",
     quantity:1,

@@ -1,7 +1,7 @@
 const TechData = [
   // LAPTOPS
   {
-    id: 501,
+    id: 426,
     name: "Apple MacBook Air M5",
     title: "MacBook Air 13-inch M5",
     category: "Tech",
@@ -36,7 +36,7 @@ const TechData = [
   },
 
   {
-    id: 502,
+    id: 427,
     name: "Dell XPS 13",
     title: "Dell XPS 13 Premium Laptop",
     category: "Tech",
@@ -71,7 +71,7 @@ const TechData = [
   },
 
   {
-    id: 503,
+    id: 428,
     name: "Samsung Galaxy Book6 Ultra",
     title: "Galaxy Book6 Ultra Performance Laptop",
     category: "Tech",
@@ -106,7 +106,7 @@ const TechData = [
   },
 
   {
-    id: 504,
+    id: 429,
     name: "Lenovo LOQ Gaming Laptop",
     title: "LOQ Gaming Laptop RTX Series",
     category: "Tech",
@@ -142,7 +142,7 @@ const TechData = [
 
   // SMARTPHONES
   {
-    id: 505,
+    id: 430,
     name: "Apple iPhone 17 Pro",
     title: "iPhone 17 Pro 256GB",
     category: "Tech",
@@ -177,7 +177,7 @@ const TechData = [
   },
 
   {
-    id: 506,
+    id: 431,
     name: "Samsung Galaxy S26 Ultra",
     title: "Galaxy S26 Ultra 256GB",
     category: "Tech",
@@ -212,7 +212,7 @@ const TechData = [
   },
 
   {
-    id: 507,
+    id: 432,
     name: "Google Pixel 10 Pro",
     title: "Pixel 10 Pro AI Smartphone",
     category: "Tech",
@@ -247,7 +247,7 @@ const TechData = [
   },
 
   {
-    id: 508,
+    id: 433,
     name: "OnePlus 13",
     title: "OnePlus 13 5G Smartphone",
     category: "Tech",
@@ -283,7 +283,7 @@ const TechData = [
 
   // TABLETS
   {
-    id: 509,
+    id: 434,
     name: "Apple iPad Pro 13",
     title: "iPad Pro 13-inch M5",
     category: "Tech",
@@ -318,7 +318,7 @@ const TechData = [
   },
 
   {
-    id: 510,
+    id: 435,
     name: "Samsung Galaxy Tab S11",
     title: "Galaxy Tab S11 Android Tablet",
     category: "Tech",
@@ -353,7 +353,7 @@ const TechData = [
   },
 
   {
-    id: 511,
+    id: 436,
     name: "iPad Air 11",
     title: "iPad Air 11-inch M4",
     category: "Tech",
@@ -388,7 +388,7 @@ const TechData = [
   },
 
   {
-    id: 512,
+    id: 437,
     name: "OnePlus Pad 3",
     title: "OnePlus Pad 3 Android Tablet",
     category: "Tech",
@@ -424,7 +424,7 @@ const TechData = [
 
   // DESKTOP COMPUTERS
   {
-    id: 513,
+    id: 438,
     name: "Apple iMac M4",
     title: "iMac 24-inch M4 Desktop",
     category: "Tech",
@@ -458,7 +458,7 @@ const TechData = [
   },
 
   {
-    id: 514,
+    id: 439,
     name: "Dell Tower Plus",
     title: "Dell Tower Plus Performance Desktop",
     category: "Tech",
@@ -492,7 +492,7 @@ const TechData = [
   },
 
   {
-    id: 515,
+    id: 440,
     name: "KUPONG Creator PC",
     title: "KUPONG Creator Desktop PC",
     category: "Tech",
@@ -527,7 +527,7 @@ const TechData = [
 
   // MONITORS
   {
-    id: 516,
+    id: 441,
     name: "Samsung Odyssey OLED G6",
     title: "Odyssey OLED Gaming Monitor",
     category: "Tech",
@@ -560,7 +560,7 @@ const TechData = [
   },
 
   {
-    id: 517,
+    id: 442,
     name: "Dell UltraSharp 27",
     title: "Dell UltraSharp 27-inch Monitor",
     category: "Tech",
@@ -594,7 +594,7 @@ const TechData = [
 
   // ACCESSORIES
   {
-    id: 518,
+    id: 443,
     name: "Apple AirPods Pro",
     title: "AirPods Pro Wireless Earbuds",
     category: "Tech",
@@ -624,7 +624,7 @@ const TechData = [
   },
 
   {
-    id: 519,
+    id: 444,
     name: "Samsung Galaxy Watch",
     title: "Galaxy Watch Smartwatch",
     category: "Tech",
@@ -656,7 +656,7 @@ const TechData = [
   },
 
   {
-    id: 520,
+    id: 445,
     name: "Logitech MX Keys",
     title: "MX Keys Wireless Keyboard",
     category: "Tech",

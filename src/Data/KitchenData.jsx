@@ -1,6 +1,6 @@
 const homeAppliancesData = [
   {
-    id: 1,
+    id: 277,
     title: "Air Fryer with large capacity low noice",
     category: "Home Appliances",
      quantity:1,
@@ -13,7 +13,7 @@ const homeAppliancesData = [
   },
 
   {
-    id: 2,
+    id: 278,
     title: "OYEAH Low Noice Air Fryer",
     category: "Home Appliances",
      quantity:1,
@@ -26,7 +26,7 @@ const homeAppliancesData = [
   },
 
   {
-    id: 3,
+    id: 279,
     title: "Priom Low Noice Air Fryer Large Capacity",
     category: "Home Appliances",
      quantity:1,
@@ -39,7 +39,7 @@ const homeAppliancesData = [
   },
 
   {
-    id: 4,
+    id: 280,
     title: "Beige colour Air Fryer with large capacity low noice",
     category: "Home Appliances",
      quantity:1,

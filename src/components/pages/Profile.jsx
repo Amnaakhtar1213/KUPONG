@@ -4,9 +4,9 @@ import Grid from '../Profile/Grid'
 import MyOrder from '../Profile/MyOrder'
 import { AuthContext } from '../../Context/AuthContext'
 
-const Profile = () => {
+const Profile = ({ order, cart }) => {
   const {currentUser} = useContext(AuthContext)
-  console.log("CURRENT USER:", currentUser)
+  
   
   return (
     <div className="bg-gray-50 min-h-screen mt-50 md:mt-30">
@@ -15,7 +15,7 @@ const Profile = () => {
             MY ACCOUNT</h1>
      </div>
      <ProfileCard loginUser={currentUser}/>
-    <Grid currentUser={currentUser}/>
+    <Grid currentUser={currentUser} cart={cart} order={order}/>
      <MyOrder />
     </div>
   )

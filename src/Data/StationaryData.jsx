@@ -1,18 +1,27 @@
 const KidsStationeryData = [
   // ✏️ PENCILS
   {
-    id: 12001,
+    id: 380,
     name: "Kids HB Pencils",
     title: "Colorful HB Writing Pencils",
     brand: "Faber-Castell",
     category: "stationery",
     subCategory: "pencils",
     age: "5+ Years",
+    type: "HB Writing Pencils",
+    size: "Standard",
+    color: "Multicolor",
+    material: "Wood & Graphite",
+    fit: "School Use",
     price: 399,
     oldPrice: 499,
     rating: 4.8,
     reviews: 245,
     stock: 40,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 4,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
     description:
@@ -27,18 +36,27 @@ const KidsStationeryData = [
 
   // 🖊️ PENS
   {
-    id: 12002,
+    id: 381,
     name: "Kids Gel Pens",
     title: "Colorful Gel Pen Set",
     brand: "Pentel",
     category: "stationery",
     subCategory: "pens",
     age: "7+ Years",
+    type: "Gel Pens",
+    size: "Standard",
+    color: "Multicolor",
+    material: "Plastic & Gel Ink",
+    fit: "School & Creative Use",
     price: 699,
     oldPrice: 799,
     rating: 4.7,
     reviews: 187,
     stock: 25,
+    badge: "Popular",
+    tag: "Creative",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=800&q=80",
     description:
@@ -53,18 +71,27 @@ const KidsStationeryData = [
 
   // 🖍️ CRAYONS
   {
-    id: 12003,
+    id: 382,
     name: "Kids Crayons",
     title: "24 Color Crayon Set",
     brand: "Crayola",
     category: "stationery",
     subCategory: "crayons",
     age: "3+ Years",
+    type: "Crayon Set",
+    size: "24 Colors",
+    color: "Multicolor",
+    material: "Wax",
+    fit: "Kids Art",
     price: 899,
     oldPrice: 1099,
     rating: 4.9,
     reviews: 312,
     stock: 35,
+    badge: "Bestseller",
+    tag: "Popular",
+    points: 9,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80",
     description:
@@ -79,18 +106,27 @@ const KidsStationeryData = [
 
   // 🖌️ COLORING MARKERS
   {
-    id: 12004,
+    id: 383,
     name: "Washable Markers",
     title: "Kids Washable Marker Set",
     brand: "Crayola",
     category: "stationery",
     subCategory: "markers",
     age: "4+ Years",
+    type: "Washable Markers",
+    size: "Marker Set",
+    color: "Multicolor",
+    material: "Plastic & Washable Ink",
+    fit: "Kids Art",
     price: 999,
     oldPrice: 1199,
     rating: 4.8,
     reviews: 221,
     stock: 22,
+    badge: "Popular",
+    tag: "Creative",
+    points: 10,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
     description:
@@ -105,18 +141,27 @@ const KidsStationeryData = [
 
   // ✏️ COLORED PENCILS
   {
-    id: 12005,
+    id: 384,
     name: "Colored Pencils",
     title: "24 Color Colored Pencil Set",
     brand: "Faber-Castell",
     category: "stationery",
     subCategory: "colored-pencils",
     age: "5+ Years",
+    type: "Colored Pencil Set",
+    size: "24 Colors",
+    color: "Multicolor",
+    material: "Wood & Pigment",
+    fit: "Kids Art",
     price: 799,
     oldPrice: 999,
     rating: 4.8,
     reviews: 276,
     stock: 30,
+    badge: "Popular",
+    tag: "Creative",
+    points: 8,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/fc5b/5f901d0b66ccf8a714ed04c138a1613c4a09e1ba53dbe820108112a61e54.jpeg",
     description:
@@ -131,18 +176,27 @@ const KidsStationeryData = [
 
   // 🧽 ERASERS
   {
-    id: 12006,
+    id: 385,
     name: "Kids Eraser Set",
     title: "Cute Animal Eraser Set",
     brand: "Faber-Castell",
     category: "stationery",
     subCategory: "erasers",
     age: "5+ Years",
+    type: "Eraser Set",
+    size: "Small",
+    color: "Multicolor",
+    material: "Soft Rubber",
+    fit: "School Use",
     price: 299,
     oldPrice: 399,
     rating: 4.6,
     reviews: 134,
     stock: 50,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 3,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/597d/700c8b5a6a6f90b6d0f404e23314ada0b35a9f6e0adf86ec173fef361e2c.jpg",
     description:
@@ -157,18 +211,27 @@ const KidsStationeryData = [
 
   // ✂️ SHARPENER
   {
-    id: 12007,
+    id: 386,
     name: "Double Hole Sharpener",
     title: "Kids Double Hole Pencil Sharpener",
     brand: "Maped",
     category: "stationery",
     subCategory: "sharpeners",
     age: "5+ Years",
+    type: "Pencil Sharpener",
+    size: "Compact",
+    color: "Multicolor",
+    material: "Plastic & Metal Blade",
+    fit: "School Use",
     price: 349,
     oldPrice: 449,
     rating: 4.7,
     reviews: 156,
     stock: 35,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 4,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/43da/65f9e470dfca53e164dbb4d1ec3cf29323dac6aef06c169e4ef0ecbb6b3d.jpg",
     description:
@@ -183,18 +246,27 @@ const KidsStationeryData = [
 
   // 📏 RULER
   {
-    id: 12008,
+    id: 387,
     name: "30cm Kids Ruler",
     title: "Colorful 30cm School Ruler",
     brand: "Maped",
     category: "stationery",
     subCategory: "rulers",
     age: "6+ Years",
+    type: "School Ruler",
+    size: "30cm",
+    color: "Multicolor",
+    material: "Plastic",
+    fit: "School Use",
     price: 249,
     oldPrice: 299,
     rating: 4.6,
     reviews: 98,
     stock: 45,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 3,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/85981534429481-9ec4e51b-3522-4a46-808e-a6c142d45933.jpg",
     description:
@@ -209,18 +281,27 @@ const KidsStationeryData = [
 
   // 📓 NOTEBOOK
   {
-    id: 12009,
+    id: 388,
     name: "Kids School Notebook",
     title: "Colorful Kids Spiral Notebook",
     brand: "Oxford",
     category: "stationery",
     subCategory: "notebooks",
     age: "6+ Years",
+    type: "Spiral Notebook",
+    size: "Standard Notebook",
+    color: "Multicolor",
+    material: "Paper & Spiral Binding",
+    fit: "School Use",
     price: 599,
     oldPrice: 699,
     rating: 4.7,
     reviews: 189,
     stock: 28,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 6,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/31eb/66ae8157426ccef5a0fa7bba780513533514c9f852ce4ae4ff86986120aa.jpg",
     description:
@@ -235,18 +316,27 @@ const KidsStationeryData = [
 
   // 📔 SKETCHBOOK
   {
-    id: 12010,
+    id: 389,
     name: "Kids Sketchbook",
     title: "Kids Drawing & Sketch Book",
     brand: "Strathmore",
     category: "stationery",
     subCategory: "sketchbooks",
     age: "5+ Years",
+    type: "Sketchbook",
+    size: "Standard",
+    color: "White",
+    material: "Drawing Paper",
+    fit: "Kids Art",
     price: 799,
     oldPrice: 899,
     rating: 4.8,
     reviews: 145,
     stock: 20,
+    badge: "Popular",
+    tag: "Creative",
+    points: 8,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/03/10/9/8/77d6d993-4bff-43f1-be4f-b53bb6573ebe.jpg",
     description:
@@ -261,18 +351,27 @@ const KidsStationeryData = [
 
   // 📐 GEOMETRY SET
   {
-    id: 12011,
+    id: 390,
     name: "Kids Geometry Set",
     title: "School Geometry Instrument Set",
     brand: "Maped",
     category: "stationery",
     subCategory: "geometry",
     age: "8+ Years",
+    type: "Geometry Set",
+    size: "Standard Set",
+    color: "Multicolor",
+    material: "Plastic & Metal",
+    fit: "School Use",
     price: 899,
     oldPrice: 1099,
     rating: 4.7,
     reviews: 167,
     stock: 24,
+    badge: "Educational",
+    tag: "School Essential",
+    points: 9,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/55fc/8073ba2616752606906bbfffd6ec14665969331c44d8bd4f3da924cf8e5a.jpg",
     description:
@@ -287,18 +386,27 @@ const KidsStationeryData = [
 
   // 🖊️ PENCIL CASE
   {
-    id: 12012,
+    id: 391,
     name: "Kids Pencil Case",
     title: "Cute Multi-Compartment Pencil Case",
     brand: "ZIPIT",
     category: "stationery",
     subCategory: "pencil-cases",
     age: "6+ Years",
+    type: "Pencil Case",
+    size: "Large",
+    color: "Multicolor",
+    material: "Fabric & Zipper",
+    fit: "School Organization",
     price: 1299,
     oldPrice: 1599,
     rating: 4.8,
     reviews: 235,
     stock: 18,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 13,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/1083/8d438ce6132fd662387ec032f360f15aab05df4c9d8107e1fbef0adf3344.png",
     description:
@@ -313,18 +421,27 @@ const KidsStationeryData = [
 
   // 🎒 SCHOOL BAG
   {
-    id: 12013,
+    id: 392,
     name: "Kids School Backpack",
     title: "Lightweight Kids School Backpack",
     brand: "JanSport",
     category: "stationery",
     subCategory: "school-bags",
     age: "6+ Years",
+    type: "School Backpack",
+    size: "Kids Size",
+    color: "Multicolor",
+    material: "Polyester",
+    fit: "Kids School Use",
     price: 3499,
     oldPrice: 3999,
     rating: 4.8,
     reviews: 286,
     stock: 12,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 35,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a42e/bfb95484a23bca8d6c19e91c8ebb3b1959bc91ef6033679a52e12e8b4608.png",
     description:
@@ -339,18 +456,27 @@ const KidsStationeryData = [
 
   // 📝 STICKY NOTES
   {
-    id: 12014,
+    id: 393,
     name: "Kids Sticky Notes",
     title: "Colorful Animal Sticky Notes",
     brand: "Post-it",
     category: "stationery",
     subCategory: "sticky-notes",
     age: "6+ Years",
+    type: "Sticky Notes",
+    size: "Small",
+    color: "Multicolor",
+    material: "Paper & Adhesive",
+    fit: "School & Organization",
     price: 399,
     oldPrice: 499,
     rating: 4.6,
     reviews: 87,
     stock: 40,
+    badge: "Popular",
+    tag: "Organization",
+    points: 4,
+    arrival: "Free delivery",
     image:
       "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/d6eb/f217b980363bf0482d805beeb0be8f0301569d9f3be882a2a08ef6635436.jpg",
     description:
@@ -365,18 +491,27 @@ const KidsStationeryData = [
 
   // ✂️ SCISSORS
   {
-    id: 12015,
+    id: 394,
     name: "Kids Safety Scissors",
     title: "Rounded Tip School Safety Scissors",
     brand: "Maped",
     category: "stationery",
     subCategory: "scissors",
     age: "4+ Years",
+    type: "Safety Scissors",
+    size: "Kids Size",
+    color: "Multicolor",
+    material: "Stainless Steel & Plastic",
+    fit: "Kids Craft",
     price: 449,
     oldPrice: 549,
     rating: 4.7,
     reviews: 123,
     stock: 30,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 4,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=800&q=80",
     description:
@@ -391,18 +526,27 @@ const KidsStationeryData = [
 
   // 🧴 GLUE
   {
-    id: 12016,
+    id: 395,
     name: "Kids Glue Stick",
     title: "Washable School Glue Stick",
     brand: "Elmer's",
     category: "stationery",
     subCategory: "glue",
     age: "4+ Years",
+    type: "Glue Stick",
+    size: "Standard",
+    color: "White",
+    material: "Washable Adhesive",
+    fit: "School Crafts",
     price: 299,
     oldPrice: 349,
     rating: 4.7,
     reviews: 176,
     stock: 45,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 3,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80",
     description:
@@ -417,18 +561,27 @@ const KidsStationeryData = [
 
   // 🎨 WATER COLORS
   {
-    id: 12017,
+    id: 396,
     name: "Watercolor Paint Set",
     title: "Kids Watercolor Painting Set",
     brand: "Faber-Castell",
     category: "stationery",
     subCategory: "watercolors",
     age: "5+ Years",
+    type: "Watercolor Paint Set",
+    size: "Paint Set",
+    color: "Multicolor",
+    material: "Water-Based Paint",
+    fit: "Kids Art",
     price: 699,
     oldPrice: 799,
     rating: 4.8,
     reviews: 205,
     stock: 26,
+    badge: "Popular",
+    tag: "Creative",
+    points: 7,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80",
     description:
@@ -443,18 +596,27 @@ const KidsStationeryData = [
 
   // 🖌️ PAINT BRUSHES
   {
-    id: 12018,
+    id: 397,
     name: "Kids Paint Brush Set",
     title: "Kids Painting Brush Collection",
     brand: "Faber-Castell",
     category: "stationery",
     subCategory: "paint-brushes",
     age: "5+ Years",
+    type: "Paint Brush Set",
+    size: "Multiple Sizes",
+    color: "Multicolor",
+    material: "Nylon Bristles & Plastic",
+    fit: "Kids Art",
     price: 499,
     oldPrice: 599,
     rating: 4.6,
     reviews: 91,
     stock: 32,
+    badge: "Popular",
+    tag: "Creative",
+    points: 5,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80",
     description:
@@ -469,18 +631,27 @@ const KidsStationeryData = [
 
   // 📒 ACTIVITY BOOK
   {
-    id: 12019,
+    id: 398,
     name: "Kids Activity Book",
     title: "Fun Learning Activity Book",
     brand: "Scholastic",
     category: "stationery",
     subCategory: "activity-books",
     age: "5+ Years",
+    type: "Activity Book",
+    size: "Activity Book",
+    color: "Multicolor",
+    material: "Paper",
+    fit: "Kids Learning",
     price: 599,
     oldPrice: 699,
     rating: 4.8,
     reviews: 214,
     stock: 20,
+    badge: "Educational",
+    tag: "Learning",
+    points: 6,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
     description:
@@ -495,18 +666,27 @@ const KidsStationeryData = [
 
   // 🗂️ FILE/FOLDER
   {
-    id: 12020,
+    id: 399,
     name: "Kids School Folder",
     title: "Colorful Document & Homework Folder",
     brand: "Oxford",
     category: "stationery",
     subCategory: "folders",
     age: "6+ Years",
+    type: "School Folder",
+    size: "A4",
+    color: "Multicolor",
+    material: "Plastic",
+    fit: "School Organization",
     price: 499,
     oldPrice: 599,
     rating: 4.6,
     reviews: 76,
     stock: 35,
+    badge: "Popular",
+    tag: "School Essential",
+    points: 5,
+    arrival: "Free delivery",
     image:
       "https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=800&q=80",
     description:
