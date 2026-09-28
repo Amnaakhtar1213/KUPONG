@@ -24,7 +24,7 @@ const BeautyGrid = () => {
       <div className="h-140 w-96 mt-4">
         <img src="https://static.coupangcdn.com/ia/cmg_paperboy/image/1783323256580/C3-PC.png" className=" h-full w-full object-contain "/>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-2 mt-10 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-2 mt-4 justify-items-center">
        {
          beautyProductsData.map((product) => {
           return <Beauty key={product.id} product={product}/>})

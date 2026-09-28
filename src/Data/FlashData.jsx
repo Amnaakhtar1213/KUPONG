@@ -2,7 +2,7 @@ const FlashSaleData = [
   // ================= CLOTHING =================
 
   {
-    id: 501,
+    id: 511,
     title: "Women's Oversized Casual Hoodie",
     type: "Hoodie",
     rating: 4.7,
@@ -31,7 +31,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 502,
+    id: 512,
     title: "Men's Slim Fit Casual Shirt",
     type: "Casual Shirt",
     rating: 4.6,
@@ -60,7 +60,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 503,
+    id: 513,
     title: "Women's Summer Floral Dress",
     type: "Dress",
     rating: 4.8,
@@ -91,7 +91,7 @@ const FlashSaleData = [
   // ================= SHOES =================
 
   {
-    id: 504,
+    id: 514,
     title: "Women's Lightweight Running Shoes",
     type: "Running Shoes",
     rating: 4.8,
@@ -120,7 +120,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 505,
+    id: 515,
     title: "Men's Classic Casual Sneakers",
     type: "Sneakers",
     rating: 4.7,
@@ -149,7 +149,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 506,
+    id: 516,
     title: "Women's Classic Ankle Boots",
     type: "Ankle Boots",
     rating: 4.6,
@@ -180,7 +180,7 @@ const FlashSaleData = [
   // ================= BAGS =================
 
   {
-    id: 507,
+    id: 517,
     title: "Women's Minimalist Shoulder Bag",
     type: "Shoulder Bag",
     rating: 4.7,
@@ -209,7 +209,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 508,
+    id: 518,
     title: "Large Travel Backpack",
     type: "Backpack",
     rating: 4.8,
@@ -240,7 +240,7 @@ const FlashSaleData = [
   // ================= ELECTRONICS =================
 
   {
-    id: 509,
+    id: 519,
     title: "Wireless Bluetooth Headphones",
     type: "Wireless Headphones",
     rating: 4.8,
@@ -269,7 +269,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 510,
+    id: 520,
     title: "Smart Watch Fitness Tracker",
     type: "Smart Watch",
     rating: 4.6,
@@ -298,7 +298,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 511,
+    id: 521,
     title: "Portable Bluetooth Speaker",
     type: "Bluetooth Speaker",
     rating: 4.7,
@@ -327,7 +327,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 512,
+    id: 522,
     title: "Wireless Mechanical Gaming Keyboard",
     type: "Gaming Keyboard",
     rating: 4.8,
@@ -358,7 +358,7 @@ const FlashSaleData = [
   // ================= BEAUTY =================
 
   {
-    id: 513,
+    id: 523,
     title: "Hydrating Korean Facial Serum",
     type: "Face Serum",
     rating: 4.9,
@@ -387,7 +387,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 514,
+    id: 524,
     title: "Korean Daily Moisturizing Cream",
     type: "Moisturizer",
     rating: 4.7,
@@ -418,7 +418,7 @@ const FlashSaleData = [
   // ================= HOME & KITCHEN =================
 
   {
-    id: 515,
+    id: 525,
     title: "Non-Stick Kitchen Cookware Set",
     type: "Cookware Set",
     rating: 4.6,
@@ -447,7 +447,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 516,
+    id: 526,
     title: "Modern LED Desk Lamp",
     type: "Desk Lamp",
     rating: 4.7,
@@ -478,7 +478,7 @@ const FlashSaleData = [
   // ================= TOYS =================
 
   {
-    id: 517,
+    id: 527,
     title: "Magnetic Building Tiles Set",
     type: "Building Toy",
     rating: 4.9,
@@ -507,7 +507,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 518,
+    id: 528,
     title: "Remote Control Racing Car",
     type: "Remote Control Toy",
     rating: 4.6,
@@ -538,7 +538,7 @@ const FlashSaleData = [
   // ================= ACCESSORIES =================
 
   {
-    id: 519,
+    id: 529,
     title: "Minimalist Stainless Steel Watch",
     type: "Wrist Watch",
     rating: 4.7,
@@ -567,7 +567,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 520,
+    id: 530,
     title: "Classic UV Protection Sunglasses",
     type: "Sunglasses",
     rating: 4.6,
@@ -598,7 +598,7 @@ const FlashSaleData = [
   // ================= FOOD =================
 
   {
-    id: 521,
+    id: 531,
     title: "Premium Korean Strawberry Box",
     type: "Fresh Fruit",
     rating: 4.8,
@@ -627,7 +627,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 522,
+    id: 532,
     title: "Premium Korean Ramen Pack",
     type: "Instant Noodles",
     rating: 4.7,
@@ -658,7 +658,7 @@ const FlashSaleData = [
   // ================= FASHION ACCESSORIES =================
 
   {
-    id: 523,
+    id: 533,
     title: "Women's Soft Winter Scarf",
     type: "Scarf",
     rating: 4.7,
@@ -687,7 +687,7 @@ const FlashSaleData = [
   },
 
   {
-    id: 524,
+    id: 534,
     title: "Unisex Premium Baseball Cap",
     type: "Cap",
     rating: 4.6,
@@ -712,6 +712,478 @@ const FlashSaleData = [
     ],
     image:
       "https://images.unsplash.com/photo-1521369909029-2afed882baee",
+    tag: "Flash Sale"
+  },
+   {
+    id: 535,
+    title: "Women's Wide Leg Casual Pants",
+    type: "Wide Leg Pants",
+    rating: 4.7,
+    reviews: 286,
+    price: 21900,
+    oldPrice: 35900,
+    points: 219,
+    brand: "Seoul Fashion",
+    size: "S, M, L, XL",
+    color: "Beige",
+    material: "Polyester Blend",
+    fit: "Wide Leg",
+    arrival: "Free delivery",
+    description:
+      "Comfortable wide-leg pants with a modern Korean casual style.",
+    features: [
+      "Wide-leg design",
+      "Soft fabric",
+      "Comfortable waistband",
+      "Casual everyday style",
+      "Easy to match"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1506629905607-d9c297d4a2b8",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 536,
+    title: "Men's Slim Fit Casual Pants",
+    type: "Casual Pants",
+    rating: 4.6,
+    reviews: 194,
+    price: 23900,
+    oldPrice: 39900,
+    points: 239,
+    brand: "Urban Seoul",
+    size: "M, L, XL, XXL",
+    color: "Black",
+    material: "Cotton Blend",
+    fit: "Slim Fit",
+    arrival: "Free delivery",
+    description:
+      "Modern slim-fit casual pants suitable for everyday and semi-formal wear.",
+    features: [
+      "Slim fit",
+      "Stretch fabric",
+      "Comfortable waistband",
+      "Durable material",
+      "Everyday design"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+    tag: "Flash Sale"
+  },
+
+  // COATS
+  {
+    id: 537,
+    title: "Women's Long Winter Coat",
+    type: "Winter Coat",
+    rating: 4.8,
+    reviews: 328,
+    price: 59900,
+    oldPrice: 89900,
+    points: 599,
+    brand: "Korea Winter",
+    size: "S, M, L, XL",
+    color: "Camel",
+    material: "Wool Blend",
+    fit: "Regular Fit",
+    arrival: "Free delivery",
+    description:
+      "Elegant long winter coat designed for warmth and a sophisticated look.",
+    features: [
+      "Warm wool blend",
+      "Long design",
+      "Button closure",
+      "Side pockets",
+      "Winter suitable"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 538,
+    title: "Men's Padded Winter Jacket",
+    type: "Winter Jacket",
+    rating: 4.7,
+    reviews: 247,
+    price: 54900,
+    oldPrice: 84900,
+    points: 549,
+    brand: "Seoul Outdoor",
+    size: "M, L, XL, XXL",
+    color: "Black",
+    material: "Polyester",
+    fit: "Regular Fit",
+    arrival: "Free delivery",
+    description:
+      "Warm padded jacket designed for cold winter weather and everyday use.",
+    features: [
+      "Warm padding",
+      "Wind resistant",
+      "Zip closure",
+      "Side pockets",
+      "Winter design"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+    tag: "Flash Sale"
+  },
+
+  // HOODIES
+  {
+    id: 539,
+    title: "Men's Oversized Streetwear Hoodie",
+    type: "Hoodie",
+    rating: 4.8,
+    reviews: 342,
+    price: 22900,
+    oldPrice: 37900,
+    points: 229,
+    brand: "Street Seoul",
+    size: "M, L, XL, XXL",
+    color: "Gray",
+    material: "Cotton Blend",
+    fit: "Oversized",
+    arrival: "Free delivery",
+    description:
+      "Oversized streetwear hoodie inspired by modern Korean casual fashion.",
+    features: [
+      "Oversized fit",
+      "Soft cotton blend",
+      "Kangaroo pocket",
+      "Adjustable hood",
+      "Ribbed cuffs"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    tag: "Flash Sale"
+  },
+
+  // KIDS
+  {
+    id: 540,
+    title: "Kids Korean Style Casual Set",
+    type: "Kids Clothing Set",
+    rating: 4.7,
+    reviews: 183,
+    price: 19900,
+    oldPrice: 32900,
+    points: 199,
+    brand: "Kids Seoul",
+    size: "3-4Y, 5-6Y, 7-8Y, 9-10Y",
+    color: "Cream",
+    material: "Cotton",
+    fit: "Regular Fit",
+    arrival: "Free delivery",
+    description:
+      "Comfortable Korean-style casual clothing set for everyday children's wear.",
+    features: [
+      "Soft cotton",
+      "Comfortable fit",
+      "Two-piece set",
+      "Easy to wash",
+      "Everyday wear"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4",
+    tag: "Flash Sale"
+  },
+
+  // BEAUTY
+  {
+    id: 541,
+    title: "Korean Hydrating Face Mask Set",
+    type: "Face Mask",
+    rating: 4.8,
+    reviews: 472,
+    price: 12900,
+    oldPrice: 21900,
+    points: 129,
+    brand: "K-Beauty",
+    size: "10 Sheets",
+    color: "White",
+    material: "Sheet Mask",
+    fit: "All Skin Types",
+    arrival: "Free delivery",
+    description:
+      "Hydrating Korean sheet mask set designed for a fresh and moisturized skin feel.",
+    features: [
+      "Hydrating formula",
+      "10 sheet masks",
+      "Lightweight texture",
+      "Easy application",
+      "Daily skincare"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 542,
+    title: "Korean Lip Tint Set",
+    type: "Lip Tint",
+    rating: 4.7,
+    reviews: 351,
+    price: 14900,
+    oldPrice: 24900,
+    points: 149,
+    brand: "Seoul Beauty",
+    size: "3 Piece Set",
+    color: "Pink",
+    material: "Cosmetic",
+    fit: "All Skin Tones",
+    arrival: "Free delivery",
+    description:
+      "Long-lasting Korean lip tint set with three everyday shades.",
+    features: [
+      "Three shades",
+      "Long lasting",
+      "Smooth application",
+      "Lightweight",
+      "Everyday colors"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+    tag: "Flash Sale"
+  },
+
+  // ELECTRONICS
+  {
+    id: 543,
+    title: "Wireless Noise Cancelling Earbuds",
+    type: "Wireless Earbuds",
+    rating: 4.8,
+    reviews: 613,
+    price: 32900,
+    oldPrice: 54900,
+    points: 329,
+    brand: "SoundMax",
+    size: "Standard",
+    color: "White",
+    material: "ABS Plastic",
+    fit: "In-Ear",
+    arrival: "Free delivery",
+    description:
+      "Compact wireless earbuds with clear sound and active noise reduction.",
+    features: [
+      "Bluetooth connectivity",
+      "Noise reduction",
+      "Charging case",
+      "Touch controls",
+      "Long battery life"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 544,
+    title: "Portable Power Bank 20000mAh",
+    type: "Power Bank",
+    rating: 4.7,
+    reviews: 489,
+    price: 19900,
+    oldPrice: 32900,
+    points: 199,
+    brand: "Tech Seoul",
+    size: "20000mAh",
+    color: "Black",
+    material: "ABS Plastic",
+    fit: "Portable",
+    arrival: "Free delivery",
+    description:
+      "High-capacity portable power bank for charging phones and other devices.",
+    features: [
+      "20000mAh capacity",
+      "Fast charging",
+      "Multiple ports",
+      "LED indicator",
+      "Portable design"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1609592424617-b7a1b3c1c3f5",
+    tag: "Flash Sale"
+  },
+
+  // KITCHEN
+  {
+    id: 545,
+    title: "Electric Korean Rice Cooker",
+    type: "Rice Cooker",
+    rating: 4.8,
+    reviews: 264,
+    price: 49900,
+    oldPrice: 74900,
+    points: 499,
+    brand: "KitchenPro",
+    size: "5L",
+    color: "White",
+    material: "Stainless Steel & Plastic",
+    fit: "Kitchen",
+    arrival: "Free delivery",
+    description:
+      "Electric rice cooker designed for convenient everyday meal preparation.",
+    features: [
+      "Large capacity",
+      "Non-stick inner pot",
+      "Easy controls",
+      "Keep-warm function",
+      "Easy cleaning"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1585515320310-259814833e62",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 546,
+    title: "Modern Kitchen Storage Container Set",
+    type: "Storage Containers",
+    rating: 4.6,
+    reviews: 217,
+    price: 15900,
+    oldPrice: 26900,
+    points: 159,
+    brand: "Home Seoul",
+    size: "8 Piece Set",
+    color: "Transparent",
+    material: "Food Grade Plastic",
+    fit: "Kitchen",
+    arrival: "Free delivery",
+    description:
+      "Modern airtight storage containers for organized kitchen storage.",
+    features: [
+      "Airtight lids",
+      "Food safe material",
+      "Stackable design",
+      "Transparent body",
+      "Easy cleaning"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+    tag: "Flash Sale"
+  },
+
+  // SHOES
+  {
+    id: 547,
+    title: "Women's Korean Style Casual Sneakers",
+    type: "Casual Sneakers",
+    rating: 4.7,
+    reviews: 392,
+    price: 29900,
+    oldPrice: 49900,
+    points: 299,
+    brand: "Seoul Steps",
+    size: "36-41",
+    color: "White",
+    material: "Synthetic Leather & Rubber",
+    fit: "Regular Fit",
+    arrival: "Free delivery",
+    description:
+      "Clean Korean-style casual sneakers designed for everyday outfits.",
+    features: [
+      "Lightweight design",
+      "Comfortable sole",
+      "Lace-up closure",
+      "Durable outsole",
+      "Everyday style"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    tag: "Flash Sale"
+  },
+
+  {
+    id: 548,
+    title: "Men's Lightweight Walking Shoes",
+    type: "Walking Shoes",
+    rating: 4.6,
+    reviews: 275,
+    price: 27900,
+    oldPrice: 45900,
+    points: 279,
+    brand: "Urban Walk",
+    size: "40-45",
+    color: "Gray",
+    material: "Mesh & Rubber",
+    fit: "Regular Fit",
+    arrival: "Free delivery",
+    description:
+      "Lightweight walking shoes with breathable mesh and comfortable cushioning.",
+    features: [
+      "Breathable mesh",
+      "Lightweight",
+      "Cushioned sole",
+      "Non-slip outsole",
+      "Walking support"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1552346154-21d32810aba3",
+    tag: "Flash Sale"
+  },
+
+  // HOME
+  {
+    id: 549,
+    title: "Soft Korean Style Bedding Set",
+    type: "Bedding Set",
+    rating: 4.8,
+    reviews: 198,
+    price: 39900,
+    oldPrice: 64900,
+    points: 399,
+    brand: "Home Seoul",
+    size: "Queen",
+    color: "Beige",
+    material: "Cotton",
+    fit: "Queen Size",
+    arrival: "Free delivery",
+    description:
+      "Soft minimalist bedding set inspired by modern Korean home design.",
+    features: [
+      "Soft cotton",
+      "Queen size",
+      "Breathable fabric",
+      "Machine washable",
+      "Minimalist design"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    tag: "Flash Sale"
+  },
+
+  // ACCESSORIES
+  {
+    id: 550,
+    title: "Women's Minimalist Leather Wallet",
+    type: "Wallet",
+    rating: 4.7,
+    reviews: 314,
+    price: 13900,
+    oldPrice: 23900,
+    points: 139,
+    brand: "Seoul Leather",
+    size: "Medium",
+    color: "Black",
+    material: "Faux Leather",
+    fit: "Compact",
+    arrival: "Free delivery",
+    description:
+      "Minimalist compact wallet with practical storage for everyday essentials.",
+    features: [
+      "Multiple card slots",
+      "Compact design",
+      "Zip closure",
+      "Lightweight",
+      "Everyday use"
+    ],
+    image:
+      "https://images.unsplash.com/photo-1627123424574-724758594e93",
     tag: "Flash Sale"
   }
 ];

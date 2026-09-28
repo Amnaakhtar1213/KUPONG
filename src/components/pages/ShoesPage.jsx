@@ -2,7 +2,7 @@ import React from 'react'
 import ShoesData from '../../Data/Shoes'
 import ShoesCard from '../ShoesCard'
 
-const ShoesPage = () => {
+const ShoesPage = ({setCart}) => {
   return (
        <div>
             <div className="w-full px-4 md:px-8 lg:px-12 py-6 mt-30">
@@ -24,6 +24,7 @@ const ShoesPage = () => {
                 <ShoesCard
                   key={product.id}
                   product={product}
+                  setCart={setCart}
                 />
               ))}
             </div>

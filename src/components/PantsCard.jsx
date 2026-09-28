@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'; 
 import { useNavigate } from 'react-router-dom';
 
-const PantsCard = ({ product }) => {
+const PantsCard = ({ product, setCart }) => {
 
    const navigate = useNavigate()
     const [saved, setSaved] = useState(false);
@@ -28,6 +28,32 @@ const PantsCard = ({ product }) => {
           setSaved(true)
         }
       }
+
+       const handleAddToCart = () => {
+  const kupongCart =
+    JSON.parse(localStorage.getItem("kupongCart")) || [];
+
+  const alreadyInCart = kupongCart.some(
+    (cartItem) => cartItem.id === product.id
+  );
+
+  if (!alreadyInCart) {
+    const updatedCart = [
+      ...kupongCart,
+      {
+        ...product,
+        quantity: 1,
+      },
+    ];
+
+    localStorage.setItem(
+      "kupongCart",
+      JSON.stringify(updatedCart)
+    );
+
+    setCart(updatedCart);
+  }
+};
 
 
   return (
@@ -101,7 +127,11 @@ const PantsCard = ({ product }) => {
         </p>
 
         {/* Button */}
-        <button className="w-full mt-3 bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-md font-medium transition">
+        <button onClick={(e) => {
+    e.stopPropagation();
+    handleAddToCart();
+    navigate("/cart");
+  }} className="w-full mt-3 bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-md font-medium transition">
           Add to Cart
         </button>
 

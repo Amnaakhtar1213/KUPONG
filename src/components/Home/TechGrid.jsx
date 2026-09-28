@@ -23,7 +23,7 @@ const TechGrid = () => {
       <div className="h-140 w-96">
         <img src="https://static.coupangcdn.com/ba/cmg_paperboy/image/1787108899265/C3_PC.jpg" className=" h-full w-full object-contain "/>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 ml-6 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-3 ml-6 justify-items-center">
       {
         techProductsData.map((product) => {
           return <TechCard key={product.id} product={product} />

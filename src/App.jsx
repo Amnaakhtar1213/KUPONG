@@ -138,7 +138,7 @@ function App() {
         />
         <Route path="/coat" element={<Coats />} />
         <Route path="/sweater" element={<Sweater />} />
-        <Route path="/shoes" element={<ShoesPage />} />
+        <Route path="/shoes" element={<ShoesPage setCart={setCart}/>} />
         <Route path="/kids" element={<KidsPage />} />
         <Route path="/care" element={<Skincare />} />
          <Route path="/hoodies" element={<Hoodies />} />
@@ -148,10 +148,10 @@ function App() {
            <Route path="/all" element={<AllProduct />} />
            <Route path="/products/:id" element={<ProductDetailPage setCart={setCart}/>} />
             <Route path="/hanbok" element={<HanbokPage />} />
-            <Route path="/pant" element={<PantsPage />} />
+            <Route path="/pant" element={<PantsPage setCart={setCart}/>} />
              <Route path="/toys" element={<ToysPage setCart={setCart} />} />
-              <Route path="/stationary" element={<StationaryPage />} />
-               <Route path="/book" element={<BooksPage />} />
+              <Route path="/stationary" element={<StationaryPage setCart={setCart}/>} />
+               <Route path="/book" element={<BooksPage setCart={setCart}/>} />
                <Route path="/flash" element={<FlashSale setCart={setCart} />} />
       </Routes>
       <Footer />

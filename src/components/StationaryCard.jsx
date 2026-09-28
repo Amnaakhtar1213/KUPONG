@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-const StationaryCard = ({product}) => {
+const StationaryCard = ({product, setCart}) => {
   const navigate = useNavigate()
   const [saved, setSaved] = useState(false);
 
@@ -16,6 +16,7 @@ const StationaryCard = ({product}) => {
 
   const handleSaved = () => {
     const kupongSavedProducts = JSON.parse(localStorage.getItem("kupongSavedProducts")) || []
+
     const alreadySaved = kupongSavedProducts.some((savedProduct) => savedProduct.id === product.id)
 
     if(alreadySaved){
@@ -28,6 +29,33 @@ const StationaryCard = ({product}) => {
       setSaved(true)
     }
   }
+
+  const handleAddToCart = () => {
+  const kupongCart =
+    JSON.parse(localStorage.getItem("kupongCart")) || [];
+
+  const alreadyInCart = kupongCart.some(
+    (cartItem) => cartItem.id === product.id
+  );
+
+  if (!alreadyInCart) {
+    const updatedCart = [
+      ...kupongCart,
+      {
+        ...product,
+        quantity: 1,
+      },
+    ];
+
+    localStorage.setItem(
+      "kupongCart",
+      JSON.stringify(updatedCart)
+    );
+
+    setCart(updatedCart);
+  }
+};
+
   return (
       <div onClick={() => navigate(`/products/${product.id}`)} className="w-full max-w-[240px] bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
 
@@ -95,7 +123,11 @@ const StationaryCard = ({product}) => {
         </p>
 
         {/* Add To Cart */}
-        <button className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-md font-medium transition">
+        <button  onClick={(e) => {
+    e.stopPropagation();
+    handleAddToCart();
+    navigate("/cart");
+  }} className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-md font-medium transition">
           Add to Cart
         </button>
 

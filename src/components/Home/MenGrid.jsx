@@ -24,7 +24,7 @@ const MenGrid = () => {
       <div className="h-140 w-96">
         <img src="https://thumbnail3.coupangcdn.com/thumbnails/remote/x/image/bannerunit/bannerunit_11cd8eb3-0a31-4da0-abac-f3cc47e99c35.png" className=" h-full w-full object-contain "/>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 justify-items-center ml-6">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 justify-items-center ml-6 gap-2">
        {
         mensCollectionData.map((product) => {
           return <MenCard key={product.id} product={product} />

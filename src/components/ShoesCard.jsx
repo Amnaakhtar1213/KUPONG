@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const ShoesCard = ({product}) => {
+const ShoesCard = ({product, setCart}) => {
 const navigate = useNavigate()
   const [saved, setSaved] = useState(false)
 
@@ -27,6 +27,33 @@ const navigate = useNavigate()
     setSaved(true)
     }
   }
+
+  const handleAddToCart = () => {
+  const kupongCart =
+    JSON.parse(localStorage.getItem("kupongCart")) || [];
+
+  const alreadyInCart = kupongCart.some(
+    (cartItem) => cartItem.id === product.id
+  );
+
+  if (!alreadyInCart) {
+    const updatedCart = [
+      ...kupongCart,
+      {
+        ...product,
+        quantity: 1,
+      },
+    ];
+
+    localStorage.setItem(
+      "kupongCart",
+      JSON.stringify(updatedCart)
+    );
+
+    setCart(updatedCart);
+  }
+};
+
   return (
     <div onClick={() => navigate(`/products/${product.id}`)} className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition duration-300">
 
@@ -117,11 +144,16 @@ const navigate = useNavigate()
         </p>
 
         {/* Add To Cart */}
-       <Link to="/cart">
-        <button  onClick={(e) => e.stopPropagation()} className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2.5 rounded-lg font-medium transition">
-          Add to Cart
-        </button>
-        </Link>
+       <button
+  onClick={(e) => {
+    e.stopPropagation();
+    handleAddToCart();
+    navigate("/cart");
+  }}
+  className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white py-2.5 rounded-lg font-medium transition"
+>
+  Add to Cart
+</button>
 
       </div>
 

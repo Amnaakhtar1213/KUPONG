@@ -26,38 +26,32 @@ const ToysCard = ({product, setCart}) => {
       setSaved(true)
     }
   }
-  const handleAddToCart = (e) => {
-  e.stopPropagation()
-
+ 
+  const handleAddToCart = () => {
   const kupongCart =
-    JSON.parse(localStorage.getItem("kupongCart")) || []
+    JSON.parse(localStorage.getItem("kupongCart")) || [];
 
   const alreadyInCart = kupongCart.some(
-    (cartProduct) => cartProduct.id === product.id
-  )
+    (cartItem) => cartItem.id === product.id
+  );
 
-  if (alreadyInCart) {
-    const updatedCart = kupongCart.map((cartProduct) =>
-      cartProduct.id === product.id
-        ? { ...cartProduct, quantity: cartProduct.quantity + 1 }
-        : cartProduct
-    )
-
-    localStorage.setItem("kupongCart", JSON.stringify(updatedCart))
-  } else {
-    const productWithQuantity = {
-      ...product,
-      quantity: 1
-    }
-
-    kupongCart.push(productWithQuantity)
+  if (!alreadyInCart) {
+    const updatedCart = [
+      ...kupongCart,
+      {
+        ...product,
+        quantity: 1,
+      },
+    ];
 
     localStorage.setItem(
       "kupongCart",
-      JSON.stringify(kupongCart)
-    )
+      JSON.stringify(updatedCart)
+    );
+
+    setCart(updatedCart);
   }
-}
+};
 
   return (
     <div onClick={() => navigate(`/products/${product.id}`)}  className="w-full bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
@@ -123,6 +117,7 @@ const ToysCard = ({product, setCart}) => {
         {/* Add to Cart */}
         <button
   onClick={(e) => {
+      e.stopPropagation();
     handleAddToCart(e)
     navigate("/cart")
   }}

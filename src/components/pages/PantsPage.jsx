@@ -2,7 +2,7 @@ import React from 'react'
 import PantsData from '../../Data/Pants'
 import PantsCard from '../PantsCard'
 
-const PantsPage = () => {
+const PantsPage = ({setCart}) => {
   return (
     <div>
        
@@ -25,6 +25,7 @@ const PantsPage = () => {
                 <PantsCard
                   key={product.id}
                   product={product}
+                  setCart={setCart}
                 />
               ))}
             </div>

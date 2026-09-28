@@ -1,9 +1,10 @@
 import React from 'react'
+import FoodGrid from '../Food/FoodGrid'
 
 const FlashSale = () => {
   return (
-    <div>
-      
+     <div>
+      <FoodGrid />
     </div>
   )
 }
