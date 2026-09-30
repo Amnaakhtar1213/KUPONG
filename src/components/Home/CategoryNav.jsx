@@ -156,6 +156,7 @@ const closeMenus = () => {
 >
   Home
   </NavLink>
+
 <NavLink
   to="/flash"
   className={({ isActive }) =>
@@ -166,7 +167,20 @@ const closeMenus = () => {
     }`
   }
 >
-  Flash Sale <i className="fa-solid fa-fire text-orange-600"></i>
+  Flash Sale 🔥
+</NavLink>
+
+<NavLink
+  to="/rocket"
+  className={({ isActive }) =>
+    `transition-all duration-300 font-bold ${
+      isActive
+        ? "text-[#ff6a00] underline"
+        : "hover:text-[#ff6a00] hover:underline"
+    }`
+  }
+>
+  🚀 Rocket Delivery
 </NavLink>
 
         <NavLink
@@ -179,7 +193,7 @@ const closeMenus = () => {
     }`
   }
 >
-  Best Sellers
+  Best Sellers 🛍️
 </NavLink>
         <NavLink
   to="/todays"

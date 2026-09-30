@@ -53,6 +53,7 @@ import StationaryPage from "./components/pages/StationayPage";
 import BooksPage from "./components/pages/BooksPage";
 import ProtectedRoute from "./ProtectedRoute";
 import FlashSale from "./components/pages/FlashSale";
+import RocketPage from "./components/pages/RocketPage";
 
 function App() {
   
@@ -153,6 +154,7 @@ function App() {
               <Route path="/stationary" element={<StationaryPage setCart={setCart}/>} />
                <Route path="/book" element={<BooksPage setCart={setCart}/>} />
                <Route path="/flash" element={<FlashSale setCart={setCart} />} />
+               <Route path="/rocket" element={<RocketPage setCart={setCart} />} />
       </Routes>
       <Footer />
     </BrowserRouter>
